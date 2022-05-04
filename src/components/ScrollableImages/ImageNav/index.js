@@ -22,7 +22,7 @@ function ImageNav({ images, theme }) {
   return (
     <div className={cx(cn.wrapper, cn[theme])}>
       {images.map(d => (
-        <div className={cn.bubbleWrapper}>
+        <div className={cn.bubbleWrapper} key={d.id}>
           <span className={cn.label}>{d.text.title[lang]}</span>
           <div
             className={cx(cn.bubble, { [cn.active]: d.id === active })}
