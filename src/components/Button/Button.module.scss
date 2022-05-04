@@ -1,0 +1,19 @@
+@import '../../styles/base.scss';
+:local {
+  .btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: white;
+    color: $dark-grey--1;
+    transition: $transition-fast;
+
+    &:hover {
+      color: $dark-grey--1;
+    }
+
+    &.dark {
+      background-color: $dark-grey--1;
+      color: white
+    }
+  }
+}

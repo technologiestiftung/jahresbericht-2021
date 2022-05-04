@@ -1,0 +1,111 @@
+@use "sass:math";
+
+$fix-mqs: false !default;
+$fix-mqs-h: false !default;
+
+@mixin respond-min($width) {
+  @if $fix-mqs {
+    // most MQs are in <em>, but some MQs might use <px>
+    // convert to <em> to avoid comparison of incompatible units
+    @if $fix-mqs >= em($width) {
+      @content;
+    }
+  } @else {
+    @media screen and (min-width: $width) {
+      @content;
+    }
+  }
+}
+
+@mixin font-extra-mini {
+  font-size: (8 / 16) * 1rem;
+  letter-spacing: $letter-spacing-m;
+
+  @include respond-min($break-tablet-min) {
+    font-size: (8.5 / 16) * 1rem;
+  }
+}
+
+@mixin font-mini {
+  font-size: (9 / 16) * 1rem;
+  letter-spacing: $letter-spacing-m;
+
+  @include respond-min($break-tablet-min) {
+    font-size: (10 / 16) * 1rem;
+  }
+}
+
+@mixin font-tiny {
+  font-size: (11 / 16) * 1rem;
+  letter-spacing: $letter-spacing-m;
+
+  @include respond-min($break-tablet-min) {
+    font-size: (12 / 16) * 1rem;
+  }
+}
+
+@mixin font-small {
+  font-size: (13/ 16) * 1rem;
+  letter-spacing: $letter-spacing-m;
+
+  @include respond-min($break-tablet-min) {
+    font-size: (14 / 16) * 1rem;
+  }
+}
+
+@mixin font-regular {
+  font-size: (15/ 16) * 1rem;
+  letter-spacing: $letter-spacing-m;
+
+  @include respond-min($break-tablet-min) {
+    font-size: (16 / 16) * 1rem;
+  }
+}
+
+@mixin font-table-column {
+
+  letter-spacing: $letter-spacing-s;
+  font-family: $font-mono;
+  color: $dark-grey--2;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing-xl;
+  font-size: .55rem;
+  padding-bottom: $space-small;
+}
+
+@mixin font-large {
+  font-size: (19 / 16) * 1rem;
+
+  @include respond-min($break-tablet-min) {
+    font-size: (21 / 16) * 1rem;
+  }
+}
+
+@mixin font-extra-large {
+  font-size: (24 / 16) * 1rem;
+
+  @include respond-min($break-tablet-min) {
+    font-size: (27 / 16) * 1rem;
+  }
+}
+
+@mixin tabular-nums {
+  font-feature-settings: "tnum" 1;
+  font-variant-numeric: tabular-nums;
+}
+
+@mixin box-shadow {
+  box-shadow: 1px 2px 2px rgba(0,0,0,.03),
+  2px 4px 4px rgba(0,0,0,.03),
+  4px 8px 8px rgba(0,0,0,.03),
+  8px 16px 16px rgba(0,0,0,.03),
+  16px 32px 32px rgba(0,0,0,.03);
+}
+@mixin blurry-bg($color: white) {
+  background-color: rgba($color, 0.95);
+
+  @supports (backdrop-filter: blur(4px)) {
+    background-color: rgba($color, 0.88);
+    backdrop-filter: blur(4px);
+  }
+}

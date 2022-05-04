@@ -1,0 +1,27 @@
+@import "./constants";
+
+:export {
+  darkGrey1: $dark-grey--1;
+  darkGrey2: $dark-grey--2;
+  darkGrey3: $dark-grey--3;
+  darkGrey4: $dark-grey--4;
+  darkGrey5: $dark-grey--5;
+  darkGrey6: $dark-grey--6;
+  darkGrey7: $dark-grey--7;
+  literacy: $color-literacy;
+  newClassrooms: $color-new-classrooms;
+  childLaborRisk: $color-child-labor-risk;
+  teachers: $color-teachers;
+  infrastructure: $color-infrastructure;
+  initiatives: $color-initiatives;
+  notStarted: $color-behind-schedule;
+  started: $color-on-track;
+  certified: $color-certified;
+  completed: $color-completed;
+  initiative1: $initiative-01;
+  initiative2: $initiative-02;
+  initiative3: $initiative-03;
+  behindSchedule: $color-behind-schedule;
+  onTrack: $color-on-track;
+  completed: $color-completed;
+}

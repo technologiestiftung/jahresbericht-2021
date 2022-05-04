@@ -1,0 +1,21 @@
+@import '../../../styles/base.scss';
+
+:local {
+  .tile {
+    height: auto;
+    width: auto;
+    border-radius: 0px;
+    border: 1px solid $dark-grey--7;
+    background-color: white;
+    padding: 20px 20px 33px 20px;
+    @include box-shadow;
+    
+    @media screen and (min-width: $break-tablet-min) {
+      width: 100%;
+    }
+
+    &.dark {
+      color: $dark-grey--1;
+    }
+  }
+}

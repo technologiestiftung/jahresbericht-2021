@@ -1,0 +1,70 @@
+@import '../../styles/base.scss';
+
+:local {
+  .logos {
+    display: flex;
+    padding: 0 20px;
+    width: calc(100vw - 40px);
+    background-color: $dark-grey--7;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+
+
+    @media screen and (min-width: $break-phablet-min) {
+      flex-direction: row;
+      height: 80px;
+    }
+  }
+  .left {
+    display: flex;
+    align-items: start;
+  }
+  .item {
+    margin-left: 10px;
+  }
+  .bottom {
+    padding: 0 20px;
+    height: 100px;
+    width: calc(100vw - 40px);
+    display: flex;
+    justify-content: space-between;
+    .copyright {
+      display: block;
+      margin-top: 10px;
+    }
+    .items {
+      margin: 10px 0;
+      display: flex;
+    }
+  }
+  .block {
+    margin: 10px 40px 10px 0;
+    display: block;
+    width: 150px;
+
+    &.skzl {
+      width: 170px;
+    }
+
+    &.tsb {
+      width: 120px;
+    }
+
+    &.citylab {
+      width: 125px;
+    }
+  }
+  .label {
+    font-size: $font-size-s;
+    min-height: 20px;
+    display: block;
+  }
+  .logoWrapper {
+    max-width: 35rem;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+}

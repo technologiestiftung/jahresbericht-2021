@@ -1,0 +1,58 @@
+@import '../../../styles/base.scss';
+
+:local {
+  .wrapper {
+    // height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    color: white;
+
+    &.light {
+      .bubble {
+        color: $dark-grey--1;
+      }
+    }
+  }
+  .bubbleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+      .label {
+        transition: $transition-fast;
+        opacity: 100%;
+      }
+    }
+  }
+  .label {
+    margin-right: 10px;
+    opacity: 0%;
+    &.active {
+      opacity: 100%;
+    }
+  }
+  .bubble {
+    margin: 5px 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    background-color: white;
+    opacity: 40%;
+    cursor: pointer;
+    transition: $transition-fast;
+
+    &:hover {
+      opacity: 70%;
+    }
+
+    &.active {
+      opacity: 100%;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import '../../styles/base.scss';
+
+:local {
+  .wrapper {
+    height: auto;
+    width: auto;
+    max-width: $medium-content-width;
+    margin: 60px auto;
+  }
+}

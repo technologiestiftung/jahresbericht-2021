@@ -1,0 +1,9 @@
+@import '../../styles/base.scss';
+:local {
+  .paragraph {
+    margin: 0 auto;
+    line-height: 150%;
+    font-size: $font-size-l;
+    max-width: $medium-content-width;
+  }
+}

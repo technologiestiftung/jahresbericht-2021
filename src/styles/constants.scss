@@ -1,0 +1,63 @@
+// colors
+$dark-grey--1: #404040;
+$dark-grey--2: #666666;
+$dark-grey--3: #8C8C8C;
+$dark-grey--4: #B3B3B3;
+$dark-grey--5: #D9D9D9;
+$dark-grey--6: #ECECEC;
+$dark-grey--7: #F5F5F5;
+$dark-grey--8: #FAFAFA;
+
+$pink: #F64C72;
+$blue: #2F2FA2;
+$blue--1: #2f2fa211;
+
+$font-sans: 'IBM Plex Sans';
+$font-mono: 'IBM Plex Mono';
+
+// layout
+$medium-content-width: remify(560px) !default;
+$large-content-width: remify(840px) !default;
+
+// spacesw
+$space-extra-small: 2.5px;
+$space-small: 5px;
+$space-regular: 10px;
+$space-large: 20px;
+$space-extra-large: 50px;
+
+$line-height: 150%;
+
+// letter-spacing
+$letter-spacing-xl: 0.125em !default; // 2px;
+$letter-spacing-l: 0.08em !default; // 1.28px;
+$letter-spacing-m: 0.03em !default; // 0.8px;
+$letter-spacing-s: 0.03em !default; // a half of a pixel;
+
+// Standard breakpoints (in 'em' for purpose)
+$break-phablet-min: remify(520px) !default;
+$break-tablet-min: remify(768px) !default;
+$break-desktop-min: remify(980px) !default;
+$break-desktop-max: remify(1360px) !default;
+$break-desktop-extra-max: remify(1600px) !default;
+$break-areas: $break-tablet-min !default;
+$break-page-padding: $break-tablet-min !default;
+
+$border-radius-extra-small: 3px;
+$border-radius-small: 5px;
+$border-radius-medium: 10px;
+$border-radius-large: 20px;
+$border-radius-extra-large: 40px;
+
+// font-sizes
+$font-size-xs: 0.563rem;
+$font-size-s: 0.75rem;
+$font-size-m: 1rem;
+$font-size-l: 1.333rem;
+$font-size-xl: 1.777rem;
+$font-size-xxl: 2.369rem;
+$font-size-xxxl: 3.157rem;
+$font-size-xxxxl: 4.209rem;
+
+$transition-fast: .125s all ease-in-out;
+$transition-slow: .25s all ease-in-out;

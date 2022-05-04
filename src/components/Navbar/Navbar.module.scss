@@ -1,0 +1,121 @@
+@import '../../styles/base.scss';
+:local {
+  .navbar {
+    padding: 8px 6px;
+    position: fixed;
+    // border-radius: 10px;
+    bottom: 30px;
+    height: 40px;
+    width: 280px;
+    background-color: white;
+    border-radius: 0px;
+    @include box-shadow;
+    z-index: 100;
+    border: 1px solid rgb(235, 235, 235);
+    left: 50%;
+    margin-left: -150px; /* Negative half of width. */
+    display: flex;
+    align-items: center;
+  }
+  .divider {
+    margin-left: 3px;
+    width: 1px;
+    height: 40px;
+    background-color: $dark-grey--6;
+  }
+  .label {
+    @include box-shadow;
+    width: fit-content;
+    transform: translateY(-10px);
+    width: 200px;
+  }
+  .labelWrapper {
+    position: absolute;
+    transform: translateY(-50px);
+    background-color: white;
+    padding: 5px 8px;
+    @include box-shadow;
+    opacity: 0;
+    border-radius: 4px;
+    // transition: $transition-fast;
+    &.active {
+      opacity: 1;
+    }
+    .smartCity {
+      display: block
+    }
+    .hinterDenKulissen {
+      display: block
+    }
+    .unterwegs {
+      display: block
+    }
+    .frischerWind {
+      display: block
+    }
+    .stadtUndWir {
+      display: block
+    }
+  }
+  .iconWrapper {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    // background-color: $dark-grey--7;
+    margin: 0 3.5px;
+
+    color: $dark-grey--1;
+
+    &.smartCity {
+      svg {
+        width: 24px;
+      }
+    }
+
+    &.frischerWind {
+      svg {
+        width: 22px;
+      }
+    }
+
+    &.stadtUndWir {
+      svg {
+        width: 26px;
+      }
+    }
+
+    &.hinterDenKulissen {
+      svg {
+        width: 18px;
+      }
+    }
+
+    &.unterwegs {
+      svg {
+        width: 22px;
+      }
+    }
+    
+    svg {
+      width: 30px;
+      height: 30px;
+      opacity: .2;
+      transition: $transition-fast;
+
+
+      &:hover {
+        opacity: .6;
+      }
+    }
+    &.active {
+      // background-color: $dark-grey--6;
+      svg {
+        opacity: 1;
+      }
+    }
+  }
+}

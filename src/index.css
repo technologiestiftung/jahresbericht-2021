@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: National;
+  -moz-osx-font-smoothing: grayscale;
+  color: #404040;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

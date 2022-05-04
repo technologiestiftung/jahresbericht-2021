@@ -1,0 +1,80 @@
+@import "src/styles/base.scss";
+
+:local {
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    top: 0;
+  }
+  .textContainer {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    background-color: white;
+    margin: 0 auto;
+    width: 250px;
+    left: calc(50% - 145px);
+    
+    @media screen and (min-width: $break-phablet-min) {
+      width: 350px;
+      padding: 20px;
+      left: calc(50% - 198px);
+    }
+    
+    img {
+      width: 130px;
+      margin: 0 auto 5px auto;
+    }
+
+    .headline {
+      text-align: center;
+      font-size: $font-size-xxl;
+      color: $dark-grey--1;
+      margin: 0;
+      font-weight: normal;
+
+      @media screen and (max-width: $break-phablet-min) {
+        font-size: $font-size-xl;
+      }
+    }
+  }
+  .copyright {
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    font-size: $font-size-xs;
+    opacity: .5;
+
+    &.dark {
+      color: white;
+    }
+  }
+  .imageContainer {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    @media screen and (min-width: $break-tablet-min) {
+      height: 80%;
+      width: 80%;
+    }
+
+    .image {
+      object-fit: cover;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

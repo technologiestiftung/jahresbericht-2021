@@ -1,0 +1,56 @@
+
+@import '../../styles/base.scss';
+
+:local {
+  .tileWrapper {
+    height: 200vh;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    
+    @media screen and (min-width: $break-tablet-min) {
+      margin-left: 30px;
+      width: 400px;
+      height: 150vh;
+    }
+  }
+  .title {
+    font-size: $font-size-xl;
+    margin: 5px 0 10px;
+    font-weight: normal;
+  }
+  .subtitle {
+    font-size: $font-size-l;
+    margin: 15px 0 15px;
+    font-weight: normal;
+  }
+  .text {
+    font-size: $font-size-m;
+    line-height: 150%;
+    margin-bottom: 0px;  
+    margin-top: 10px;
+  }
+  .linkWrapper {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      margin-bottom: 10px;
+    }
+  }
+  .topline {
+    color: $dark-grey--1;
+    font-size: $font-size-s;
+  }
+  .id {
+    font-size: $font-size-s;
+    letter-spacing: $letter-spacing-l;
+    // padding: 5px 10px;
+    margin-right: 10px;
+    // background-color: $dark-grey--6;
+    border-radius: 100px;
+  }
+  .label {
+    font-size: $font-size-s;
+    letter-spacing: $letter-spacing-m;
+  }
+}

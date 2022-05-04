@@ -1,0 +1,10 @@
+@import '../../styles/base.scss';
+:local {
+  .headline {
+    line-height: 120%;
+    margin: 10px auto 20px auto;
+    font-size: $font-size-xxl;
+    font-weight: normal;
+    max-width: $medium-content-width;
+  }
+}

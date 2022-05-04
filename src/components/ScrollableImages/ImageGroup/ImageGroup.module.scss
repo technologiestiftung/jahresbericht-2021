@@ -1,0 +1,42 @@
+@import "src/styles/base.scss";
+
+:local {
+  .imagesWrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: sticky;
+    z-index: -1;
+    top: 0;
+  }
+  .copyright {
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    font-size: $font-size-xs;
+    opacity: 0;
+
+    &.dark {
+      color: white;
+    }
+
+    &.active {
+      opacity: .75;
+    }
+  }
+  .image {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: $transition-slow;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}
