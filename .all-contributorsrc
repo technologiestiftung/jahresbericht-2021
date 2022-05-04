@@ -27,6 +27,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "MRigal",
+      "name": "Matthieu Rigal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2190327?v=4",
+      "profile": "https://www.technologiestiftung-berlin.de/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
