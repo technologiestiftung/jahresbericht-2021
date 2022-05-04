@@ -1,9 +1,12 @@
-import cn from './Headline.module.scss';
+import cn from "./Headline.module.scss";
 
-function Headline({content, lang}) {
+function Headline({ content, lang }) {
   return (
-    <h2 className={cn.headline} dangerouslySetInnerHTML={{__html: content[lang]}}></h2>
-  )
+    <h2
+      className={cn.headline}
+      dangerouslySetInnerHTML={{ __html: content[lang] }}
+    ></h2>
+  );
 }
 
 export default Headline;
