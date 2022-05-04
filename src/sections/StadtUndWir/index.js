@@ -1,4 +1,4 @@
-import {useRef, useEffect} from 'react';
+import { useRef, useEffect } from 'react';
 import useOnScreen from '../../hooks/useOnScreen';
 import useStore from '../../hooks/useStore';
 
@@ -14,7 +14,7 @@ import cn from './StadtUndWir.module.scss';
 
 const setActiveTopicSelector = (s) => s.setActiveTopic;
 
-function StadtUndWir({content, ui, lang}) {
+function StadtUndWir({ content, ui, lang }) {
   const elementRef = useRef(null);
   const isOnScreen = useOnScreen(elementRef);
   const setActiveTopic = useStore(setActiveTopicSelector)

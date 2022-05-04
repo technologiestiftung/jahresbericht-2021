@@ -1,7 +1,7 @@
 import cn from './Intro.module.scss';
 
-function Intro({content, lang}) {
-  const {img, headline} = content;
+function Intro({ content, lang }) {
+  const { img, headline } = content;
   return (
     <>
     <div className={cn.wrapper}>
@@ -11,7 +11,7 @@ function Intro({content, lang}) {
     </div>
     <div className={cn.textContainer}>
       <img src="assets/logos/citylab-logo.svg" alt="" />
-      <h2 className={cn.headline} dangerouslySetInnerHTML={{__html: headline[lang]}}/>
+      <h2 className={cn.headline} dangerouslySetInnerHTML={{ __html: headline[lang] }}/>
     </div>
     </>
   )

@@ -7,7 +7,7 @@ const langSelector = (s) => s.lang;
 const activeSelector = (s) => s.active;
 const setActiveSelector = (s) => s.setActive;
 
-function ImageNav({images, theme}) {
+function ImageNav({ images, theme }) {
 
   const lang = useStore(langSelector);
   const active = useImageGroupStore(activeSelector);
@@ -24,7 +24,7 @@ function ImageNav({images, theme}) {
         <div className={cn.bubbleWrapper}>
           <span className={cn.label}>{d.text.title[lang]}</span>
           <div 
-            className={cx(cn.bubble, {[cn.active]: d.id === active})}
+            className={cx(cn.bubble, { [cn.active]: d.id === active })}
             onClick={() => handleClick(d.id)}
           />
         </div>

@@ -1,6 +1,6 @@
 import useStore from '../../hooks/useStore';
 
-import {ReactComponent as GlobeIcon} from '../../icons/globe.svg';
+import { ReactComponent as GlobeIcon } from '../../icons/globe.svg';
 
 import cn from './LanguageSwitch.module.scss';
 

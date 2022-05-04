@@ -2,8 +2,8 @@ import cn from './Quote.module.scss';
 import cx from 'classnames'
 
 
-function Quote({content, lang}) {
-  const {text, author} = content;
+function Quote({ content, lang }) {
+  const { text, author } = content;
 
   return (
     <div className={cx(cn.singleCol, cn.wrapper)}>

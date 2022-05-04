@@ -14,8 +14,8 @@ import Funfact from '../Funfact';
 const langSelector = (s) => s.lang;
 const activeSelector = (s) => s.active;
 
-function ScrollableImages({content, ui}) {
-  const {items, topic} = content;
+function ScrollableImages({ content, ui }) {
+  const { items, topic } = content;
 
   const lang = useStore(langSelector);
   const active = useImageGroupStore(activeSelector);
@@ -38,8 +38,8 @@ function ScrollableImages({content, ui}) {
               <span className={cn.id}>{d.id}</span>
               <span className={cn.label}>{topic[lang]}</span>
             </div>
-            <h3 className={cn.title} dangerouslySetInnerHTML={{__html: d.text.title[lang]}}/>
-            <p className={cn.text} dangerouslySetInnerHTML={{__html: d.text.paragraph[lang]}}></p>
+            <h3 className={cn.title} dangerouslySetInnerHTML={{ __html: d.text.title[lang] }}/>
+            <p className={cn.text} dangerouslySetInnerHTML={{ __html: d.text.paragraph[lang] }}></p>
             {d.text.funfact && <Funfact content={d.text.funfact} lang={lang}/>}
             {d.text?.links?.length > 0 && <h3  className={cn.subtitle}>{ui.moreLinks[lang]}</h3>}
             {d.text?.links?.length > 0 && <div className={cn.linkWrapper}>

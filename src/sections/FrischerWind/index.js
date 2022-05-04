@@ -15,7 +15,7 @@ import cn from './FrischerWind.module.scss';
 
 const setActiveTopicSelector = (s) => s.setActiveTopic;
 
-function FrischerWind({content, ui, lang}) {
+function FrischerWind({ content, ui, lang }) {
   const elementRef = useRef(null);
   const isOnScreen = useOnScreen(elementRef);
   const setActiveTopic = useStore(setActiveTopicSelector)

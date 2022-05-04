@@ -8,7 +8,7 @@ import { useImageGroupStore } from '../../../hooks/useStore';
 
 const setActiveSelector = (s) => s.setActive;
 
-function Tile({children, id, theme, align}) {
+function Tile({ children, id, theme, align }) {
   const elementRef = useRef(null);
   const isOnScreen = useOnScreen(elementRef);
   const setActive = useImageGroupStore(setActiveSelector)

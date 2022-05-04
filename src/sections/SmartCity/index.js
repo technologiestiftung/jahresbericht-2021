@@ -1,4 +1,4 @@
-import {useRef, useEffect} from 'react';
+import { useRef, useEffect } from 'react';
 
 import useOnScreen from '../../hooks/useOnScreen';
 import useStore from '../../hooks/useStore';
@@ -15,7 +15,7 @@ import cn from './SmartCity.module.scss';
 
 const setActiveTopicSelector = (s) => s.setActiveTopic;
 
-function SmartCity({content, ui, lang}) {
+function SmartCity({ content, ui, lang }) {
   const elementRef = useRef(null);
   const isOnScreen = useOnScreen(elementRef);
   const setActiveTopic = useStore(setActiveTopicSelector)

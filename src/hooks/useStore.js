@@ -1,20 +1,20 @@
 import create from 'zustand'
 
-const useStore = create((set, get) => ({
+const useStore = create((set) => ({
   lang: 'de',
   setLang: (lang) => {
-    set(() => ({lang}))
+    set(() => ({ lang }))
   },
   activeTopic: '1.0',
   setActiveTopic: (activeTopic) => {
-    set(() => ({activeTopic}))
+    set(() => ({ activeTopic }))
   },
 }))
 
-export const useImageGroupStore = create((set, get) => ({
+export const useImageGroupStore = create((set) => ({
   active: '1.1',
   setActive: (active) => {
-    set(() => ({active}))
+    set(() => ({ active }))
   },
 }))
 

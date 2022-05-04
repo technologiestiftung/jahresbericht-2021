@@ -5,11 +5,11 @@ import LanguageSwitch from '../LanguageSwitch';
 
 import cn from './Navbar.module.scss';
 
-import {ReactComponent as HinterDenKulissenIcon } from '../../icons/backstage.svg';
-import {ReactComponent as SmartCityIcon } from '../../icons/smart-city.svg';
-import {ReactComponent as UnterwegsIcon } from '../../icons/on-the-way.svg';
-import {ReactComponent as FrischerWind } from '../../icons/fresh-air.svg';
-import {ReactComponent as StadtUndWir } from '../../icons/city-and-us.svg';
+import { ReactComponent as HinterDenKulissenIcon } from '../../icons/backstage.svg';
+import { ReactComponent as SmartCityIcon } from '../../icons/smart-city.svg';
+import { ReactComponent as UnterwegsIcon } from '../../icons/on-the-way.svg';
+import { ReactComponent as FrischerWind } from '../../icons/fresh-air.svg';
+import { ReactComponent as StadtUndWir } from '../../icons/city-and-us.svg';
 
 const icons = {
   smartCity: {
@@ -41,7 +41,7 @@ const icons = {
 
 const activeTopicSelector = (s) => s.activeTopic;
 
-function Navbar({items, lang}) {
+function Navbar({ items, lang }) {
 
   const [activeLabel, setActiveLabel] = useState(null);
   const [activeId, setActiveId] = useState(null);
@@ -50,7 +50,7 @@ function Navbar({items, lang}) {
   const elementRef = useRef(null);
   const activeTopic = useStore(activeTopicSelector);
 
-  function handleMouseEnter({label, id}) {
+  function handleMouseEnter({ label, id }) {
     setActiveId(id);
     setActiveLabel(label);
     setIsHovered(true);
@@ -81,7 +81,7 @@ function Navbar({items, lang}) {
   return (
     <>
     <div className={cn.navbar}>
-      <div id="labelWrapper" className={cx(cn.labelWrapper, {[cn.active]: isHovered})}>
+      <div id="labelWrapper" className={cx(cn.labelWrapper, { [cn.active]: isHovered })}>
         {activeLabel}
       </div>
       {items.map((d,i) => (
@@ -90,9 +90,9 @@ function Navbar({items, lang}) {
             ref={elementRef} 
             id={d.id}
             onMouseLeave={() => handleMouseLeave()} 
-            onMouseEnter={() => handleMouseEnter({id: d.id, label: d.topic[lang]})} 
+            onMouseEnter={() => handleMouseEnter({ id: d.id, label: d.topic[lang] })} 
             onClick={() => handleClick(d.scrollId)} 
-            className={cx(cn.iconWrapper, cn[d.id], {[cn.active]: activeTopic === d.scrollId})
+            className={cx(cn.iconWrapper, cn[d.id], { [cn.active]: activeTopic === d.scrollId })
           }>
             {icons[d.id].icon}
           </div>

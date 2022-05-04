@@ -1,7 +1,7 @@
 import cx from 'classnames';
 import useOnScreen from '../../hooks/useOnScreen';
 import useStore from '../../hooks/useStore';
-import {useRef, useEffect} from 'react';
+import { useRef, useEffect } from 'react';
 
 import ScrollableImages from '../../components/ScrollableImages';
 import Paragraph from '../../components/Paragraph';
@@ -13,7 +13,7 @@ import cn from './HinterDenKulissen.module.scss';
 
 const setActiveTopicSelector = (s) => s.setActiveTopic;
 
-function HinterDenKulissen({content, ui, lang}) {
+function HinterDenKulissen({ content, ui, lang }) {
   const elementRef = useRef(null);
   const isOnScreen = useOnScreen(elementRef);
   const setActiveTopic = useStore(setActiveTopicSelector)

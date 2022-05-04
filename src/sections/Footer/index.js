@@ -1,7 +1,7 @@
 import cx from 'classnames';
 import cn from './Footer.module.scss';
 
-function Footer({content, lang}) {
+function Footer({ content, lang }) {
   return (
     <div className={cn.footer}>
       <div className={cn.logos}>
