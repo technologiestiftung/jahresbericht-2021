@@ -217,7 +217,7 @@ const content = {
             {
               de: "Mehr Infos",
               en: "More information",
-              href: "https://www.youtube.com/watch?v=7lqiIoxMZgk"
+              href: "https://www.youtube.com/watch?v=7lqiIoxMZgk",
             },
           ],
           title: {
@@ -241,10 +241,10 @@ const content = {
         align: "left",
         text: {
           links: [
-             {
+            {
               de: "Mehr Infos",
               en: "More information",
-              href: "https://citylab-berlin.org/en/projects/afs-dashboard/"
+              href: "https://citylab-berlin.org/en/projects/afs-dashboard/",
             },
           ],
           title: {
