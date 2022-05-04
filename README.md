@@ -1,9 +1,7 @@
 # Getting Started with Create React App
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -86,9 +84,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://fabianmoronzirfas.me/"><img src="https://avatars.githubusercontent.com/u/315106?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Fabian Morón Zirfas</b></sub></a><br /><a href="https://github.com/technologiestiftung/tsb-jahresbericht-2021/commits?author=ff6347" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://fabianmoronzirfas.me/"><img src="https://avatars.githubusercontent.com/u/315106?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Fabian Morón Zirfas</b></sub></a><br /><a href="https://github.com/technologiestiftung/tsb-jahresbericht-2021/commits?author=ff6347" title="Documentation">📖</a> <a href="https://github.com/technologiestiftung/tsb-jahresbericht-2021/commits?author=ff6347" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ZenVega"><img src="https://avatars.githubusercontent.com/u/50147356?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Urs Schmidt</b></sub></a><br /><a href="https://github.com/technologiestiftung/tsb-jahresbericht-2021/commits?author=ZenVega" title="Code">💻</a></td>
     <td align="center"><a href="https://www.technologiestiftung-berlin.de/"><img src="https://avatars.githubusercontent.com/u/2190327?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Matthieu Rigal</b></sub></a><br /><a href="https://github.com/technologiestiftung/tsb-jahresbericht-2021/commits?author=MRigal" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/vogelino"><img src="https://avatars.githubusercontent.com/u/2759340?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Lucas Vogel</b></sub></a><br /><a href="https://github.com/technologiestiftung/tsb-jahresbericht-2021/commits?author=vogelino" title="Code">💻</a></td>
   </tr>
 </table>
 
