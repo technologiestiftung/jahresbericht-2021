@@ -3,12 +3,10 @@ import { useState, useRef } from "react";
 import cn from "./Accordion.module.scss";
 import { ReactComponent as PlusIcon } from "../../icons/plus.svg";
 import { ReactComponent as MinusIcon } from "../../icons/minus.svg";
-import Paragraph from "../Paragraph";
 
 function Accordion({ lang, title, content }) {
   const [active, setActive] = useState(false);
   const panelEl = useRef();
-  console.log(content);
 
   return (
     <div className={cn.accordion}>
@@ -24,7 +22,10 @@ function Accordion({ lang, title, content }) {
             : { maxHeight: "0px" }
         }
       >
-        <p ref={panelEl} dangerouslySetInnerHTML={{ __html: content }}></p>
+        <p
+          ref={panelEl}
+          dangerouslySetInnerHTML={{ __html: content[lang] }}
+        ></p>
       </div>
     </div>
   );

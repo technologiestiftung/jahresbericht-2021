@@ -52,7 +52,7 @@ function App() {
         <Accordion
           lang={lang}
           title={content.acc_1.title}
-          content={content.acc_1.de}
+          content={content.acc_1}
         />
       </section>
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
