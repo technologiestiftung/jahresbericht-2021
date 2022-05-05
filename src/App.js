@@ -17,6 +17,7 @@ import Footer from "./sections/Footer";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Paragraph from "./components/Paragraph";
+import Accordion from "./components/Accordion";
 
 const langSelector = s => s.lang;
 
@@ -47,6 +48,7 @@ function App() {
       <Intro content={content.header} lang={lang} />
       <Navbar items={navItems} lang={lang} />
       <section className={cx(cn.layoutWrapper, cn.intro)}>
+        <Accordion />
         {/* <Headline lang={lang} content={content.intro.headline} /> */}
         <Paragraph lang={lang} content={content.intro.text} />
       </section>
