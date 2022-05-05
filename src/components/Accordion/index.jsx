@@ -24,6 +24,7 @@ function Accordion({ lang, title, content }) {
       >
         <p
           ref={panelEl}
+          className={cn.paragraph}
           dangerouslySetInnerHTML={{ __html: content[lang] }}
         ></p>
       </div>
