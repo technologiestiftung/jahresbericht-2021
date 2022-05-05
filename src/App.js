@@ -43,14 +43,13 @@ const getNavItems = () => {
 function App() {
   const lang = useStore(langSelector);
   const navItems = getNavItems();
+
   return (
     <div className={cn.app}>
       <Intro content={content.header} lang={lang} />
       <Navbar items={navItems} lang={lang} />
       <section className={cx(cn.layoutWrapper, cn.intro)}>
-        <Accordion />
-        {/* <Headline lang={lang} content={content.intro.headline} /> */}
-        <Paragraph lang={lang} content={content.intro.text} />
+        <Accordion title={content.acc_1.title} content={content.acc_1.de} />
       </section>
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
       <FrischerWind

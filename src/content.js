@@ -1,6 +1,12 @@
 const content = {
+  //accordion content
+  acc_1: {
+    title: "Bericht des Kuratoriumsvorsitzenden Matthias Patz",
+    de: "Die Technologiestiftung hat sich in den letzten Jahren zu einer wichtigen Partnerin im Bereich der digitalen Transformation in Berlin entwickelt. Für das Kuratorium entsteht aus dieser sehr erfreulichen Entwicklung die Aufgabe, die stetig wachsende Organisation zu begleiten und zum einen sicherzustellen, dass die Strukturen mitwachsen und die weitere dynamische Entwicklung unterstützen können. Zum anderen geht es für das Kuratorium darum, die grundsätzliche Ausrichtung zu begleiten.<br/><br/> Das zeigt, dass die Technologiestiftung weit über das Kuratorium hinaus mit ihrer Arbeit und ihren Projekten überzeugen konnte. Das Kuratorium kann sich vorstellen, dass die Stiftung darüber hinaus dem Berliner Innovationsbereich zwischen Wissenschaft und Wirtschaft mit dem erprobten Lab-Ansatz besondere Impulse geben kann. Das Kuratorium wird die spannenden Entwicklungen, die anstehen, nach Kräften unterstützen und wünscht Mitarbeiter:innen und Vorstand der Technologiestiftung für die Zukunft viel Erfolg.",
+  },
+
   outtro: {
-    de: "Das war’s mit unserem Rückblick 2021! Wir schauen auf ein abwechslungsreiches Jahr zurück, das genauso vielfältig war wie Berlin selbst! Nun freuen wir uns auf 2022 und viele gemeinsame Projekte mit der Berliner Verwaltung und der Stadtgesellschaft. <br/> <br>Euer CityLAB Berlin der Herzen",
+    de: "Das war’s mit unserem Rückblick 2021! Wir schauen auf ein abwechslungsreiches Jahr zurück, das genauso vielfältig war wie Berlin selbst! Nun freuen wir uns auf 2022 und viele gemeinsame Projekte mit der Berliner Verwaltung und der Stadtgesellschaft. <br/> <br/>Euer CityLAB Berlin der Herzen",
     en: `And with that, we close out our look back on a year that was just as thrilling and diverse as Berlin itself! Now we are looking forward to 2022 and all of the collaborative projects with Berlin's city administration and the city society the year will have in store for us.<br/><br/>Your CityLAB Berlin`,
   },
   header: {

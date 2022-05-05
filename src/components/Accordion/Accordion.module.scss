@@ -20,7 +20,7 @@
     }
 
     .panel {
-      transition: max-height ease-in .25s;
+      transition: $transition-fast;
       overflow: hidden;
     }
   }
