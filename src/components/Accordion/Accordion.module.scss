@@ -2,21 +2,26 @@
 
 :local {
   .accordion {
-      max-width: 560px;
-      margin: auto;
+    max-width: 560px;
+    margin: auto;
 
-      .clickable {
-        height: 56px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid $dark-grey--6;
-        cursor: pointer;
-        padding-right: 36px;
-      }
+    .clickable {
+      height: 56px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid $dark-grey--6;
+      cursor: pointer;
+      padding-right: 36px;
+    }
 
-      .title {
-          font-weight: $bold-text;
-      }
+    .title {
+      font-weight: $bold-text;
+    }
+
+    .panel {
+      transition: max-height ease-in .25s;
+      overflow: hidden;
+    }
   }
 }
