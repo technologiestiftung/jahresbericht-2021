@@ -11,6 +11,12 @@
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid $dark-grey--6;
+        cursor: pointer;
+        padding-right: 36px;
+      }
+
+      .title {
+          font-weight: $bold-text;
       }
   }
 }

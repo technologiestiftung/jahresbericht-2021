@@ -11,7 +11,7 @@ function Accordion() {
   return (
     <div className={cn.accordion}>
       <div className={cn.clickable} onClick={() => setActive(!active)}>
-        <p>Accordion</p>
+        <p className={cn.title}>Accordion</p>
         {active ? <MinusIcon /> : <PlusIcon />}
       </div>
     </div>
