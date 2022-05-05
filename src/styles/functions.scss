@@ -41,16 +41,16 @@ $rem-to-px-base: 16px !default;
 
       @if $rem-to-px-conversion {
         @if $unit == "rem" {
-          $list: append($list, $value / 1rem * $rem-to-px-base);
+          $list: append($list, calc($value / 1rem * $rem-to-px-base));
         } @else {
           $list: append($list, $value);
         }
       } @else if $unit == "rem" or $unit == "" {
         $list: append($list, $value);
       } @else if $unit == unit($rem-to-px-base) {
-        $list: append($list, $value / $rem-to-px-base + 0rem);
+        $list: append($list, calc($value / $rem-to-px-base) + 0rem);
       } @else if $unit == "em" {
-        $list: append($list, $value / 1em + 0rem);
+        $list: append($list, calc($value / 1em) + 0rem);
       } @else {
         @warn "There is currently no unit conversion for #{$unit}";
       }
