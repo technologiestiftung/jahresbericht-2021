@@ -49,7 +49,11 @@ function App() {
       <Intro content={content.header} lang={lang} />
       <Navbar items={navItems} lang={lang} />
       <section className={cx(cn.layoutWrapper, cn.intro)}>
-        <Accordion title={content.acc_1.title} content={content.acc_1.de} />
+        <Accordion
+          lang={lang}
+          title={content.acc_1.title}
+          content={content.acc_1.de}
+        />
       </section>
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
       <FrischerWind
