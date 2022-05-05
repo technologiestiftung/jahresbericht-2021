@@ -18,7 +18,7 @@ function Accordion({ lang, title, content }) {
         className={cn.panel}
         style={
           active
-            ? { maxHeight: panelEl.current.scrollHeight }
+            ? { maxHeight: panelEl.current.scrollHeight + 30 }
             : { maxHeight: "0px" }
         }
       >
