@@ -79,4 +79,4 @@ Google Drive: \_CityLAB Berlin/Visuals/06 Design/tsg-standard-font Clan\
 or\
 Server Space: LWS$/Öfentlichkeitsarbeit/Jahresberichte/21_Jahresbericht\
 
-This project uses \*.woff files. Copy them inte src/fonts
+This project uses \*.woff files. Paste them into src/fonts
