@@ -17,6 +17,7 @@ import Footer from "./sections/Footer";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Paragraph from "./components/Paragraph";
+import Accordion from "./components/Accordion";
 
 const langSelector = s => s.lang;
 
@@ -42,13 +43,22 @@ const getNavItems = () => {
 function App() {
   const lang = useStore(langSelector);
   const navItems = getNavItems();
+
   return (
     <div className={cn.app}>
       <Intro content={content.header} lang={lang} />
       <Navbar items={navItems} lang={lang} />
       <section className={cx(cn.layoutWrapper, cn.intro)}>
-        {/* <Headline lang={lang} content={content.intro.headline} /> */}
-        <Paragraph lang={lang} content={content.intro.text} />
+        <Accordion
+          lang={lang}
+          title={content.acc_1.title}
+          content={content.acc_1}
+        />
+        <Accordion
+          lang={lang}
+          title={content.acc_1.title}
+          content={content.acc_1}
+        />
       </section>
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
       <FrischerWind

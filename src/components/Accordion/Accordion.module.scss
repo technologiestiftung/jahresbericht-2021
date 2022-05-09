@@ -1,0 +1,33 @@
+@import '../../styles/base.scss';
+
+:local {
+  .accordion {
+    max-width: 560px;
+    margin: auto;
+    margin-bottom: 23px;
+
+    .clickable {
+      height: 56px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid $dark-grey--6;
+      cursor: pointer;
+      padding-right: 36px;
+    }
+
+    .title {
+      font-weight: $bold-text;
+    }
+
+    .panel {
+      transition: $transition-fast;
+      overflow: hidden;
+    }
+    
+    .paragraph {
+      padding-top: 30px;
+      margin: 0 auto;
+    }
+  }
+}
