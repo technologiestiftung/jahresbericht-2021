@@ -77,6 +77,6 @@ The fonts used in this project are not public. As a member of Technologiestiftun
 
 Google Drive: \_CityLAB Berlin/Visuals/06 Design/tsg-standard-font Clan\
 or\
-Server Space: LWS$/Öfentlichkeitsarbeit/Jahresberichte/21_Jahresbericht\
+Server Space: LWS$/Visuelle_Kommunikation/\_\_Standards/Schriften
 
 This project uses \*.woff files. Paste them into src/fonts
