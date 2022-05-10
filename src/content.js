@@ -12,7 +12,7 @@ const content = {
   },
   header: {
     headline: {
-      de: "Jahresrückblick 2021",
+      de: "Jahresbericht 2021",
       en: "Annual review 2021",
     },
     img: {
