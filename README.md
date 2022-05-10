@@ -70,3 +70,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # tsb-jahresbericht-2021
+
+## Fonts
+
+The fonts used in this project are not public. As a member of Technologiestiftung you can access them via
+
+Google Drive: \_CityLAB Berlin/Visuals/06 Design/tsg-standard-font Clan\
+or\
+Server Space: LWS$/Visuelle_Kommunikation/\_\_Standards/Schriften
+
+This project uses \*.woff files. Paste them into src/fonts
