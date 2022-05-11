@@ -105,8 +105,8 @@ const content = {
           en: "Smart City",
         },
         text: {
-          de: "Die smarte Stadt von morgen wird mehr Lebensqualität bieten, denn sie wird grüner und sauberer sein und effizient mit Ressourcen umgehen. Um das zu erreichen, muss die digitale Infrastruktur von der Strom- und Wasserversorgung bis zum Verkehr strategisch weiterentwickelt und -vernetzt werden. Auch die Verwaltung muss die Möglichkeiten der Digitalisierung noch stärker nutzen, um schneller und serviceorientiert zu arbeiten.",
-          en: `EMPTY`,
+          de: "Berlin entwickelt im Programm „Modellprojekte Smart Cities“ des BMI und der KfW eine neue Smart City-Strategie, bei der Partizipation, Menschen und Werte im Vordergrund stehen. Die Strategie entsteht im Dialog mit Berlins diverser Stadtgesellschaft – weg von einem rein technologischen Fokus, hin zu Mitgestaltung und Einbeziehung. Im Auftrag der Senatskanzlei koordinieren und begleiten wir dieses breit angelegte Projekt in mehreren Phasen.",
+          en: `Berlin is developing a new smart city strategy as part of the BMI's and KfWs "Model Projects Smart Cities" programme, which places an emphasis on participation, the needs of everyday citizens, and the role of social values. The strategy is being developed in dialogue with Berlin's diverse urban society, moving away from a purely technological focus and toward co-design and inclusion. On behalf of the Senate Chancellery, we are coordinating and accompanying this expansive project in several phases.`,
         },
       },
     },
@@ -118,23 +118,22 @@ const content = {
         text: {
           links: [
             {
-              de: "Webseite CityLab",
-              en: "Webseite CityLab",
-              href: "https://citylab-berlin.org/de/start/",
+              de: "Mehr Infos",
+              en: "More information",
+              href: "https://strategie.smart-city-berlin.de/ ",
             },
           ],
           title: {
-            de: "CityLab",
-            en: "CityLab",
+            de: "Strategieprozess",
+            en: "Strategy Process",
           },
           paragraph: {
-            de: `Das CityLAB Berlin am Platz der Luftbrücke ist ein Ort, an dem sich Verwaltung und Stadtgesellschaft treffen können, um die digitale Transformation zu diskutieren und bis zum Prototypen zu gestalten. Der Begegnungsort war auch 2021 sehr gefragt, analog genauso wie online.
-            Mit eigenen Projekten gibt das CityLAB auch Impulse für die Entwicklung einer offenen, gemeinnützigen digitalen Infrastruktur. Besonders bekannt ist mittlerweile <a  href="https://giessdenkiez.de/" target="_blanc">Gieß den Kiez</a>, eine Seite, die die Pflege der Berliner Straßenbäume thematisiert. 2021 kamen mit <a  href="https://www.digital-vereint.berlin/de" target="_blanc">Digital vereint</a>, <a  href="https://berlinopensource.de/" target="_blanc">Berlin Open Source</a> und <a  href="https://stadtpuls.com/" target="_blanc">Stadtplus</a> weitere Plattformen dazu, die Transparenz schaffen und das Miteinander in der Stadtgesellschaft fördern.`,
-            en: `EMPTY`,
+            de: `Im Frühjahr 2021 entwickelten wir in Zusammenarbeit mit Stadtgesellschaft, Verwaltung, Wirtschaft, Wissenschaft sowie sogenannten stillen Gruppen einen strategischen Rahmen, der übergeordnete Visionen der Smart City Berlin beschreibt. Daran anknüpfend startete im Herbst eine weitere Phase des Beteiligungsprozesses zur Strategie. Im Mittelpunkt steht das Stadtgremium Digitales Berlin. Zufällig ausgeloste Berliner:innen repräsentieren in diesem Gremium die Vielfalt der Stadt und erarbeiten in Zusammenspiel mit der Verwaltung, Smart City-Expert:innen und der interessierten Öffentlichkeit konkrete Inhalte für die Strategie. In der ab Frühjahr 2022 startenden Umsetzungsphase sollen erste Aspekte der Strategie durch konkrete Maßnahmen und Projekte erprobt und umgesetzt werden.`,
+            en: `In spring 2021, we developed a strategic framework for the overarching visions of Smart City Berlin in cooperation with the urban community, administration, business, science and so-called silent groups. Building on these insights, we began an additional participation phase in the fall of 2021. At the heart of this phase is the city committee Digital Berlin, a citizen n advisory council composed of randomly selected Berliners meant to reflect the diversity of the city and represent citizens' interests in projects with the city government, Smart City experts and others interested in contributing to the strategy. The strategy's first real test will come in spring 2022, when a series of smart city "implementation projects" will begin.`,
           },
         },
         img: {
-          src: "assets/images/smart-city:citylab.jpg",
+          src: "assets/images/1.1-smart-city-strategieprozess.jpg",
           alt: "image tag",
           copyright: "© CityLAB Berlin",
         },
@@ -146,24 +145,28 @@ const content = {
         text: {
           links: [
             {
-              de: "Webseite ODIS",
-              en: "Webseite ODIS",
-              href: "https://odis-berlin.de/",
+              de: "Zur Video Playlist",
+              en: "To the videos",
+              href: "https://youtube.com/playlist?list=PLRIKlbncTSl-BGkz761lQf7sRcLPBN-YU",
             },
           ],
           title: {
-            de: "Open Data Informationsstelle (ODIS)",
-            en: "EMPTY",
+            de: "Symposium <br/> ‘Redefining the Smart City‘",
+            en: "Symposium <br/> ‘Redefining the Smart City‘",
           },
           paragraph: {
-            de: "Berlin bekennt sich zu einer Open Data-Strategie. Nicht geheime Daten der Verwaltungen sollen offengelegt und zur Weiternutzung zur Verfügung gestellt werden. Obwohl die Akzeptanz dafür in den letzten Jahren deutlich gestiegen ist, ist das Ziel noch nicht erreicht, weil beispielsweise die Relevanz der Daten nicht erkannt wird oder es an technischer Kompetenz fehlt. Die Open Data Informationsstelle, die bei der Technologiestiftung angesiedelt ist, berät bei der Datenaufbereitung und baut gemeinsam mit den Verwaltungen digitale Tools, die das Potenzial von Verwaltungsdaten zeigen. 2021 wurden außerdem Online-Tutorials produziert, die im Netz abrufbar sind.",
-            en: "EMPTY",
+            de: "Unser internationales Smart City Symposium, das wir gemeinsam mit dem Centre for Digital Governance der Hertie School organisierten, gab einen Überblick über den aktuellen Stand der Forschung zu Smart Cities. Es bot allen, die sich für Smart Cities interessieren, ein Forum zum Zuhören, Lernen, Präsentieren und Diskutieren. Neben fast 400 Teilnehmenden begrüßten wir Staatssekretär Dr. Frank Nägele, Beth Simone Noveck, Francesca Bria, Ben Green, Brigitte Lutz und viele mehr im digitalen Berlin.",
+            en: "Our international Smart City Symposium, organized jointly with the Center for Digital Governance of the Hertie School, provided an overview of the current state of research on smart cities and offered everyone interested in smart cities an opportunity to listen, learn, present and discuss. In addition to almost 400 participants from around the globe, we welcomed State speakers like Secretary Dr Frank Nägele, Beth Simone Noveck, Francesca Bria, Ben Green, Brigitte Lutz and many more to digital Berlin.",
+          },
+          funfact: {
+            de: "Das Symposium war nicht die einzige Veranstaltung in 2021. Über <strong>2700 Teilnehmende</strong> begrüßten wir bei unseren <strong>94 Events</strong> im vergangenen Jahr.",
+            en: "The symposium was not the only event in 2021. We welcomed more than <strong>2700 participants</strong> to 94 different online and offline events last year.",
           },
         },
         img: {
-          src: "assets/images/smart-city:ODIS.jpg",
+          src: "assets/images/1.2-symposium.jpg",
           alt: "image tag",
-          copyright: "© 2022 Technologiestiftung Berlin",
+          copyright: "© CityLAB Berlin",
         },
       },
     ],
