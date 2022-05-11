@@ -48,9 +48,6 @@ function ScrollableImages({ content, ui }) {
             ></p>
             {d.text.funfact && <Funfact content={d.text.funfact} lang={lang} />}
             {d.text?.links?.length > 0 && (
-              <h3 className={cn.subtitle}>{ui.moreLinks[lang]}</h3>
-            )}
-            {d.text?.links?.length > 0 && (
               <div className={cn.linkWrapper}>
                 <>
                   {d.text?.links.map((link, i) => (
