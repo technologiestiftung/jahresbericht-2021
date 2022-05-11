@@ -8,7 +8,7 @@ import cn from "./Navbar.module.scss";
 import { ReactComponent as HinterDenKulissenIcon } from "../../icons/backstage.svg";
 import { ReactComponent as SmartCityIcon } from "../../icons/smart-city.svg";
 import { ReactComponent as UnterwegsIcon } from "../../icons/on-the-way.svg";
-import { ReactComponent as FrischerWind } from "../../icons/fresh-air.svg";
+import { ReactComponent as NeueTechnologien } from "../../icons/fresh-air.svg";
 import { ReactComponent as StadtUndWir } from "../../icons/city-and-us.svg";
 
 const icons = {
@@ -17,8 +17,8 @@ const icons = {
     width: 30,
     offset: 0,
   },
-  frischerWind: {
-    icon: <FrischerWind />,
+  neueTechnologien: {
+    icon: <NeueTechnologien />,
     width: 30,
     offset: 50,
   },
@@ -76,7 +76,7 @@ function Navbar({ items, lang }) {
     setActiveLabel(null);
     setIsHovered(false);
   }
-  console.log(activeLabel);
+
   return (
     <>
       <div className={cn.navbar}>
