@@ -134,7 +134,7 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/smart-city:citylab.jpg",
+          src: "assets/images/smart-city_citylab.jpg",
           alt: "image tag",
           copyright: "© CityLAB Berlin",
         },
@@ -161,7 +161,7 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/smart-city:ODIS.jpg",
+          src: "assets/images/smart-city_ODIS.jpg",
           alt: "image tag",
           copyright: "© 2022 Technologiestiftung Berlin",
         },
@@ -171,23 +171,19 @@ const content = {
   neueTechnologien: {
     id: "2.0",
     topic: {
-      de: "Frischer Wind für die Verwaltung",
-      en: "A fresh wind for the administration",
+      de: "Neue Technologien",
+      en: "EMPTY",
     },
     blocks: {
       intro: {
         title: {
-          de: "Frischer Wind für die Verwaltung",
-          en: "A fresh wind for the administration",
+          de: "Neue Technologien",
+          en: "EMPTY",
         },
         text: {
-          de: "Die Verwaltung setzt die Segel und bricht zu neuen digitalen Ufern auf. Einige der Leuchtturmprojekte, die uns sicher zum digitalen Hafen führen, haben wir für euch zusammengestellt.",
-          en: "The administration is setting sail for new digital shores. We have compiled some of the lighthouse projects that will lead us safely to the digital harbour.",
+          de: "Berlin ist ein erfolgreicher Innovationsstandort. In der Stadt ist exzellente Forschung zuhause – universitär und außeruniversitär. Der Stadt gelingt es immer wieder, Trends und Entwicklungen, die hier entstehen, vor Ort in die Anwendung zu bringen. Voraussetzung für den Erfolg ist, dass neueste technologische Entwicklungen frühzeitig identifiziert und strategisch gefördert werden.",
+          en: "EMPTY",
         },
-      },
-      funfact: {
-        de: "Frischen Wind bringt auch unser Handbuch Öffentliches Gestalten in die Verwaltung. 2021 wurde es <strong>227 Mal verschickt</strong>.",
-        en: "funfact in english",
       },
     },
     items: [
@@ -196,20 +192,26 @@ const content = {
         theme: "dark",
         align: "left",
         text: {
-          links: [],
+          links: [
+            {
+              de: "Zur Studie",
+              en: "EMPTY",
+              href: "https://www.technologiestiftung-berlin.de/fileadmin/Redaktion/PDFs/Bibliothek/Studien/2021/210312_Technologiestiftung-Berlin_Datenoekonomie_Report_web.pdf",
+            },
+          ],
           title: {
-            de: "Digitalwerkstatt Verwaltung",
-            en: "Digital Workshop <br/> for Administration",
+            de: "Studie Datenökonomie",
+            en: "EMPTY",
           },
           paragraph: {
-            de: "Zusammen mit der Senatsverwaltung für Inneres und Sport organisierten wir im Oktober 2021 eine Reihe von Online-Workshops, bei denen wir gemeinsam mit Bürger:innen Verwaltungsformulare testeten, Feedback sammelten und Ideen für Verbesserungen entwickelten. Die Ergebnisse der Workshops werden dafür genutzt, um aktuelle und zukünftige Formulare nutzer:innenfreundlicher zu gestalten.",
-            en: "In October 2021, in collaboration with the Senate Department for Internal Affairs and Sport, we organised a series of online workshops where we worked with citizens to test and optimize administrative forms. The results of the workshops will be used to make current and future forms more user-friendly.",
+            de: "Selbstfahrende Autos, bildgebende Medizingeräte, intelligente Stromzähler: Wie gut ein Produkt ist, entscheidet sich immer stärker daran, wie schnell und effektiv es Daten verarbeiten und mit weiteren Daten verknüpfen kann. Das ist eine große Herausforderung für traditionelle kleine und mittlere Unternehmen (KMU), die ihr Know-how meist seit Jahrzehnten entwickelt haben und nun zusätzlich Datenkompetenz aufbauen müssen. Sie gehen das Thema nur zögernd an, auch in Berlin. Dabei bietet die Stadt grundsätzlich ein sehr gutes Umfeld für die Entwicklung. Die Studie zeigt, wo die Chancen für die KMU liegen, was sie tun sollten und welche Rahmenbedingungen sie bei der Entwicklung unterstützen können.",
+            en: "EMPTY",
           },
         },
         img: {
-          src: "assets/images/2.1-digitalwerkstatt-verwaltung.jpg",
+          src: "assets/images/neue-technologien_datenoekonomie.jpg",
           alt: "image tag",
-          copyright: "© Florian Reimann",
+          copyright: "© 2022 Technologiestiftung Berlin",
         },
       },
       {
@@ -219,24 +221,24 @@ const content = {
         text: {
           links: [
             {
-              de: "Mehr Infos",
-              en: "More information",
-              href: "https://www.youtube.com/watch?v=7lqiIoxMZgk",
+              de: "Zur Studie",
+              en: "EMPTY",
+              href: "https://www.technologiestiftung-berlin.de/fileadmin/Redaktion/PDFs/Bibliothek/Studien/2021/210623_TSB_Innovationserhebung_2020_Web.pdf",
             },
           ],
           title: {
-            de: "Service Agenten-Schulung",
-            en: "Service Agent Training",
+            de: "Innovationserhebung",
+            en: "EMPTY",
           },
           paragraph: {
-            de: "In Zusammenarbeit mit Daniela Hensel, Professorin für Design an der HTW Berlin und Johanna Götz, wissenschaftliche Mitarbeiterin an der HTW Berlin, riefen wir eine mehrteilige “Service Agenten”-Schulung für Verwaltungsbeschäftigte ins Leben, die zum Ziel hat, eine stärkere Nutzer:innenorientierung und Methoden des Service Designs in der Verwaltung zu verankern. Dabei wurden Verwaltungsangestellte mit einem breiten Werkzeugkasten an Methoden ausgestattet, den sie im Transfer auf weitere Projekte anwenden können.",
-            en: 'In cooperation with Daniela Hensel, professor of design at the HTW Berlin, and Johanna Götz, research assistant at the HTW Berlin, we started a multi-part "service agent" training for city employees with the aim of increasing understanding for user-centered design as well as general service design methods within governmental contexts. Throughout the program, participants gained first-hand exposure to a variety of service design principles and methodologies that they could then directly apply to their everyday work as well as future projects.',
+            de: "Die Technologiestiftung stockt jedes Jahr die Berliner Stichprobe der Umfrage des ZEWs– Leibniz Zentrum für Europäische Wirtschaftsforschung auf, die das Innovationsgeschehen bundesweit beobachtet. Die Aufstockung ermöglicht es, branchenspezifische Aussagen für Berlin zu machen und innovationsstrategische Entscheidungen auf einer guten Datengrundlage zu treffen.Für die Innovationserhebung 2020 wurden über 4.000 Unternehmen befragt. Da die Befragung teilweise in die Zeit der ersten Pandemiewelle fiel, konnten auch erste, beruhigende Aussagen zu den Auswirkungen gemacht werden: Es wurde deutlich, dass langfristig angelegte Innovationsgeschehen kaum von den ersten Pandemiewelle betroffen wurde.",
+            en: "EMPTY",
           },
         },
         img: {
-          src: "assets/images/2.2-agenten-schulung.jpg",
+          src: "assets/images/neue-technologien_innovation.jpg",
           alt: "image tag",
-          copyright: "© CityLAB Berlin",
+          copyright: "",
         },
       },
       {
@@ -246,18 +248,18 @@ const content = {
         text: {
           links: [
             {
-              de: "Mehr Infos",
-              en: "More information",
-              href: "https://citylab-berlin.org/en/projects/afs-dashboard/",
+              de: "TODO",
+              en: "EMPTY",
+              href: "TODO",
             },
           ],
           title: {
-            de: "Verwaltungsdashboard",
-            en: "Administration Dashboard",
+            de: "Veranstaltungsreihen mit rbbInforadio",
+            en: "EMPTY",
           },
           paragraph: {
-            de: "In vielen Bereichen der Berliner Verwaltung werden zahlreiche Daten zu diversen Leistungen erhoben und gespeichert, doch mangelt es an einer einheitlichen Darstellungsmethode. Im Rahmen von Design Sprints unterstützten wir das Amt für Statistik (AfS) und die Senatskanzlei bei der Konzeption einer zentralen Dashboardlösung, die in unterschiedlichen Verwaltungsbereichen und Kontexten zum Einsatz kommen soll. Daten könnten dadurch leichter präsentiert und zugänglich gemacht werden, auch die verwaltungsübergreifende Zusammenarbeit wird erleichtert.",
-            en: "Many city government departments collect and store significant amounts of data on various services, but there currently is no central or standardized solution for combining and presenting this data. Through a series of design sprints, we supported the Berlin-Brandenburg Office for Statistics (Amt für Statistik Berlin-Brandenburg) and the Berlin Senate Chancellery in developing a central dashboard solution that could be used in different administrative areas and contexts. Such a solution would allow data to be presented and made accessible across departments, as well as enable more cross-department collaborations. ",
+            de: "Mit Treffpunkt WissensWerte und Soup & Science führt die Technologiestiftung zwei Veranstaltungsreihen mit rbb Inforadio zu Wissenschaftthemen und angewandter Forschung in Berlin durch. Während beim Treffpunkt WissensWerte bis zu vier Podiumsteilnehmer:innen eingeladen werden, stellt Soup & Science eine Naturwissenschaftlerin mit ihrer Arbeit in den Mittelpunkt. </br></br>Beide Formate erreichen eine große Öffentlichkeit und schaffen ein Bewusstsein für die Vielfalt und Exzellenz der Berliner Wissenschaft. Sie konnten trotz des Pandemiegeschehens regelmäßig durchgeführt werden, wenn auch das Publikum, das normalerweise dazu gehört, nicht immer live dabei sein konnte.",
+            en: "EMPTY",
           },
         },
         img: {
