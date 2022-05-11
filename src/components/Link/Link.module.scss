@@ -2,14 +2,13 @@
 :local {
   .link {
     padding: 7px 12px 7px 15px;
-    background-color: $blue--1;
+    background-color: $corporate-blue-transparent;
     border-radius: 100px;
     display: flex;
     width: fit-content;
     align-items: center;
-    margin-right: 10px;
-    margin-top: 33px;
-    color: $blue;
+    margin: 33px 10px 0 0;
+    color: $corporate-blue;
   }
 
   .iconWrapper {
@@ -17,7 +16,7 @@
     height: 20px;
     border-radius: 100px;
     margin-left: 5px;
-    background-color: $blue;
+    background-color: $corporate-blue;
 
     svg {
       width: 20px;
