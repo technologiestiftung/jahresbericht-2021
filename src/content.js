@@ -263,7 +263,7 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/2.3-afs-dashboard.jpg",
+          src: "assets/images/neue-technologien_rbb.jpg",
           alt: "image tag",
           copyright: "© Florian Reimann",
         },
