@@ -6,7 +6,7 @@ import cn from "./App.module.scss";
 
 import content from "./content";
 
-import FrischerWind from "./sections/FrischerWind";
+import NeueTechnologien from "./sections/NeueTechnologien";
 import SmartCity from "./sections/SmartCity";
 import StadtUndWir from "./sections/StadtUndWir";
 import Unterwegs from "./sections/Unterwegs";
@@ -24,7 +24,7 @@ const langSelector = s => s.lang;
 const getNavItems = () => {
   const keys = [
     "smartCity",
-    "frischerWind",
+    "neueTechnologien",
     "stadtUndWir",
     "hinterDenKulissen",
     "unterwegs",
@@ -61,9 +61,9 @@ function App() {
         />
       </section>
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
-      <FrischerWind
+      <NeueTechnologien
         lang={lang}
-        content={content.frischerWind}
+        content={content.neueTechnologien}
         ui={content.ui}
       />
       <StadtUndWir lang={lang} content={content.stadtUndWir} ui={content.ui} />

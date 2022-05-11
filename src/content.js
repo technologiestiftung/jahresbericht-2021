@@ -168,7 +168,7 @@ const content = {
       },
     ],
   },
-  frischerWind: {
+  neueTechnologien: {
     id: "2.0",
     topic: {
       de: "Frischer Wind für die Verwaltung",
