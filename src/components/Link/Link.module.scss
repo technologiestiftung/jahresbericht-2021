@@ -17,6 +17,7 @@
     border-radius: 100px;
     margin-left: 5px;
     background-color: $corporate-blue;
+    @include flex();
 
     svg {
       width: 20px;
