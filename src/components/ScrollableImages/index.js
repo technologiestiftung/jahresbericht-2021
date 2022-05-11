@@ -35,8 +35,8 @@ function ScrollableImages({ content, ui }) {
         <div key={d.id} className={cn.tileWrapper}>
           <Tile align={d.align} theme={d.theme} id={d.id}>
             <div className={cx(cn.topline, cn[d.theme])}>
-              <span className={cn.id}>{d.id}</span>
-              <span className={cn.label}>{topic[lang]}</span>
+              <span className={cn.id}></span>
+              <span className={cn.label}>| {topic[lang]}</span>
             </div>
             <h3
               className={cn.title}
