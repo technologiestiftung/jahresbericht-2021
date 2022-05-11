@@ -268,37 +268,6 @@ const content = {
           copyright: "© Florian Reimann",
         },
       },
-      {
-        id: "2.4",
-        theme: "light",
-        align: "right",
-        text: {
-          links: [
-            {
-              de: "Mehr Infos",
-              en: "More information",
-              href: "https://citylab-berlin.org/de/blog/das-wissen-der-berliner-verwaltung-liegt-verteilt-in-tausenden-excel-dateien/ ",
-            },
-          ],
-          title: {
-            de: "Prototypenwerkstatt",
-            en: "Prototype Workshop",
-          },
-          paragraph: {
-            de: "Im Rahmen der Prototypenwerkstatt unterstützten wir die Berliner Verwaltung bei der Digitalisierung von IT-Kleinstverfahren. Hierbei werden in Kooperation mit dem Berliner IT-Dienstleistungszentrum (ITDZ) digitale Prototypen entwickelt, die Alternativen zu veralteten Excel- und Access-Anwendungen aufzeigen. Die nachhaltige Vermittlung von Methodenkompetenzen in der digitalen Verwaltung sowie Empfehlungen bezüglich der Verbesserung von Prozessen runden den Prozeß ab. <br/>Das Vorgehen nutzt agile Arbeitsprozesse, in dem Prototypen iterativ und in enger Abstimmung mit den beteiligten Akteur:innen entwickelt werden.",
-            en: "In the prototype workshop, we supported the city administration with the digitisation of small-scale IT processes. Together with the Berlin IT Service Centre (ITDZ), we have developed digital prototypes to support the replacement of hundreds of these small-scale processes (that previously existed solely in Microsoft Excel or Access, for example). In addition to the development of prototypes, this project also aims to build up digital expertise in the city government and offer concrete suggestions for how to improve and modernize digital processes. This project emphasizes agile work processes in which prototypes are developed iteratively and in close consultation with the actors involved.",
-          },
-          funfact: {
-            de: `Frischen Wind bringt auch unser Handbuch Öffentliches Gestalten in die Verwaltung. 2021 wurden unsere letzten <strong>227 von 700 Exemplare</strong> verschickt. Keine Sorge, Nachschub ist unterwegs!`,
-            en: `Our Public Design Handbook also brings a breath of fresh air to the administration. In 2021, we sent out our last <strong>227 of 700  copies.</strong>  But don't worry — a new shipment is already on the way.`,
-          },
-        },
-        img: {
-          src: "assets/images/2.4-prototypen-werkstatt.jpg",
-          alt: "image tag",
-          copyright: "© CityLAB Berlin",
-        },
-      },
     ],
   },
   stadtUndWir: {
