@@ -3,7 +3,6 @@
   .navbar {
     padding: 8px 6px;
     position: fixed;
-    // border-radius: 10px;
     bottom: 30px;
     height: 40px;
     width: 280px;
@@ -16,6 +15,7 @@
     margin-left: -150px; /* Negative half of width. */
     display: flex;
     align-items: center;
+    display: none;
   }
   .divider {
     margin-left: 3px;

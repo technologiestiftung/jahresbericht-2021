@@ -10,7 +10,6 @@
     justify-content: flex-start;
     margin: 0 auto;
 
-
     @media screen and (min-width: $break-phablet-min) {
       flex-direction: row;
       height: 80px;
@@ -20,22 +19,34 @@
     display: flex;
     align-items: flex-start;
   }
-  .item {
-    margin-left: 10px;
-  }
+
   .bottom {
-    padding: 0 20px;
-    height: 100px;
+    padding: 14px 20px;
     width: calc(100vw - 40px);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    .copyright {
-      display: block;
-      margin-top: 10px;
-    }
+    align-items: center;
+    background-color: $blue--2;
+    color: $dark-grey--7;
+
     .items {
-      margin: 10px 0;
       display: flex;
+      gap: 38px;
+      padding: 16px 0;
+    }
+    .copyright {
+      font-size: 14px;
+    }
+    .link {
+      color: $dark-grey--7;
+      font-size: 14px;
+    }
+
+    @media screen and (min-width: $medium-content-width) {
+      flex-direction: row;
+      justify-content: center;
+      gap: 33%;
     }
   }
   .block {
