@@ -393,21 +393,21 @@ const content = {
       },
     ],
   },
-  unterwegs: {
+  reallabor: {
     id: "5.0",
     topic: {
-      de: "CityLAB Berlin unterwegs",
-      en: "CityLAB Berlin on the Road",
+      de: "Reallabor",
+      en: "EMPTY",
     },
     blocks: {
       intro: {
         title: {
-          de: "CityLAB Berlin unterwegs",
-          en: "CityLAB Berlin on the Road",
+          de: "Reallabor",
+          en: "EMPTY",
         },
         text: {
-          de: "Ob nach Barcelona zur Smart City World Expo, nach Wien zu den Digital Days 2021 oder das Heimspiel Creative Bureaucracy Festival in Berlin - 2021 waren wir digital als auch analog unterwegs und nahmen euch stets mit auf unsere Reisen.",
-          en: "Whether Barcelona for the Smart City World Expo, Vienna for the Digital Days 2021 or at home for the Creative Bureaucracy Festival in Berlin: in 2021 we were on the road online as well as offline and always did our best to sneak you into our suitcase so you could experience our travels with us. ",
+          de: "Das Leben in Berlin spiegelt sich in den Daten, die anfallen. Zunehmend stellen die Verwaltung, aber auch die Versorgungsbetriebe und viele Unternehmen diese Daten als Open Data für die weitere Nutzung zur Verfügung. Die Datenanalysen und Datenvisualisierungen, die daraus entstehen, machen das Geschehen in der Stadt transparent und ermöglichen neue Services.",
+          en: "EMPTY",
         },
       },
     },
@@ -421,27 +421,22 @@ const content = {
             {
               de: "Zur Fotogalerie",
               en: "To the photos",
-              href: "https://www.flickr.com/photos/182217318@N05/sets/72157720180665142/ ",
-            },
-            {
-              de: "Zum Vortrag",
-              en: "To the keynote",
-              href: "https://www.youtube.com/watch?v=Yf2v_ZSdfVo ",
+              href: "https://como-berlin.de/",
             },
           ],
           title: {
-            de: "Barcelona - Smart City World Expo",
-            en: "Barcelona - Smart City World Expo",
+            de: "COMo - CO2-Monitoring in öffentlich zugänglichen Innenräumen",
+            en: "EMPTY",
           },
           paragraph: {
-            de: "Auf dem Smart City Expo World Congress in Barcelona verbrachten wir drei aufregende Tage und erhielten eine Menge Einblicke in die Weiten der Smart Cities. Abgerundet wurde das Programm durch unsere Berlin Smart City Night, bei der wir zunächst einer Keynote von Denis Roio alias Jaromil, CTO des EU-Projekts DECODE und anschließend einer KI Musik-Performance lauschten.",
-            en: "We spent three exciting days at the Smart City Expo World Congress in Barcelona and gained a lot of insights into the vastness of smart cities. The programme was rounded off by our Berlin Smart City Night, where we first listened to a keynote by Denis Roio aka Jaromil, CTO of the EU project DECODE, and then later to an AI music performance.",
+            de: "COMo hilft Betreiber:innen öffentlicher Räume, die Luftqualität in den Räumen zu verfolgen und die Öffentlichkeit darüber zu informieren. Dazu verleihen wir CO2-Sensoren, die über das Berliner LoRa-Netzwerk Daten auf einen zentralen Server senden und so für Betreiber:innen und potenzielle Besucher:innen zugänglich und sichtbar machen. Neben der Möglichkeit, die Belastung der Raumluft mit Aerosolen zu überwachen (und damit Hinweise auf das COVID-Ansteckungsrisiko zu erhalten) wird damit auch die Abdeckungsqualität des Community - betriebenen LoRa-Netzw</br></br>Wir führen COMo gemeinsam mit der Hochschule für Technik und Wirtschaft Berlin und der KOING GmbH durch.",
+            en: "EMPTY",
           },
         },
         img: {
-          src: "assets/images/5.1-smart-city-world-expo.jpg",
+          src: "assets/images/reallabor_COMo.jpg",
           alt: "image tag",
-          copyright: "© Carlota Serarols",
+          copyright: "TODO",
         },
       },
       {
@@ -451,56 +446,24 @@ const content = {
         text: {
           links: [
             {
-              de: "Zur Aufzeichnung Best Practices",
-              en: "To the video Best Practices",
-              href: "https://creativebureaucracy.org/discover/videos/citizen-initiatives-ppps-or-centralised-governance-best-practices-from-smart-cities-around-the-world/ ",
-            },
-            {
-              de: "Zur Aufzeichnung Governance in Smart Cities",
-              en: "To the video Governance in Smart Cities",
-              href: "https://creativebureaucracy.org/discover/videos/governance-in-smart-cities-international-perspectives/",
+              de: "Projektseite QTrees",
+              en: "EMPTY",
+              href: "https://www.technologiestiftung-berlin.de/projekte/qtrees",
             },
           ],
           title: {
-            de: "Berlin - Creative Bureaucracy Festival",
-            en: "Berlin - Creative Bureaucracy Festival",
+            de: "QTrees: KI für den Erhalt der Stadtbäume",
+            en: "EMPTY",
           },
           paragraph: {
-            de: "Im Rahmen des Creative Bureaucracy Festivals bespielten wir den Smart City Governance Track, organisierten eine Diskussionsrunde mit CTOs internationaler Metropolen und diskutierten, welches Potenzial verschiedene Governance-Modelle für die Smart City Berlin haben. Die Highlights findet ihr auf YouTube.",
+            de: "Stadtbäume sind wichtig für die Lebensqualität in der Stadt: Sie reinigen und kühlen die Luft. In ihrer Nähe hält man sich gerne auf. Doch der Klimawandel mit Extremwetterereignissen und zunehmender Trockenheit gefährden die Bäume. </br></br>Im Projekt QTrees, das die Technologiestiftung zusammen mit Birds on Mars konzipiert hat und jetzt durchführt und für das auch das Grünflächenamt Mitte als Partner gewonnen werden konnte, soll ein durch Künstliche Intelligenz gestütztes Vorhersagetool entwickelt werden, das akut von der Trockenheit gefährdete Stadtbäume identifiziert und eine gezielte Hilfe für diese Bäume ermöglicht. </br></br>Gefördert vom Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit, Teil der deutschen Anpassungsstrategie an den Klimawandel.",
             en: "As part of the Creative Bureaucracy Festival, we curated the Smart City Governance Track, organised a roundtable discussion with CTOs from international metropolises and discussed the potential of different governance models for the Smart City Berlin. You can find the highlights on YouTube.",
           },
         },
         img: {
-          src: "assets/images/5.2-creative-bureaucracy-festival.jpg",
+          src: "assets/images/reallabor_QTrees.jpg",
           alt: "image tag",
-          copyright: "© CityLAB Berlin",
-        },
-      },
-      {
-        id: "5.3",
-        theme: "dark",
-        align: "left",
-        text: {
-          links: [
-            {
-              de: "Zum Video",
-              en: "To the video",
-              href: "https://www.digitalcity.wien/digital-days-cx2021/cities-in-digital-know-how-exchange/",
-            },
-          ],
-          title: {
-            de: "Wien - Digital Days",
-            en: "Wien - Digital Days",
-          },
-          paragraph: {
-            de: "Die Digital Days 2021 haben das Zusammenspiel zwischen Digitalisierung und Nachhaltigkeit in den Blick genommen und sich dabei auf die Frage konzentriert, wie digitale Tools und Services eine Stadt nachhaltiger und klimafreundlicher machen können! Was unser Leiter Dr. Benjamin Seibel dazu sagt, könnt ihr im folgendem Video ansehen:",
-            en: "The Digital Days 2021 focused on the interplay between digitalisation and sustainability and how digital tools and services can make a city more sustainable and climate-friendly! You can see what our director Dr. Benjamin Seibel has to say about this topic in the following video.",
-          },
-        },
-        img: {
-          src: "assets/images/5.2-digital-days-wien.jpg",
-          alt: "image tag",
-          copyright: "© CityLAB Berlin",
+          copyright: "EMPTY",
         },
       },
     ],
