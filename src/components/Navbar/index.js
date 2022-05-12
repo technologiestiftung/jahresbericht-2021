@@ -5,7 +5,7 @@ import LanguageSwitch from "../LanguageSwitch";
 
 import cn from "./Navbar.module.scss";
 
-import { ReactComponent as HinterDenKulissenIcon } from "../../icons/backstage.svg";
+import { ReactComponent as BildungIcon } from "../../icons/backstage.svg";
 import { ReactComponent as SmartCityIcon } from "../../icons/smart-city.svg";
 import { ReactComponent as UnterwegsIcon } from "../../icons/on-the-way.svg";
 import { ReactComponent as NeueTechnologien } from "../../icons/fresh-air.svg";
@@ -32,8 +32,8 @@ const icons = {
     width: 30,
     offset: 200,
   },
-  hinterDenKulissen: {
-    icon: <HinterDenKulissenIcon />,
+  bildung: {
+    icon: <BildungIcon />,
     width: 30,
     offset: 150,
   },

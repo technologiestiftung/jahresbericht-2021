@@ -10,7 +10,7 @@ import NeueTechnologien from "./sections/NeueTechnologien";
 import SmartCity from "./sections/SmartCity";
 import Kultur from "./sections/Kultur";
 import Unterwegs from "./sections/Unterwegs";
-import HinterDenKulissen from "./sections/HinterDenKulissen";
+import Bildung from "./sections/Bildung";
 
 import Footer from "./sections/Footer";
 
@@ -26,7 +26,7 @@ const getNavItems = () => {
     "smartCity",
     "neueTechnologien",
     "kultur",
-    "hinterDenKulissen",
+    "bildung",
     "unterwegs",
   ];
   return keys.map(d => ({
@@ -67,11 +67,7 @@ function App() {
         ui={content.ui}
       />
       <Kultur lang={lang} content={content.kultur} ui={content.ui} />
-      <HinterDenKulissen
-        lang={lang}
-        content={content.hinterDenKulissen}
-        ui={content.ui}
-      />
+      <Bildung lang={lang} content={content.bildung} ui={content.ui} />
       <Unterwegs lang={lang} content={content.unterwegs} ui={content.ui} />
       <section className={cx(cn.layoutWrapper, cn.layoutMargin)}>
         <Paragraph lang={lang} content={content.outtro} />

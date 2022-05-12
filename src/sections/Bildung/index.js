@@ -9,11 +9,11 @@ import Headline from "../../components/Headline";
 // import Funfact from '../../components/Funfact';
 import Icon from "../../components/Icon";
 
-import cn from "./HinterDenKulissen.module.scss";
+import cn from "./Bildung.module.scss";
 
 const setActiveTopicSelector = s => s.setActiveTopic;
 
-function HinterDenKulissen({ content, ui, lang }) {
+function Bildung({ content, ui, lang }) {
   const elementRef = useRef(null);
   const isOnScreen = useOnScreen(elementRef);
   const setActiveTopic = useStore(setActiveTopicSelector);
@@ -28,7 +28,7 @@ function HinterDenKulissen({ content, ui, lang }) {
     <section>
       <div className='anchor' ref={elementRef} id={`anchor-${content.id}`} />
       <div className={cx(cn.wrapper, cn.layoutWrapper)}>
-        <Icon type='hinterDenKulissen' />
+        <Icon type='bildung' />
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
         {/* <Funfact content={content.blocks.funfact} lang={lang}/> */}
@@ -38,4 +38,4 @@ function HinterDenKulissen({ content, ui, lang }) {
   );
 }
 
-export default HinterDenKulissen;
+export default Bildung;

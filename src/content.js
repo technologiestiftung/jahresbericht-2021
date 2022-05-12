@@ -265,7 +265,7 @@ const content = {
         img: {
           src: "assets/images/neue-technologien_rbb.jpg",
           alt: "image tag",
-          copyright: "© Florian Reimann",
+          copyright: "TODO",
         },
       },
     ],
@@ -318,21 +318,21 @@ const content = {
       },
     ],
   },
-  hinterDenKulissen: {
+  bildung: {
     id: "4.0",
     topic: {
-      de: "CityLAB Berlin @home",
-      en: "CityLAB Berlin @home",
+      de: "Bildung",
+      en: "EMPTY",
     },
     blocks: {
       intro: {
         title: {
-          de: "CityLAB Berlin @home",
-          en: "CityLAB Berlin @home",
+          de: "Bildung",
+          en: "EMPTY",
         },
         text: {
-          de: "In unserem Lab wurde 2021 umgebaut, kuratiert, gewerkelt und gestöpselt. Unsere neue Ausstellung eröffnete, Sensoren wurden in der Werkstatt gelötet, unsere Webseite bekam einen neuen Anstrich und so lange unser Lab “under construction” war, begrüßten wir euch digital in unserer Pixelwelt. ",
-          en: 'In 2021, our Lab was rebuilt, curated, tinkered with and plugged in. Our new exhibition opened, sensors were soldered in the workshop, our website got a new coat of paint, and as long as our Lab was "under construction", we offered you the chance to visit us digitally in our newly created pixel world.',
+          de: "hinterDenKulissen",
+          en: "EMPTY",
         },
       },
     },
@@ -344,22 +344,22 @@ const content = {
         text: {
           links: [
             {
-              de: "Zur Video Playlist",
-              en: "To the videos",
-              href: "https://www.youtube.com/playlist?list=PLRIKlbncTSl8ox4cymmvF5thOMUKoK6oq",
+              de: "Projektseite Hacking Box",
+              en: "EMPTY",
+              href: "Projektseite Hacking Box",
             },
           ],
           title: {
-            de: "Sommerfest",
-            en: "Summerfest",
+            de: "Hacking Box",
+            en: "Hacking Box",
           },
           paragraph: {
-            de: "Unser digitales Sommerfest feierten wir mit sage und schreibe über 200 Teilnehmenden und das trotz 36 Grad und strahlend blauem Himmel! Wir tauchten gemeinsam mit euch in die Themen der Smart City ein und diskutierten, was diese Bezeichnung für Berlin bedeutet. Mit dabei waren die Staatssekretäre Dr. Frank Nägele und Christian Rickerts, sowie weitere nationale und internationale Gäste wie Gabriella Gomez-Mont, Skye Duncan, Prof. Dr. Sascha Friesike!",
-            en: "We celebrated our digital summerfest with no fewer than 200 participants, despite it being 36 degrees outside with a bright blue sky! Together with you, we dived into the topics of the Smart City and discussed what this term means for Berlin. We were joined by the State Secretaries Dr. Frank Nägele and Christian Rickerts, as well as various national and international guests, such as Gabriella Gomez-Mont, Skye Duncan, Prof. Dr. Sascha Friesike!",
+            de: "Auf Anfrage verleihen wir unsere preisgekrönte Hacking Box. Sie ist ein niedrigschwelliges Angebot für alle in Berlin und der näheren Umgebung, die mit einer Gruppe kleine Anwendungen rund um das Internet der Dinge programmieren wollen. Wir bestücken die Box nach Absprache individuell, so dass die Ausleihenden direkt mit ersten Coding- und Hacking-Projekte starten können.</br></br>Mit einem Hygienekonzept, das wir zu Beginn der Pandemie entwickelt hatten, blieb die Ausleihe auch 2021 möglich. Das war wichtig, denn die Nachfrage nach der Box ist weiterhin groß.</br></br>Außerdem setzen wir die Hacking Box für eigene Projekte ein, die wir oft mit Partnern wie den Universitäten und Fachhochschulen anbieten.",
+            en: "EMPTY",
           },
         },
         img: {
-          src: "assets/images/4.1-sommerfest.jpg",
+          src: "assets/images/bildung_hacking-box.jpg",
           alt: "image tag",
           copyright: "© CityLAB Berlin",
         },
@@ -371,63 +371,24 @@ const content = {
         text: {
           links: [
             {
-              de: "Zur Pixelwelt",
-              en: "To the pixelworld",
-              href: "https://play.workadventu.re/@/citylab-berlin/citylab/map ",
-            },
-            {
-              de: "Mehr Infos",
-              en: "More information",
-              href: "https://citylab-berlin.org/de/blog/pixellab-das-digitale-citylab/    ",
+              de: "Werkstatt im CityLAB",
+              en: "EMPTY",
+              href: "https://www.technologiestiftung-berlin.de/projekte/werkstatt-im-citylab",
             },
           ],
           title: {
-            de: "Pixelwelt",
-            en: "Pixelworld",
+            de: "Werkstatt im CityLAB",
+            en: "EMPTY",
           },
           paragraph: {
-            de: "Das Metaverse war gestern! Zu unserem Sommerfest verwandelten wir unseren Workspace in eine digitale Pixelwelt! Aus kleinen Pixeln haben wir wie aus Legosteinen ein 2D-Modell der Realität geschaffen, in dem sich Besucher:innen mit einem selbstkreierten Avatar frei bewegen können. Spieler:innen können mit Gegenständen interagieren, Projekte entdecken, überraschende Sounds hören, unsere Ausstellung lässt sich virtuell erkunden und auf dem Flur kann man sich per Videochat grüßen. So werden nicht nur spontane soziale Interaktionen möglich, die Videospiel-Optik lässt außerdem die Erkundung unseres Arbeitsplatzes zu einem spielerischen und leicht zugänglichen Abenteuer werden.",
-            en: "The Metaverse is so yesterday! For our summerfest, we transformed our workspace into a digital pixel world: We created a 2D model of reality out of small pixels — just like Lego bricks — through which visitors could move freely with a self-designed avatar. Players could interact with objects, discover projects, listen to surprising sounds, virtually explore our exhibition and greet each other in the corridor via video chat. This not only enabled spontaneous social interactions, but the video game look also made exploring our workplace a playful and easily accessible adventure.",
+            de: "Die Digitalisierung ist der Schrittmacher der technologischen Entwicklung und wird es auf Jahre hinaus bleiben. Jede:r sollte deshalb ein Grundverständnis entwickeln. Am besten geht es, wenn man die Dinge im wahrsten Sinne des Wortes begreift. So lernt man nachhaltig und mit Spaß.</br></br>Die Technologiestiftung hat deshalb die Werkstatt im CityLAB eingerichtet, in der man ohne Vorkenntnisse mit Hardware experimentieren und kleine Programme schreiben kann. In der Pandemie hat die für das Arbeiten vor Ort gedachte Werkstatt ihr Konzept geändert und arbeitet mit Online-Formaten. Um Barrierefreiheit zu gewährleisten, wurden die Veranstaltungen 2021 unter anderem auch mit Gebärdedolmetscher:innen durchgeführt.",
+            en: "EMPTY",
           },
         },
         img: {
-          src: "assets/images/4.2-pixelworld.jpg",
+          src: "assets/images/bildung_offene-werkstatt.jpg",
           alt: "image tag",
           copyright: "© CityLAB Berlin",
-        },
-      },
-      {
-        id: "4.3",
-        theme: "dark",
-        align: "left",
-        text: {
-          links: [
-            {
-              de: "Mehr Infos",
-              en: "More information",
-              href: {
-                en: "https://citylab-berlin.org/en/exhibition/",
-                de: "https://citylab-berlin.org/de/exhibition/",
-              },
-            },
-          ],
-          title: {
-            de: "Ausstellung",
-            en: "Exhibition",
-          },
-          paragraph: {
-            de: "Im September eröffnete unsere neue Ausstellung, die im ehemaligen Frühstücksraum des amerikanischen Offiziershotels bei uns in Tempelhof mit neuen Exponaten strahlt. Von innovativen Stadtmodellen über durstige Straßenbäume bis zu Mobilitätskonzepten der Zukunft gibt es einiges zu entdecken und auszuprobieren.",
-            en: `In September, our exhibition got a bit of a face-lift and is now shining with new exhibits in what was once a breakfast room for American officers, back when the CityLAB's current space was still being used as an officers' hotel. From innovative city models to thirsty street trees and mobility concepts of the future, there's plenty to discover. `,
-          },
-          funfact: {
-            de: `Damit Berlin immer up to date bleibt, twittern wir was das Zeug hält. <strong>575 Tweets</strong> setzten wir in 2021 ab.`,
-            en: `To keep Berlin up to date, we tweet the heck out of it. We sent <strong>575 tweets</strong> in 2021.`,
-          },
-        },
-        img: {
-          src: "assets/images/4.3-ausstellung.jpg",
-          alt: "image tag",
-          copyright: "© Florian Reimann",
         },
       },
     ],
