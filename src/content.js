@@ -331,7 +331,7 @@ const content = {
           en: "EMPTY",
         },
         text: {
-          de: "hinterDenKulissen",
+          de: "Durch die Digitalisierung verändert sich unser Leben – privat und am Arbeitsplatz. Wer erfolgreich am Leben teilhaben will, muss unbedingt souverän mit dem Informations- und Serviceangebot aus dem Netz umgehen können. Erst langsam öffnen sich die Schulen für die neuen Formate und Inhalte. In Berlin gibt es aber schon jetzt viele außerschulische Initiativen für digitale Bildung und interessante Lernangebote.",
           en: "EMPTY",
         },
       },
