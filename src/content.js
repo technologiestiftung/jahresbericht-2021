@@ -419,8 +419,8 @@ const content = {
         text: {
           links: [
             {
-              de: "Zur Fotogalerie",
-              en: "To the photos",
+              de: "Webseite COMo",
+              en: "Webseite COMo",
               href: "https://como-berlin.de/",
             },
           ],
@@ -471,8 +471,3 @@ const content = {
 };
 
 export default content;
-
-/*
-
-
-*/
