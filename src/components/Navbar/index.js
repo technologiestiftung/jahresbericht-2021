@@ -9,7 +9,7 @@ import { ReactComponent as HinterDenKulissenIcon } from "../../icons/backstage.s
 import { ReactComponent as SmartCityIcon } from "../../icons/smart-city.svg";
 import { ReactComponent as UnterwegsIcon } from "../../icons/on-the-way.svg";
 import { ReactComponent as NeueTechnologien } from "../../icons/fresh-air.svg";
-import { ReactComponent as StadtUndWir } from "../../icons/city-and-us.svg";
+import { ReactComponent as Kultur } from "../../icons/city-and-us.svg";
 
 const icons = {
   smartCity: {
@@ -22,8 +22,8 @@ const icons = {
     width: 30,
     offset: 50,
   },
-  stadtUndWir: {
-    icon: <StadtUndWir />,
+  kultur: {
+    icon: <Kultur />,
     width: 30,
     offset: 100,
   },

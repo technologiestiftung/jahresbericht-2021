@@ -8,7 +8,7 @@ import content from "./content";
 
 import NeueTechnologien from "./sections/NeueTechnologien";
 import SmartCity from "./sections/SmartCity";
-import StadtUndWir from "./sections/StadtUndWir";
+import Kultur from "./sections/Kultur";
 import Unterwegs from "./sections/Unterwegs";
 import HinterDenKulissen from "./sections/HinterDenKulissen";
 
@@ -25,7 +25,7 @@ const getNavItems = () => {
   const keys = [
     "smartCity",
     "neueTechnologien",
-    "stadtUndWir",
+    "kultur",
     "hinterDenKulissen",
     "unterwegs",
   ];
@@ -66,7 +66,7 @@ function App() {
         content={content.neueTechnologien}
         ui={content.ui}
       />
-      <StadtUndWir lang={lang} content={content.stadtUndWir} ui={content.ui} />
+      <Kultur lang={lang} content={content.kultur} ui={content.ui} />
       <HinterDenKulissen
         lang={lang}
         content={content.hinterDenKulissen}
