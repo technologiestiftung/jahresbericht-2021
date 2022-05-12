@@ -1,4 +1,4 @@
-@import '../../styles/base.scss';
+@import "../../styles/base.scss";
 :local {
   .navbar {
     padding: 8px 6px;
@@ -42,19 +42,19 @@
       opacity: 1;
     }
     .smartCity {
-      display: block
+      display: block;
     }
     .hinterDenKulissen {
-      display: block
+      display: block;
     }
     .unterwegs {
-      display: block
+      display: block;
     }
     .neueTechnologien {
-      display: block
+      display: block;
     }
-    .stadtUndWir {
-      display: block
+    .kultur {
+      display: block;
     }
   }
   .iconWrapper {
@@ -82,7 +82,7 @@
       }
     }
 
-    &.stadtUndWir {
+    &.kultur {
       svg {
         width: 26px;
       }
@@ -99,16 +99,15 @@
         width: 22px;
       }
     }
-    
+
     svg {
       width: 30px;
       height: 30px;
-      opacity: .2;
+      opacity: 0.2;
       transition: $transition-fast;
 
-
       &:hover {
-        opacity: .6;
+        opacity: 0.6;
       }
     }
     &.active {

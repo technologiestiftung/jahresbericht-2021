@@ -270,21 +270,21 @@ const content = {
       },
     ],
   },
-  stadtUndWir: {
+  kultur: {
     id: "3.0",
     topic: {
-      de: "Die Stadt und wir",
-      en: "The City and Us",
+      de: "Kultur",
+      en: "EMPTY",
     },
     blocks: {
       intro: {
         title: {
-          de: "Die Stadt und wir",
-          en: "The City and Us",
+          de: "Kultur",
+          en: "EMPTY",
         },
         text: {
-          de: "Ein Stadtlabor wäre nichts ohne eine Stadt. Zum Glück ist mit Berlin eine der tollsten Städte der Welt unser Experimentierfeld. Das Herz der Stadt bilden die Bewohner:innen, deren Vielfältigkeit und Kreativität uns immer wieder motiviert, in alle Richtungen zu denken und neue Wege zu beschreiten. Die Covid-19-Pandemie hat uns noch einmal vor Augen geführt, wie wichtig gesellschaftlicher Zusammenhalt, eine lebendige Demokratie und gemeinsam geteiltes Wissen ist. Dies spiegelt sich auch in unseren Projekten wieder.",
-          en: "A CityLab would be nothing without a city and luckily Berlin, one of the greatest cities in the world, is our field of experimentation. At the heart of our city are the citizens, whose diversity constantly motivates us to think in all possible directions and break new ground. The Covid-19 pandemic has shown us once again the importance of civil solidarity, a living democracy and shared knowledge. This is also reflected in our projects.",
+          de: "Wir unterstützen den digitalen Wandel des Berliner Kulturbereichs </br>Kulturschaffende nutzen digitale Technologien für neue Produktionen, präsentieren ihre Sammlungen im Netz, können neue Zielgruppen erreichen und mit Interessierten ins Gespräch kommen. Und natürlich können sie auch selbst ihre Arbeit effizienter gestalten.  Deshalb gilt es, schnell neue Kompetenzen aufzubauen, um die Bandbreite der digitalen Möglichkeiten bewerten und zielgerichtet für ihre Arbeit einsetzen zu können.",
+          en: "EMPTY",
         },
       },
     },
@@ -296,151 +296,24 @@ const content = {
         text: {
           links: [
             {
-              de: "Zum Projekt",
-              en: "To the website",
-              href: {
-                de: "https://www.digital-vereint.berlin/de",
-                en: "https://www.digital-vereint.berlin/en",
-              },
-            },
-            {
-              de: "Zum Video",
-              en: "To the video",
-              href: "https://www.youtube.com/watch?v=AycKzmPvdCw",
+              de: "Webseite kulturBdigital",
+              en: "Webseite kulturBdigital",
+              href: "https://www.technologiestiftung-berlin.de/kultur",
             },
           ],
           title: {
-            de: "Digital Vereint",
-            en: "Digital Vereint",
+            de: "kulturBdigital",
+            en: "kulturBdigital",
           },
           paragraph: {
-            de: "Zu Beginn des Jahres launchten wir Digital Vereint. Ein Angebot, um Berliner Vereine, Initiativen und Non-Profit-Organisationen, bei der Digitalisierung zu unterstützen. Die Plattform bietet nicht nur kostenfreie Open Source-Services für die digitale Zusammenarbeit, sondern auch Möglichkeiten zur Vernetzung und Informationen zu digitalen Themen. Mit über 400 Teilnehmenden an unseren Workshops und 170 Vereinen, die unsere Tools nutzen, können wir seitdem stolz auf eine gewachsene und großartige Community blicken und auf ein Projekt, das die digitale Vereinsarbeit auch weiterhin nachhaltig bereichern wird. ",
-            en: "At the beginning of the year we launched Digital Vereint, a service for Berlin civil society associations, citizen initiatives and non-profit organisations. The platform offers not only free, open source services for digital collaboration, but also networking opportunities and information on digital topics. With over 400 participants at our various workshops and 170 different associations and organizations using our tools, we can proudly look back on a growing and thriving community and on a project that will continue to enrich civil society  work in the long term.",
+            de: "Im Projekt kulturBdigital vermittelt die Technologiestiftung Praxiswissen zum Einsatz digitaler Technologien im Kulturbereich, zeigt Good Practice-Beispiele und vernetzt die Kulturschaffenden spartenübergreifend.</br></br>2021 wurde eine Befragung zu digitaler Infrastruktur durchgeführt. Die Ergebnisse sind auch eine wichtige Grundlage für die bedarfsgerechte Ausrichtung von Förderprogrammen zur digitalen Entwicklung des Kulturbereichs.</br></br>Ein Beispiel für gemeinsame digitale Infrastruktur ist die von der Senatsverwaltung für Kultur geförderte offene Plattform kulturdaten.berlin. Diese befindet sich im geschlossenen Beta-Betrieb und wird zurzeit für den Live-Betrieb vorbereitet.",
+            en: "EMPTY",
           },
         },
         img: {
-          src: "assets/images/3.1-digital-vereint.jpg",
+          src: "assets/images/kultur_bdigital.jpg",
           alt: "image tag",
-          copyright: "© Daniel Lucas Faró",
-        },
-      },
-      {
-        id: "3.2",
-        theme: "dark",
-        align: "right",
-        text: {
-          links: [
-            {
-              de: "Zum Aktionsfeld",
-              en: "To the action field",
-              href: {
-                de: "https://freiwilligenhauptstadt.berlin/aktionsfelder/open-source",
-                en: "https://freiwilligenhauptstadt.berlin/en/activities/open-source",
-              },
-            },
-            {
-              de: "Zum Podcast",
-              en: "To the podcast",
-              href: "https://radiocitylab.podigee.io",
-            },
-          ],
-          title: {
-            de: "Aktionsfeld Open Source & Radio CityLAB",
-            en: "Open Source field of action & Radio CityLAB",
-          },
-          paragraph: {
-            de: "Mit dem Aktionsfeld Open Source widmeten wir uns im Rahmen der Kampagne „Europäische Freiwilligenhauptstadt“ den vielen Facetten von Open Source Software und wie durch Open Source Demokratie gestärkt und Engagement gefördert werden kann. Begleitet wurde das Aktionsfeld durch Radio CityLAB - unsere erste Podcastreihe, die unter dem Titel “Open Source – Baustein einer demokratischen Technologiepolitik?” auf den gängigen Podcast-Plattformen zu finden ist.",
-            en: 'As part of the campaign ‘European Volunteer Capital’, we dedicated ourselves to the many facets of open source software and how open source can strengthen democracy and promote engagement. This so-called "action field" was accompanied by Radio CityLAB – our first foray into the world of podcasting. You can listen to our initial episodes on open source on all the usual podcast platforms under the title ‘Open Source – Building Block of a Democratic Technology Policy?’.',
-          },
-        },
-        img: {
-          src: "assets/images/3.2-aktionsfeld.jpg",
-          alt: "image tag",
-          copyright: "© Malgorzata Magdon",
-        },
-      },
-      {
-        id: "3.3",
-        theme: "light",
-        align: "left",
-        text: {
-          links: [
-            {
-              de: "Zum Projekt",
-              en: "To the project",
-              href: "https://stadtpuls.com ",
-            },
-          ],
-          title: {
-            de: "Stadtpuls",
-            en: "Stadtpuls",
-          },
-          paragraph: {
-            de: "Mit Stadtpuls haben wir eine offene Plattform für IoT-Projekte geschaffen, die dabei unterstützt, Sensordaten zu erfassen, zu visualisieren und für weitere Datenauswertungen bereitzustellen. Stadtpuls stellt die Sensordaten von IoT-Devices (Internet of Things) frei zur Verfügung und bringt Maker (z.B. Hobbybastler:innen, Schulprojekte, Forschungstreibende, städtische Betriebe) und Taker (z.B. Data Scientists, Datenjournalisten, Wissenschafter:innen) zusammen. Mit dem Story-Feature könnt ihr in nullkommanix spannende Geschichten aus euren Daten erstellen und veröffentlichen.",
-            en: "With Stadtpuls, we have created an open platform for IoT (Internet of Things) projects that collects sensor data, visualises it, and makes it available for further data analysis. Stadtpuls makes the sensor data of IoT devices freely available and brings together makers (e.g. hobbyists, school projects, researchers, municipal companies) and takers (e.g. data scientists, data journalists, scientists).",
-          },
-        },
-        img: {
-          src: "assets/images/3.3-stadtpuls.jpg",
-          alt: "image tag",
-          copyright: "© CityLAB Berlin",
-        },
-      },
-      {
-        id: "3.4",
-        theme: "dark",
-        align: "right",
-        text: {
-          links: [],
-          title: {
-            de: "Summer School",
-            en: "Summer School",
-          },
-          paragraph: {
-            de: "Zwei Wochen lang widmeten sich Student:innen verschiedener Berliner Hochschulen in einer digitalen Summer School der digitalen Transformation der Stadt. Dabei wurden experimentelle Prototypen konzipiert und gebaut und der Frage nachgegangen, welche ungenutzten Potenziale eng verwobene, digital gestützte, ökologische und soziale Systeme bieten.",
-            en: "For a fortnight, students from various Berlin universities dedicated themselves to the topic of the smart city in a digital summer school. They designed and built experimental prototypes and explored the question of what untapped potential is offered by closely interwoven, digitally supported, ecological and social systems.",
-          },
-        },
-        img: {
-          src: "assets/images/3.4-summer-school.jpg",
-          alt: "image tag",
-          copyright: "© Sara Reichert",
-        },
-      },
-      {
-        id: "3.5",
-        theme: "dark",
-        align: "right",
-        text: {
-          links: [
-            {
-              de: "Zum Projekt Gieß den Kiez",
-              en: "To the project Giess den Kiez",
-              href: "https://giessdenkiez.de/",
-            },
-            {
-              de: "Zum Projekt QTrees",
-              en: "To the project QTrees",
-              href: "https://qtrees.ai",
-            },
-          ],
-          title: {
-            de: "Gieß den Kiez & QTrees",
-            en: "Gieß den Kiez & QTrees",
-          },
-          paragraph: {
-            de: "Unser Herzensprojekt Gieß den Kiez wurde 2021 einem Sprint unterzogen, sodass die Anwendung mit verbesserten Datenbankschema und Kartenkomponenten auch an warmen Tagen cool bleiben konnte. Neben Bäumen sprießte auch unser neues Baby “QTrees” aus dem Boden. In dem vom Bundesumweltministerium geförderten Forschungsprojekt sollen von Trockenheit gefährdete Stadtbäume mittels einer KI identifiziert werden.",
-            en: "A project close to our hearts, Gieß den Kiez underwent a sprint in 2021, the results of which enabled the application to stay cool on warm days with an improved database schema and map components. Speaking of trees, our new project QTrees also sprouted from the ground. The research project funded by the Federal Environment Ministry uses AI to identify urban trees at risk from drought. ",
-          },
-          funfact: {
-            de: `2021 wuchsen nicht nur die Bäume – auch unser Lab ist von <strong>18 auf 26 Mitarbeiter:innen</strong> gewachsen`,
-            en: `In 2021, not only the trees grew – our lab also grew from <strong>18 to 26 employees</strong>.`,
-          },
-        },
-        img: {
-          src: "assets/images/3.5-giess-den-kiez.jpg",
-          alt: "image tag",
-          copyright: "© Florian Reimann",
+          copyright: "TODO",
         },
       },
     ],
