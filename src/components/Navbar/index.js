@@ -7,7 +7,7 @@ import cn from "./Navbar.module.scss";
 
 import { ReactComponent as BildungIcon } from "../../icons/backstage.svg";
 import { ReactComponent as SmartCityIcon } from "../../icons/smart-city.svg";
-import { ReactComponent as UnterwegsIcon } from "../../icons/on-the-way.svg";
+import { ReactComponent as ReallaborIcon } from "../../icons/on-the-way.svg";
 import { ReactComponent as NeueTechnologien } from "../../icons/fresh-air.svg";
 import { ReactComponent as Kultur } from "../../icons/city-and-us.svg";
 
@@ -27,8 +27,8 @@ const icons = {
     width: 30,
     offset: 100,
   },
-  unterwegs: {
-    icon: <UnterwegsIcon />,
+  reallabor: {
+    icon: <ReallaborIcon />,
     width: 30,
     offset: 200,
   },
