@@ -18,7 +18,7 @@ function Footer({ content, lang }) {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <img src={d.src[lang]} alt={d.alt} />
+                  <img className={cn.logo} src={d.src[lang]} alt={d.alt} />
                 </a>
               </div>
             );
