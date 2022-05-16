@@ -111,3 +111,12 @@ This project follows the [all-contributors](https://github.com/all-contributors/
     </td>
   </tr>
 </table>
+## Fonts
+
+The fonts used in this project are not public. As a member of Technologiestiftung you can access them via
+
+Google Drive: \_CityLAB Berlin/Visuals/06 Design/tsg-standard-font Clan\
+or\
+Server Space: LWS$/Visuelle_Kommunikation/\_\_Standards/Schriften
+
+This project uses \*.woff files. Paste them into src/fonts

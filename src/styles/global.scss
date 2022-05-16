@@ -1,47 +1,66 @@
 @font-face {
-  font-family: National;
-  src: local('National'), url(../fonts/National-Regular.woff2) format('woff2');
+  font-family: Clan;
+  src: local('Clan'), url(../fonts/ClanWebPro-News.woff) format('woff');
   font-weight: normal;
 }
+
 @font-face {
-  font-family: National;
-  src: local('National'), url(../fonts/National-Extrabold.woff2) format('woff2');
+  font-family: Clan;
+  src: local('Clan'), url(../fonts/ClanWebPro-Bold.woff) format('woff');
   font-weight: bold;
 }
+
 @font-face {
-  font-family: National;
-  src: local('National'), url(../fonts/National-RegularItalic.woff2) format('woff2');
+  font-family: Clan;
+  src: local('Clan'), url(../fonts/ClanWebPro-MediumItalic.woff) format('woff');
   font-style: italic;
 }
+
 .App {
   font-family: $font-sans;
 }
+
 .layoutWrapper {
   @media screen and (max-width: $break-phablet-min) {
     width: calc(100vw - 30px) !important;
     margin: 0 auto;
   }
 }
+
 .headlineWrapper {
   display: flex;
 }
+
 .filterGrp {
   display: flex;
   width: 47%;
   justify-content: space-between;
 }
+
 .layoutMargin {
   margin: 60px auto;
 }
+
 .singleCol {
   max-width: $medium-content-width;
   margin: 0 auto;
 }
-.link {
-  text-decoration: none;
-  color: #404040;
+
+a {
+  color: $corporate-blue;
   transition: $transition-fast;
+
   &:hover {
     opacity: .5;
   }
+
+  &:visited {
+    color: $corporate-blue;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: $corporate-blue;
+  transition: $transition-fast;
 }

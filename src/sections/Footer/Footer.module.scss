@@ -1,11 +1,15 @@
 @import '../../styles/base.scss';
 
 :local {
+  .footer {
+    position: absolute;
+    left: 0;
+  }
   .logos {
     display: flex;
     padding: 0 20px;
     width: calc(100vw - 40px);
-    background-color: $dark-grey--7;
+    left: 0;
     flex-direction: column;
     justify-content: flex-start;
     margin: 0 auto;
@@ -27,6 +31,7 @@
     padding: 0 20px;
     height: 100px;
     width: calc(100vw - 40px);
+    left: 0;
     display: flex;
     justify-content: space-between;
     .copyright {
