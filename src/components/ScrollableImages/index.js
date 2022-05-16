@@ -35,8 +35,8 @@ function ScrollableImages({ content, ui }) {
         <div key={d.id} className={cn.tileWrapper}>
           <Tile align={d.align} theme={d.theme} id={d.id}>
             <div className={cx(cn.topline, cn[d.theme])}>
-              <span className={cn.id}>{d.id}</span>
-              <span className={cn.label}>{topic[lang]}</span>
+              <span className={cn.id}></span>
+              <span className={cn.label}>| {topic[lang]}</span>
             </div>
             <h3
               className={cn.title}
@@ -47,9 +47,6 @@ function ScrollableImages({ content, ui }) {
               dangerouslySetInnerHTML={{ __html: d.text.paragraph[lang] }}
             ></p>
             {d.text.funfact && <Funfact content={d.text.funfact} lang={lang} />}
-            {d.text?.links?.length > 0 && (
-              <h3 className={cn.subtitle}>{ui.moreLinks[lang]}</h3>
-            )}
             {d.text?.links?.length > 0 && (
               <div className={cn.linkWrapper}>
                 <>

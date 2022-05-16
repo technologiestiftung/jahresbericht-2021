@@ -97,8 +97,8 @@ const content = {
           en: "Smart City",
         },
         text: {
-          de: "Die smarte Stadt von morgen wird mehr Lebensqualität bieten, denn sie wird grüner und sauberer sein und effizient mit Ressourcen umgehen. Um das zu erreichen, muss die digitale Infrastruktur von der Strom- und Wasserversorgung bis zum Verkehr strategisch weiterentwickelt und -vernetzt werden. Auch die Verwaltung muss die Möglichkeiten der Digitalisierung noch stärker nutzen, um schneller und serviceorientiert zu arbeiten.",
-          en: `EMPTY`,
+          de: "Berlin entwickelt im Programm „Modellprojekte Smart Cities“ des BMI und der KfW eine neue Smart City-Strategie, bei der Partizipation, Menschen und Werte im Vordergrund stehen. Die Strategie entsteht im Dialog mit Berlins diverser Stadtgesellschaft – weg von einem rein technologischen Fokus, hin zu Mitgestaltung und Einbeziehung. Im Auftrag der Senatskanzlei koordinieren und begleiten wir dieses breit angelegte Projekt in mehreren Phasen.",
+          en: `Berlin is developing a new smart city strategy as part of the BMI's and KfWs "Model Projects Smart Cities" programme, which places an emphasis on participation, the needs of everyday citizens, and the role of social values. The strategy is being developed in dialogue with Berlin's diverse urban society, moving away from a purely technological focus and toward co-design and inclusion. On behalf of the Senate Chancellery, we are coordinating and accompanying this expansive project in several phases.`,
         },
       },
     },
@@ -116,8 +116,8 @@ const content = {
             },
           ],
           title: {
-            de: "CityLab",
-            en: "CityLab",
+            de: "Strategieprozess",
+            en: "Strategy Process",
           },
           paragraph: {
             de: `Das CityLAB Berlin am Platz der Luftbrücke ist ein Ort, an dem sich Verwaltung und Stadtgesellschaft treffen können, um die digitale Transformation zu diskutieren und bis zum Prototypen zu gestalten. Der Begegnungsort war auch 2021 sehr gefragt, analog genauso wie online.
@@ -138,14 +138,14 @@ const content = {
         text: {
           links: [
             {
-              de: "Webseite ODIS",
-              en: "Webseite ODIS",
-              href: "https://odis-berlin.de/",
+              de: "Zur Video Playlist",
+              en: "To the videos",
+              href: "https://youtube.com/playlist?list=PLRIKlbncTSl-BGkz761lQf7sRcLPBN-YU",
             },
           ],
           title: {
-            de: "Open Data Informationsstelle (ODIS)",
-            en: "EMPTY",
+            de: "Symposium <br/> ‘Redefining the Smart City‘",
+            en: "Symposium <br/> ‘Redefining the Smart City‘",
           },
           paragraph: {
             de: `Berlin bekennt sich zu einer Open Data-Strategie. Nicht geheime Daten der Verwaltungen sollen offengelegt und zur Weiternutzung zur Verfügung gestellt werden. Obwohl die Akzeptanz dafür in den letzten Jahren deutlich gestiegen ist, ist das Ziel noch nicht erreicht, weil beispielsweise die Relevanz der Daten nicht erkannt wird oder es an technischer Kompetenz fehlt. </br></br>Die Open Data Informationsstelle, die bei der Technologiestiftung angesiedelt ist, berät bei der Datenaufbereitung und baut gemeinsam mit den Verwaltungen <a  href="https://www.technologiestiftung-berlin.de/blog/odis-stellt-digitalen-prototypen-fuer-die-optimierung-von-wahlbezirken-vor" target="_blanc">digitale Tools</a>, die das Potenzial von Verwaltungsdaten zeigen. 2021 wurden außerdem <a  href="https://www.youtube.com/watch?v=4bQ2DniKfHU&t=261s" target="_blanc">Online-Tutorials</a> produziert, die im Netz abrufbar sind.`,
@@ -155,7 +155,7 @@ const content = {
         img: {
           src: "assets/images/smart-city_ODIS.jpg",
           alt: "image tag",
-          copyright: "© 2022 Technologiestiftung Berlin",
+          copyright: "© CityLAB Berlin",
         },
       },
     ],
