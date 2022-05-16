@@ -43,17 +43,27 @@ const content = {
       de: "Datenschutz",
       en: "Privacy",
     },
-    logos: [
-      {
-        className: "citylab",
-        label: " ",
-        alt: "City Lab Berlin Logo",
-        href: "https://citylab-berlin.org/",
-        src: {
-          de: "assets/logos/citylab-logo.svg",
-          en: "assets/logos/citylab-logo.svg",
+    sitemap: {
+      links: [
+        {
+          label: "Home",
+          href: "/",
         },
-      },
+        {
+          label: "Home",
+          href: "/",
+        },
+        {
+          label: "Home",
+          href: "/",
+        },
+        {
+          label: "Home",
+          href: "/",
+        },
+      ],
+    },
+    logos: [
       {
         className: "tsb",
         label: {
