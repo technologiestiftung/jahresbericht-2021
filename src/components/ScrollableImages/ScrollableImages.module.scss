@@ -15,8 +15,8 @@
   }
   .title {
     font-size: $font-size-xl;
-    margin: 5px 0 10px;
-    font-weight: normal;
+    margin: 13px 0 19px;
+    font-weight: $bold-text;
   }
   .subtitle {
     font-size: $font-size-l;
@@ -25,32 +25,20 @@
   }
   .text {
     font-size: $font-size-m;
-    line-height: 150%;
+    line-height: $line-height;
     margin-bottom: 0px;  
     margin-top: 10px;
   }
   .linkWrapper {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 
     a {
       margin-bottom: 10px;
     }
   }
-  .topline {
-    color: $dark-grey--1;
-    font-size: $font-size-s;
-  }
-  .id {
-    font-size: $font-size-s;
-    letter-spacing: $letter-spacing-l;
-    // padding: 5px 10px;
-    margin-right: 10px;
-    // background-color: $dark-grey--6;
-    border-radius: 100px;
-  }
   .label {
-    font-size: $font-size-s;
+    font-size: $font-size-m;
     letter-spacing: $letter-spacing-m;
   }
 }
