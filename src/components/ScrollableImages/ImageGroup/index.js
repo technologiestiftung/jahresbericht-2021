@@ -8,6 +8,9 @@ import cn from "./ImageGroup.module.scss";
 
 function ImageGroup({ images, activeItem }) {
   // const active = useImageGroupStore(activeSelector);
+  const imagePosition = {
+    objectPosition: "center center",
+  };
 
   return (
     <div className={cn.imagesWrapper}>
@@ -18,6 +21,9 @@ function ImageGroup({ images, activeItem }) {
             className={cx(cn.image, { [cn.active]: activeItem.id === d.id })}
             src={d.img.src}
             alt={d.img.alt}
+            style={{
+              objectPosition: d.img.position ? d.img.position : imagePosition,
+            }}
           />
           {d.img.copyright && (
             <span

@@ -204,6 +204,7 @@ const content = {
           src: "assets/images/neue-technologien_datenoekonomie.jpg",
           alt: "image tag",
           copyright: "© 2022 Technologiestiftung Berlin",
+          position: "center right",
         },
       },
       {
@@ -231,6 +232,7 @@ const content = {
           src: "assets/images/neue-technologien_innovation.jpg",
           alt: "image tag",
           copyright: "",
+          position: "center right",
         },
       },
       {
