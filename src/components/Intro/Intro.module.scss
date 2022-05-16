@@ -19,14 +19,11 @@
     padding: 20px;
     justify-content: center;
     background-color: white;
-    margin: 0 auto;
-    width: 250px;
-    left: calc(50% - 145px);
+    left: 50%;
+    transform: translateX(-50%);
     
     @media screen and (min-width: $break-phablet-min) {
-      width: 350px;
       padding: 20px;
-      left: calc(50% - 198px);
     }
     
     img {
