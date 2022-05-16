@@ -3,11 +3,10 @@
   .navbar {
     padding: 8px 6px;
     position: fixed;
-    // border-radius: 10px;
     bottom: 30px;
     height: 40px;
     width: 280px;
-    background-color: white;
+    background-color: $white;
     border-radius: 0px;
     @include box-shadow;
     z-index: 100;
@@ -16,6 +15,7 @@
     margin-left: -150px; /* Negative half of width. */
     display: flex;
     align-items: center;
+    display: none;
   }
   .divider {
     margin-left: 3px;
@@ -32,7 +32,7 @@
   .labelWrapper {
     position: absolute;
     transform: translateY(-50px);
-    background-color: white;
+    background-color: $white;
     padding: 5px 8px;
     @include box-shadow;
     opacity: 0;
