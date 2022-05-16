@@ -66,28 +66,11 @@ const content = {
     logos: [
       {
         className: "tsb",
-        label: {
-          de: "Ein Projekt der:",
-          en: "A project of:",
-        },
         alt: "Technologiestiftung Berlin Logo",
         href: "https://technologiestiftung-berlin.de/",
         src: {
           de: "assets/logos/tsb-logo.svg",
           en: "assets/logos/tsb-logo.svg",
-        },
-      },
-      {
-        className: "skzl",
-        label: {
-          de: "Gefördert durch:",
-          en: "Funded by:",
-        },
-        alt: "Senatskanzlei Berlin Logo",
-        href: "https://www.berlin.de/rbmskzl/",
-        src: {
-          de: "assets/logos/berlin-skzl-logo-de.jpg",
-          en: "assets/logos/berlin-skzl-logo-en.jpg",
         },
       },
     ],

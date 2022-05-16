@@ -4,7 +4,7 @@
   .imagesWrapper {
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: $white;
     position: sticky;
     z-index: -1;
     top: 0;
@@ -18,7 +18,7 @@
     opacity: 0;
 
     &.dark {
-      color: white;
+      color: $white;
     }
 
     &.active {

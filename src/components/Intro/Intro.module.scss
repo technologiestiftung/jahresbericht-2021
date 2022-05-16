@@ -4,7 +4,7 @@
   .wrapper {
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: $white;
     position: relative;
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@
     flex-direction: column;
     padding: 20px;
     justify-content: center;
-    background-color: white;
+    background-color: $white;
     margin: 0 auto;
     width: 250px;
     left: calc(50% - 145px);
@@ -55,7 +55,7 @@
     opacity: .5;
 
     &.dark {
-      color: white;
+      color: $white;
     }
   }
   .imageContainer {

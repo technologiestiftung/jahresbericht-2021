@@ -10,7 +10,7 @@
     top: 50%;
     right: 30px;
     transform: translateY(-50%);
-    color: white;
+    color: $white;
 
     &.light {
       .bubble {
@@ -42,7 +42,7 @@
     width: 12px;
     height: 12px;
     border-radius: 100px;
-    background-color: white;
+    background-color: $white;
     opacity: 40%;
     cursor: pointer;
     transition: $transition-fast;

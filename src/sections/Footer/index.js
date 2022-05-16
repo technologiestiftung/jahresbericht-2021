@@ -12,7 +12,6 @@ function Footer({ content, lang }) {
                 key={`logo-key-${i}`}
                 className={cx(cn.block, cn[d.className])}
               >
-                <span className={cn.label}>{d.label[lang]}</span>
                 <a
                   className={cn.logoWrapper}
                   href={d.href}
@@ -26,7 +25,7 @@ function Footer({ content, lang }) {
           })}
         </div>
         <div className={cn.sitemap}>
-          <h2 className={cn.title}>Sitemap</h2>
+          <span className={cn.title}>Sitemap</span>
           <div className={cn.sitemapLinks}>
             {content.sitemap.links.map((d, i) => {
               return (
