@@ -53,7 +53,7 @@
         
         .sitemapLinks {
           display: grid;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: auto auto;
           grid-template-rows: 24px 24px;
           margin-top: 24px;
           gap: 24px 32px;
