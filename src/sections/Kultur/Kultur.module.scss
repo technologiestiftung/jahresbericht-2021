@@ -6,5 +6,6 @@
     width: auto;
     max-width: $medium-content-width;
     margin: 60px auto;
+    @include flex();
   }
 }
