@@ -64,40 +64,9 @@
     border-radius: 0px;
     display: flex;
     justify-content: center;
-    // background-color: $dark-grey--7;
     margin: 0 3.5px;
 
     color: $dark-grey--1;
-
-    &.smartCity {
-      svg {
-        width: 24px;
-      }
-    }
-
-    &.neueTechnologien {
-      svg {
-        width: 22px;
-      }
-    }
-
-    &.kultur {
-      svg {
-        width: 26px;
-      }
-    }
-
-    &.bildung {
-      svg {
-        width: 18px;
-      }
-    }
-
-    &.reallabor {
-      svg {
-        width: 22px;
-      }
-    }
 
     svg {
       width: 30px;
