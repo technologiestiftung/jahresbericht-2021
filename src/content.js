@@ -231,7 +231,7 @@ const content = {
         img: {
           src: "assets/images/neue-technologien_innovation.jpg",
           alt: "image tag",
-          copyright: "",
+          copyright: "TODO",
           position: "center right",
         },
       },
@@ -431,6 +431,7 @@ const content = {
           src: "assets/images/reallabor_COMo.jpg",
           alt: "image tag",
           copyright: "TODO",
+          position: "center right",
         },
       },
       {
