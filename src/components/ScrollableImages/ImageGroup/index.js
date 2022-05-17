@@ -2,13 +2,8 @@ import cx from "classnames";
 
 import cn from "./ImageGroup.module.scss";
 
-// import { useImageGroupStore } from '../../../hooks/useStore'
-
-// const activeSelector = (s) => s.active;
-
 function ImageGroup({ images, activeItem }) {
-  // const active = useImageGroupStore(activeSelector);
-  const imagePosition = {
+  const standardPosition = {
     objectPosition: "center center",
   };
 
@@ -22,7 +17,9 @@ function ImageGroup({ images, activeItem }) {
             src={d.img.src}
             alt={d.img.alt}
             style={{
-              objectPosition: d.img.position ? d.img.position : imagePosition,
+              objectPosition: d.img.position
+                ? d.img.position
+                : standardPosition,
             }}
           />
           {d.img.copyright && (
