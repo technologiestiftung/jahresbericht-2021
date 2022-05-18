@@ -17,12 +17,14 @@
     align-items: center;
     transition: $transition-slow;
     opacity: 1;
-  }
-
-  .navbarHidden {
-    opacity: 0;
+    visibility: inherit;
   }
   
+  .navbarHidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+
   .divider {
     margin-left: 3px;
     width: 1px;

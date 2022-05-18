@@ -43,9 +43,7 @@ const activeTopicSelector = s => s.activeTopic;
 
 const hideNav = sections => {
   const positions = getScrollPositionsOfSections(sections);
-  console.log(
-    positions.firstSectionPosition < 0 && positions.lastSectionEndPosition > 0
-  );
+
   return (
     positions.firstSectionPosition < 0 && positions.lastSectionEndPosition > 0
   );
@@ -111,10 +109,7 @@ function Navbar({ items, lang }) {
 
   return (
     <>
-      <div
-        className={cx(cn.navbar, { [cn.navbarHidden]: !isVisible })}
-        style={{ position: isVisible ? "fixed" : "none" }}
-      >
+      <div className={cx(cn.navbar, { [cn.navbarHidden]: !isVisible })}>
         <div
           id='labelWrapper'
           className={cx(cn.labelWrapper, { [cn.active]: isHovered })}
