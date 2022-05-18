@@ -2,12 +2,10 @@ import cx from "classnames";
 
 import cn from "./ImageGroup.module.scss";
 
-// import { useImageGroupStore } from '../../../hooks/useStore'
-
-// const activeSelector = (s) => s.active;
-
 function ImageGroup({ images, activeItem }) {
-  // const active = useImageGroupStore(activeSelector);
+  const standardPosition = {
+    objectPosition: "center center",
+  };
 
   return (
     <div className={cn.imagesWrapper}>
@@ -18,6 +16,11 @@ function ImageGroup({ images, activeItem }) {
             className={cx(cn.image, { [cn.active]: activeItem.id === d.id })}
             src={d.img.src}
             alt={d.img.alt}
+            style={{
+              objectPosition: d.img.position
+                ? d.img.position
+                : standardPosition,
+            }}
           />
           {d.img.copyright && (
             <span
