@@ -1,5 +1,5 @@
 {
-  "projectName": "tsb-jahresbericht-2021",
+  "projectName": "jahresbericht-2021",
   "projectOwner": "technologiestiftung",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -35,7 +35,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/2190327?v=4",
       "profile": "https://www.technologiestiftung-berlin.de/",
       "contributions": [
-        "code"
+        "code",
+        "review"
       ]
     },
     {
@@ -44,9 +45,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/2759340?v=4",
       "profile": "https://github.com/vogelino",
       "contributions": [
-        "code"
+        "code",
+        "review"
       ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
