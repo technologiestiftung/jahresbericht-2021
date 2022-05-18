@@ -41,6 +41,24 @@ const icons = {
 
 const activeTopicSelector = s => s.activeTopic;
 
+const hideNav = () => {
+  console.log(window.scrollY);
+};
+
+const getScrollPositionsOfSections = sections => {
+  const firstSection = document.getElementById(
+    `section-${sections[0].scrollId}`
+  );
+
+  const lastSection = document.getElementById(
+    `section-${sections[sections.length - 1].scrollId}`
+  );
+
+  const lastSectionHeight = lastSection.clientHeight;
+
+  console.log("sections", firstSection, lastSection, lastSectionHeight);
+};
+
 function Navbar({ items, lang }) {
   const [activeLabel, setActiveLabel] = useState(null);
   const [activeId, setActiveId] = useState(null);
@@ -63,6 +81,13 @@ function Navbar({ items, lang }) {
       label.style.transform = `translate(${x}px, -50px)`;
     }
   }, [activeLabel, activeId]);
+
+  useEffect(() => {
+    window.addEventListener("scroll", getScrollPositionsOfSections(items));
+    getScrollPositionsOfSections(items);
+    return () =>
+      window.removeEventListener("scroll", getScrollPositionsOfSections(items));
+  });
 
   function handleMouseLeave() {
     setIsHovered(false);
