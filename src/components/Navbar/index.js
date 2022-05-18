@@ -41,28 +41,36 @@ const icons = {
 
 const activeTopicSelector = s => s.activeTopic;
 
-const hideNav = () => {
-  console.log(window.scrollY);
+const hideNav = sections => {
+  const positions = getScrollPositionsOfSections(sections);
+  console.log(
+    positions.firstSectionPosition < 0 && positions.lastSectionEndPosition > 0
+  );
+  return (
+    positions.firstSectionPosition < 0 && positions.lastSectionEndPosition > 0
+  );
 };
 
 const getScrollPositionsOfSections = sections => {
   const firstSection = document.getElementById(
     `section-${sections[0].scrollId}`
   );
-
   const lastSection = document.getElementById(
     `section-${sections[sections.length - 1].scrollId}`
   );
 
-  const lastSectionHeight = lastSection.clientHeight;
+  const firstSectionPosition = firstSection.getBoundingClientRect().top;
+  const lastSectionEndPosition =
+    lastSection.getBoundingClientRect().top + lastSection.clientHeight;
 
-  console.log("sections", firstSection, lastSection, lastSectionHeight);
+  return { firstSectionPosition, lastSectionEndPosition };
 };
 
 function Navbar({ items, lang }) {
   const [activeLabel, setActiveLabel] = useState(null);
   const [activeId, setActiveId] = useState(null);
   const [isHovered, setIsHovered] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
   const elementRef = useRef(null);
   const activeTopic = useStore(activeTopicSelector);
@@ -83,10 +91,9 @@ function Navbar({ items, lang }) {
   }, [activeLabel, activeId]);
 
   useEffect(() => {
-    window.addEventListener("scroll", getScrollPositionsOfSections(items));
-    getScrollPositionsOfSections(items);
+    window.addEventListener("scroll", () => setIsVisible(hideNav(items)));
     return () =>
-      window.removeEventListener("scroll", getScrollPositionsOfSections(items));
+      window.removeEventListener("scroll", () => setIsVisible(hideNav(items)));
   });
 
   function handleMouseLeave() {
@@ -104,7 +111,10 @@ function Navbar({ items, lang }) {
 
   return (
     <>
-      <div className={cn.navbar}>
+      <div
+        className={cx(cn.navbar, { [cn.navbarHidden]: !isVisible })}
+        style={{ position: isVisible ? "fixed" : "none" }}
+      >
         <div
           id='labelWrapper'
           className={cx(cn.labelWrapper, { [cn.active]: isHovered })}
