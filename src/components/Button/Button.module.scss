@@ -3,7 +3,7 @@
   .btn {
     text-decoration: none;
     padding: 10px 15px;
-    background-color: white;
+    background-color: $white;
     color: $dark-grey--1;
     transition: $transition-fast;
 
@@ -13,7 +13,7 @@
 
     &.dark {
       background-color: $dark-grey--1;
-      color: white
+      color: $white
     }
   }
 }

@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -71,6 +77,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # tsb-jahresbericht-2021
 
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://fabianmoronzirfas.me/"><img src="https://avatars.githubusercontent.com/u/315106?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Fabian Morón Zirfas</b></sub></a><br /><a href="https://github.com/technologiestiftung/jahresbericht-2021/commits?author=ff6347" title="Documentation">📖</a> <a href="https://github.com/technologiestiftung/jahresbericht-2021/commits?author=ff6347" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ZenVega"><img src="https://avatars.githubusercontent.com/u/50147356?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Urs Schmidt</b></sub></a><br /><a href="https://github.com/technologiestiftung/jahresbericht-2021/commits?author=ZenVega" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.technologiestiftung-berlin.de/"><img src="https://avatars.githubusercontent.com/u/2190327?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Matthieu Rigal</b></sub></a><br /><a href="https://github.com/technologiestiftung/jahresbericht-2021/commits?author=MRigal" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/vogelino"><img src="https://avatars.githubusercontent.com/u/2759340?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Lucas Vogel</b></sub></a><br /><a href="https://github.com/technologiestiftung/jahresbericht-2021/commits?author=vogelino" title="Code">💻</a> <a href="https://github.com/technologiestiftung/jahresbericht-2021/pulls?q=is%3Apr+reviewed-by%3Avogelino" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Credits
+
+<table>
+  <tr>
+    <td>
+      A project by <a src="https://www.technologiestiftung-berlin.de/">
+        <br />
+        <br />
+        <img width="150" src="https://citylab-berlin.org/wp-content/uploads/2021/05/tsb.svg" />
+      </a>
+    </td>
+  </tr>
+</table>
 ## Fonts
 
 The fonts used in this project are not public. As a member of Technologiestiftung you can access them via

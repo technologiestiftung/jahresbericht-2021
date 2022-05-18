@@ -1,27 +1,26 @@
 @import '../../styles/base.scss';
 :local {
   .link {
-    padding: 7px 12px 7px 15px;
-    background-color: $blue--1;
-    border-radius: 100px;
+    padding: 8px 8px 8px 16px;
+    background-color: $corporate-blue-transparent;
+    border-radius: 56px;
     display: flex;
     width: fit-content;
     align-items: center;
-    margin-right: 10px;
-    color: $blue;
+    margin: 33px 18px 0 0;
+    color: $corporate-blue;
   }
 
   .iconWrapper {
-    width: 20px;
-    height: 20px;
-    border-radius: 100px;
-    // padding: 5px;
-    margin-left: 5px;
-    background-color: $blue;
+    width: 24px;
+    height: 24px;
+    border-radius: 56px;
+    margin-left: 16px;
+    background-color: white;
+    @include flex();
 
     svg {
-      width: 20px;
-      height: 8px;
+      color: $corporate-blue;
     }
   }
 }

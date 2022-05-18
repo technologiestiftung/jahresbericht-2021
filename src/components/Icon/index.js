@@ -1,19 +1,19 @@
 import cn from "./Icon.module.scss";
 
-import { ReactComponent as HinterDenKulissenIcon } from "../../icons/backstage.svg";
-import { ReactComponent as SmartCityIcon } from "../../icons/smart-city.svg";
-import { ReactComponent as UnterwegsIcon } from "../../icons/on-the-way.svg";
-import { ReactComponent as FrischerWind } from "../../icons/projects.svg";
-import { ReactComponent as StadtUndWir } from "../../icons/city-and-us.svg";
+import { ReactComponent as BildungIcon } from "../../icons/Nav-Icon-Bildung.svg";
+import { ReactComponent as SmartCityIcon } from "../../icons/Nav-Icon-SmartCity.svg";
+import { ReactComponent as ReallaborIcon } from "../../icons/Nav-Icon-Reallabor.svg";
+import { ReactComponent as NeueTechnologien } from "../../icons/Nav-Icon-NeueTechnologien.svg";
+import { ReactComponent as Kultur } from "../../icons/Nav-Icon-Kultur.svg";
 
 function Icon({ type }) {
   return (
     <div className={cn.iconWrapper}>
-      {type === "hinterDenKulissen" && <HinterDenKulissenIcon />}
+      {type === "bildung" && <BildungIcon />}
       {type === "smartCity" && <SmartCityIcon />}
-      {type === "unterwegs" && <UnterwegsIcon />}
-      {type === "frischerWind" && <FrischerWind />}
-      {type === "stadtUndWir" && <StadtUndWir />}
+      {type === "reallabor" && <ReallaborIcon />}
+      {type === "neueTechnologien" && <NeueTechnologien />}
+      {type === "kultur" && <Kultur />}
     </div>
   );
 }

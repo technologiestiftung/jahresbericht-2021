@@ -1,0 +1,55 @@
+{
+  "projectName": "jahresbericht-2021",
+  "projectOwner": "technologiestiftung",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 64,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "ff6347",
+      "name": "Fabian Morón Zirfas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/315106?v=4",
+      "profile": "https://fabianmoronzirfas.me/",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "ZenVega",
+      "name": "Urs Schmidt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50147356?v=4",
+      "profile": "https://github.com/ZenVega",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "MRigal",
+      "name": "Matthieu Rigal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2190327?v=4",
+      "profile": "https://www.technologiestiftung-berlin.de/",
+      "contributions": [
+        "code",
+        "review"
+      ]
+    },
+    {
+      "login": "vogelino",
+      "name": "Lucas Vogel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2759340?v=4",
+      "profile": "https://github.com/vogelino",
+      "contributions": [
+        "code",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true
+}

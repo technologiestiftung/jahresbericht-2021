@@ -5,11 +5,11 @@ import LanguageSwitch from "../LanguageSwitch";
 
 import cn from "./Navbar.module.scss";
 
-import { ReactComponent as HinterDenKulissenIcon } from "../../icons/backstage.svg";
-import { ReactComponent as SmartCityIcon } from "../../icons/smart-city.svg";
-import { ReactComponent as UnterwegsIcon } from "../../icons/on-the-way.svg";
-import { ReactComponent as FrischerWind } from "../../icons/fresh-air.svg";
-import { ReactComponent as StadtUndWir } from "../../icons/city-and-us.svg";
+import { ReactComponent as BildungIcon } from "../../icons/Nav-Icon-Bildung.svg";
+import { ReactComponent as SmartCityIcon } from "../../icons/Nav-Icon-SmartCity.svg";
+import { ReactComponent as ReallaborIcon } from "../../icons/Nav-Icon-Reallabor.svg";
+import { ReactComponent as NeueTechnologien } from "../../icons/Nav-Icon-NeueTechnologien.svg";
+import { ReactComponent as Kultur } from "../../icons/Nav-Icon-Kultur.svg";
 
 const icons = {
   smartCity: {
@@ -17,23 +17,23 @@ const icons = {
     width: 30,
     offset: 0,
   },
-  frischerWind: {
-    icon: <FrischerWind />,
+  neueTechnologien: {
+    icon: <NeueTechnologien />,
     width: 30,
     offset: 50,
   },
-  stadtUndWir: {
-    icon: <StadtUndWir />,
+  kultur: {
+    icon: <Kultur />,
     width: 30,
     offset: 100,
   },
-  unterwegs: {
-    icon: <UnterwegsIcon />,
+  reallabor: {
+    icon: <ReallaborIcon />,
     width: 30,
     offset: 200,
   },
-  hinterDenKulissen: {
-    icon: <HinterDenKulissenIcon />,
+  bildung: {
+    icon: <BildungIcon />,
     width: 30,
     offset: 150,
   },
@@ -76,7 +76,7 @@ function Navbar({ items, lang }) {
     setActiveLabel(null);
     setIsHovered(false);
   }
-  console.log(activeLabel);
+
   return (
     <>
       <div className={cn.navbar}>

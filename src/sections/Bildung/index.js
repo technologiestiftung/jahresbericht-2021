@@ -1,21 +1,19 @@
-import { useRef, useEffect } from "react";
+import cx from "classnames";
 import useOnScreen from "../../hooks/useOnScreen";
 import useStore from "../../hooks/useStore";
+import { useRef, useEffect } from "react";
 
 import ScrollableImages from "../../components/ScrollableImages";
-
 import Paragraph from "../../components/Paragraph";
 import Headline from "../../components/Headline";
 // import Funfact from '../../components/Funfact';
 import Icon from "../../components/Icon";
 
-import cx from "classnames";
-
-import cn from "./FrischerWind.module.scss";
+import cn from "./Bildung.module.scss";
 
 const setActiveTopicSelector = s => s.setActiveTopic;
 
-function FrischerWind({ content, ui, lang }) {
+function Bildung({ content, ui, lang }) {
   const elementRef = useRef(null);
   const isOnScreen = useOnScreen(elementRef);
   const setActiveTopic = useStore(setActiveTopicSelector);
@@ -28,9 +26,9 @@ function FrischerWind({ content, ui, lang }) {
 
   return (
     <section>
+      <div className='anchor' ref={elementRef} id={`anchor-${content.id}`} />
       <div className={cx(cn.wrapper, cn.layoutWrapper)}>
-        <div className='anchor' ref={elementRef} id={`anchor-${content.id}`} />
-        <Icon type='frischerWind' />
+        <Icon type='bildung' />
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
         {/* <Funfact content={content.blocks.funfact} lang={lang}/> */}
@@ -40,4 +38,4 @@ function FrischerWind({ content, ui, lang }) {
   );
 }
 
-export default FrischerWind;
+export default Bildung;

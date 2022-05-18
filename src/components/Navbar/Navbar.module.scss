@@ -1,13 +1,12 @@
-@import '../../styles/base.scss';
+@import "../../styles/base.scss";
 :local {
   .navbar {
     padding: 8px 6px;
     position: fixed;
-    // border-radius: 10px;
     bottom: 30px;
     height: 40px;
     width: 280px;
-    background-color: white;
+    background-color: $white;
     border-radius: 0px;
     @include box-shadow;
     z-index: 100;
@@ -32,7 +31,7 @@
   .labelWrapper {
     position: absolute;
     transform: translateY(-50px);
-    background-color: white;
+    background-color: $white;
     padding: 5px 8px;
     @include box-shadow;
     opacity: 0;
@@ -42,19 +41,19 @@
       opacity: 1;
     }
     .smartCity {
-      display: block
+      display: block;
     }
-    .hinterDenKulissen {
-      display: block
+    .bildung {
+      display: block;
     }
-    .unterwegs {
-      display: block
+    .reallabor {
+      display: block;
     }
-    .frischerWind {
-      display: block
+    .neueTechnologien {
+      display: block;
     }
-    .stadtUndWir {
-      display: block
+    .kultur {
+      display: block;
     }
   }
   .iconWrapper {
@@ -65,50 +64,18 @@
     border-radius: 0px;
     display: flex;
     justify-content: center;
-    // background-color: $dark-grey--7;
     margin: 0 3.5px;
 
     color: $dark-grey--1;
 
-    &.smartCity {
-      svg {
-        width: 24px;
-      }
-    }
-
-    &.frischerWind {
-      svg {
-        width: 22px;
-      }
-    }
-
-    &.stadtUndWir {
-      svg {
-        width: 26px;
-      }
-    }
-
-    &.hinterDenKulissen {
-      svg {
-        width: 18px;
-      }
-    }
-
-    &.unterwegs {
-      svg {
-        width: 22px;
-      }
-    }
-    
     svg {
       width: 30px;
       height: 30px;
-      opacity: .2;
+      opacity: 0.2;
       transition: $transition-fast;
 
-
       &:hover {
-        opacity: .6;
+        opacity: 0.6;
       }
     }
     &.active {

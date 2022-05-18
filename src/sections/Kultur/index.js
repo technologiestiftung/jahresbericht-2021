@@ -7,14 +7,13 @@ import cx from "classnames";
 import ScrollableImages from "../../components/ScrollableImages";
 import Paragraph from "../../components/Paragraph";
 import Headline from "../../components/Headline";
-// import Funfact from '../../components/Funfact';
 import Icon from "../../components/Icon";
 
-import cn from "./StadtUndWir.module.scss";
+import cn from "./Kultur.module.scss";
 
 const setActiveTopicSelector = s => s.setActiveTopic;
 
-function StadtUndWir({ content, ui, lang }) {
+function Kultur({ content, ui, lang }) {
   const elementRef = useRef(null);
   const isOnScreen = useOnScreen(elementRef);
   const setActiveTopic = useStore(setActiveTopicSelector);
@@ -29,14 +28,13 @@ function StadtUndWir({ content, ui, lang }) {
     <section>
       <div className={cx(cn.wrapper, cn.layoutWrapper)}>
         <div className='anchor' ref={elementRef} id={`anchor-${content.id}`} />
-        <Icon type='stadtUndWir' />
+        <Icon type='kultur' />
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
-        {/* <Funfact content={content.blocks.funfact} lang={lang}/> */}
       </div>
       <ScrollableImages lang={lang} content={content} ui={ui} />
     </section>
   );
 }
 
-export default StadtUndWir;
+export default Kultur;

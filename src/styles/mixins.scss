@@ -101,6 +101,7 @@ $fix-mqs-h: false !default;
   8px 16px 16px rgba(0,0,0,.03),
   16px 32px 32px rgba(0,0,0,.03);
 }
+
 @mixin blurry-bg($color: white) {
   background-color: rgba($color, 0.95);
 
@@ -108,4 +109,11 @@ $fix-mqs-h: false !default;
     background-color: rgba($color, 0.88);
     backdrop-filter: blur(4px);
   }
+}
+
+@mixin flex($direction:column, $justify:center, $align:center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
 }

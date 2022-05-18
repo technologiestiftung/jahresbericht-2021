@@ -1,19 +1,20 @@
-import cx from "classnames";
+import { useRef, useEffect } from "react";
+
 import useOnScreen from "../../hooks/useOnScreen";
 import useStore from "../../hooks/useStore";
-import { useRef, useEffect } from "react";
 
 import ScrollableImages from "../../components/ScrollableImages";
 import Paragraph from "../../components/Paragraph";
 import Headline from "../../components/Headline";
-// import Funfact from '../../components/Funfact';
 import Icon from "../../components/Icon";
 
-import cn from "./HinterDenKulissen.module.scss";
+import cn from "./Reallabor.module.scss";
+
+import cx from "classnames";
 
 const setActiveTopicSelector = s => s.setActiveTopic;
 
-function HinterDenKulissen({ content, ui, lang }) {
+function Reallabor({ content, ui, lang }) {
   const elementRef = useRef(null);
   const isOnScreen = useOnScreen(elementRef);
   const setActiveTopic = useStore(setActiveTopicSelector);
@@ -26,16 +27,15 @@ function HinterDenKulissen({ content, ui, lang }) {
 
   return (
     <section>
-      <div className='anchor' ref={elementRef} id={`anchor-${content.id}`} />
       <div className={cx(cn.wrapper, cn.layoutWrapper)}>
-        <Icon type='hinterDenKulissen' />
+        <div className='anchor' ref={elementRef} id={`anchor-${content.id}`} />
+        <Icon type='reallabor' />
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Paragraph lang={lang} content={content.blocks.intro.text} />
-        {/* <Funfact content={content.blocks.funfact} lang={lang}/> */}
       </div>
       <ScrollableImages lang={lang} content={content} ui={ui} />
     </section>
   );
 }
 
-export default HinterDenKulissen;
+export default Reallabor;
