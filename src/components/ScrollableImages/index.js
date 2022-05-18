@@ -5,11 +5,8 @@ import cx from "classnames";
 import cn from "./ScrollableImages.module.scss";
 
 import ImageGroup from "./ImageGroup";
-// import ImageNav from './ImageNav';
 import Tile from "./Tile";
-// import Button from '../Button';
 import Link from "../Link";
-import Funfact from "../Funfact";
 
 const langSelector = s => s.lang;
 const activeSelector = s => s.active;
@@ -30,7 +27,6 @@ function ScrollableImages({ content, ui }) {
   return (
     <div className={cn.scrollContainer}>
       <ImageGroup activeItem={activeItem} images={items} />
-      {/* <ImageNav theme={activeItem.theme}  images={items} /> */}
       {items.map(d => (
         <div key={d.id} className={cn.tileWrapper}>
           <Tile align={d.align} theme={d.theme} id={d.id}>
@@ -46,7 +42,6 @@ function ScrollableImages({ content, ui }) {
               className={cn.text}
               dangerouslySetInnerHTML={{ __html: d.text.paragraph[lang] }}
             ></p>
-            {d.text.funfact && <Funfact content={d.text.funfact} lang={lang} />}
             {d.text?.links?.length > 0 && (
               <div className={cn.linkWrapper}>
                 <>
@@ -61,7 +56,6 @@ function ScrollableImages({ content, ui }) {
                 </>
               </div>
             )}
-            {/* <Button theme={d.theme} to={d.text.link} label={ui.btnProject[lang]}/> */}
           </Tile>
         </div>
       ))}
