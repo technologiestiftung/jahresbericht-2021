@@ -11,7 +11,7 @@ import Link from "../Link";
 const langSelector = s => s.lang;
 const activeSelector = s => s.active;
 
-function ScrollableImages({ content, ui }) {
+function ScrollableImages({ content }) {
   const { items, topic } = content;
 
   const lang = useStore(langSelector);
