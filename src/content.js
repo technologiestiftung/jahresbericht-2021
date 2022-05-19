@@ -11,13 +11,14 @@ const content = {
   },
   header: {
     headline: {
-      de: "Jahresrückblick 2021",
+      de: "Jahresbericht 2021",
       en: "Annual review 2021",
     },
     img: {
-      src: "assets/images/intro.jpg",
+      src: "assets/images/hero.jpg",
       alt: "image tag",
-      copyright: "© CityLAB Berlin",
+      copyright:
+        'Photo by <a href="https://unsplash.com/@florianwehde?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Florian Wehde</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>',
     },
   },
   intro: {

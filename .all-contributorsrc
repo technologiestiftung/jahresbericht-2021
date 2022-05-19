@@ -17,7 +17,8 @@
       "profile": "https://fabianmoronzirfas.me/",
       "contributions": [
         "doc",
-        "code"
+        "code",
+        "infra"
       ]
     },
     {
@@ -45,7 +46,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/2759340?v=4",
       "profile": "https://github.com/vogelino",
       "contributions": [
-        "code"
+        "code",
+        "review"
       ]
     }
   ],
