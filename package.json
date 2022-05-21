@@ -40,6 +40,6 @@
   "devDependencies": {
     "all-contributors-cli": "^6.20.0",
     "eslint-config-prettier": "^8.5.0",
-    "sass": "1.51.0"
+    "sass": "1.52.1"
   }
 }
