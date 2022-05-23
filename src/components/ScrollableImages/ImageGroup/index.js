@@ -20,6 +20,7 @@ function ImageGroup({ images, activeItem }) {
               objectPosition: d.img.position
                 ? d.img.position
                 : standardPosition,
+              objectFit: d.img.fit ? d.img.fit : "cover",
             }}
           />
           {d.img.copyright && (
