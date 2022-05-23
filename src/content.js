@@ -155,7 +155,7 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/smart-city_ODIS.jpg",
+          src: "assets/images/smart-city_ODIS.png",
           alt: "image tag",
           copyright: "© CityLAB Berlin",
         },
@@ -203,7 +203,7 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/neue-technologien_datenoekonomie.jpg",
+          src: "assets/images/neue-technologien_datenoekonomie.png",
           alt: "image tag",
           copyright: "© 2022 Technologiestiftung Berlin",
           position: "center right",
@@ -231,7 +231,7 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/neue-technologien_innovation.jpg",
+          src: "assets/images/neue-technologien_innovation.png",
           alt: "image tag",
           copyright: "TODO",
           position: "center right",
@@ -280,7 +280,7 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/kultur_bdigital.jpg",
+          src: "assets/images/kultur_bdigital.png",
           alt: "image tag",
           copyright: "TODO",
         },
