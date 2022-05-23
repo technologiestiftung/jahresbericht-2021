@@ -30,5 +30,20 @@
       padding-top: 30px;
       margin: 0 auto;
     }
+
+    .plusMinusIcon {
+      .bar {
+        position: absolute;
+        background-color: $dark-grey--1;
+        height: 2px;
+        width: 20px;
+        transition: $transition-fast;
+        border-radius: 1px;
+      }
+
+      .verticalBar {
+        transform: rotate(90deg);
+      }
+    }
   }
 }
