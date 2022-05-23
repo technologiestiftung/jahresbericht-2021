@@ -33,6 +33,7 @@ const content = {
   },
   footer: {
     copyright: "© 2022 Technologiestiftung Berlin",
+    id: "footer",
     impressum: {
       de: "Impressum",
       en: "Impressum",

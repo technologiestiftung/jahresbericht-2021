@@ -3,7 +3,7 @@ import cn from "./Footer.module.scss";
 
 function Footer({ content, lang }) {
   return (
-    <div className={cn.footer}>
+    <div className={cn.footer} id={content.id}>
       <div className={cn.top}>
         <div className={cn.topWrapper}>
           <div className={cn.logos}>

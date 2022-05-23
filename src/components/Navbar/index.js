@@ -44,24 +44,19 @@ const activeTopicSelector = s => s.activeTopic;
 const hideNav = sections => {
   const positions = getScrollPositionsOfSections(sections);
 
-  return (
-    positions.firstSectionPosition < 0 && positions.lastSectionEndPosition > 0
-  );
+  return positions.firstSectionPosition < 0 && positions.footerPosition > 0;
 };
 
 const getScrollPositionsOfSections = sections => {
   const firstSection = document.getElementById(
     `section-${sections[0].scrollId}`
   );
-  const lastSection = document.getElementById(
-    `section-${sections[sections.length - 1].scrollId}`
-  );
+  const footer = document.getElementById("footer");
 
   const firstSectionPosition = firstSection.getBoundingClientRect().top;
-  const lastSectionEndPosition =
-    lastSection.getBoundingClientRect().top + lastSection.clientHeight;
+  const footerPosition = footer.getBoundingClientRect().top - 1200;
 
-  return { firstSectionPosition, lastSectionEndPosition };
+  return { firstSectionPosition, footerPosition };
 };
 
 function Navbar({ items, lang }) {
