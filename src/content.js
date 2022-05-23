@@ -331,9 +331,10 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/bildung_hacking-box.jpg",
+          src: "assets/images/bildung_hacking-box-cropped.jpg",
           alt: "image tag",
           copyright: "© CityLAB Berlin",
+          fit: "contain",
         },
       },
       {
