@@ -27,7 +27,10 @@ function NeueTechnologien({ content, ui, lang }) {
 
   return (
     <section>
-      <div className={cx(cn.wrapper, cn.layoutWrapper)}>
+      <div
+        className={cx(cn.wrapper, cn.layoutWrapper)}
+        id={`section-${content.id}`}
+      >
         <div className='anchor' ref={elementRef} id={`anchor-${content.id}`} />
         <Icon type='neueTechnologien' />
         <Headline lang={lang} content={content.blocks.intro.title} />
