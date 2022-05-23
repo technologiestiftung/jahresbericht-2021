@@ -207,6 +207,7 @@ const content = {
           alt: "image tag",
           copyright: "© 2022 Technologiestiftung Berlin",
           position: "center right",
+          fit: "contain",
         },
       },
       {
@@ -235,6 +236,7 @@ const content = {
           alt: "image tag",
           copyright: "TODO",
           position: "center right",
+          fit: "contain",
         },
       },
     ],
@@ -283,6 +285,7 @@ const content = {
           src: "assets/images/kultur_bdigital.png",
           alt: "image tag",
           copyright: "TODO",
+          fit: "contain",
         },
       },
     ],
