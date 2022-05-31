@@ -8,4 +8,16 @@
   .title {
     width: 100%;
   }
+  .infoBox {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: (-50%);
+    text-align: center;
+
+    @media screen and (min-width: $medium-content-width) {
+      transform: translate(-50%, -50%);
+      margin-top: -280px;
+    }
+  }
 }
