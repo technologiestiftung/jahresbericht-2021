@@ -18,6 +18,7 @@ import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Paragraph from "./components/Paragraph";
 import Accordion from "./components/Accordion";
+import PieChart from "./components/PieChart";
 
 const langSelector = s => s.lang;
 
@@ -60,6 +61,11 @@ function App() {
           content={content.acc_1}
         />
       </section>
+
+      <section className={cx(cn.layoutWrapper, cn.layoutMargin)}>
+        <PieChart />
+      </section>
+
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
       <NeueTechnologien
         lang={lang}

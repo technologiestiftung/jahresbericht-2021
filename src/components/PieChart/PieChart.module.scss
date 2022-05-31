@@ -1,0 +1,11 @@
+@import '../../styles/base.scss';
+
+:local {
+  .wrapper {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .title {
+    width: 100%;
+  }
+}

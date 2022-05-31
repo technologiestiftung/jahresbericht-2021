@@ -1,0 +1,23 @@
+@import '../../../styles/base.scss';
+
+:local {
+  .list {
+    list-style: none;
+    padding: 0;
+  } 
+  .listItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+  
+  }
+  .left {
+    min-width: 16px;
+    min-height: 16px;
+  }
+  .center {
+    min-width: 75px;
+    text-align: right;
+    margin-right: 8px;
+  }
+}
