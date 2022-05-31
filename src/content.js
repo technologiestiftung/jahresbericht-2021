@@ -203,11 +203,12 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/neue-technologien_datenoekonomie.png",
+          src: "assets/images/neue-technologien_datenoekonomie-cropped.png",
           alt: "image tag",
           copyright: "© 2022 Technologiestiftung Berlin",
-          position: "center right",
           fit: "contain",
+          maxWidth: "600px",
+          position: "center right",
         },
       },
       {
@@ -232,11 +233,12 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/neue-technologien_innovation.png",
+          src: "assets/images/neue-technologien_innovation-cropped.png",
           alt: "image tag",
           copyright: "TODO",
-          position: "center right",
           fit: "contain",
+          maxWidth: "600px",
+          position: "center right",
         },
       },
       {
@@ -362,6 +364,8 @@ const content = {
           alt: "image tag",
           copyright: "© CityLAB Berlin",
           fit: "contain",
+          maxWidth: "1000px",
+          position: "center right",
         },
       },
       {
