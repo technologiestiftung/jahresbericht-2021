@@ -1,8 +1,33 @@
 const content = {
   acc_1: {
     title: "Bericht des Kuratoriumsvorsitzenden Matthias Patz",
-    de: "Die Technologiestiftung hat sich in den letzten Jahren zu einer wichtigen Partnerin im Bereich der digitalen Transformation in Berlin entwickelt. Für das Kuratorium entsteht aus dieser sehr erfreulichen Entwicklung die Aufgabe, die stetig wachsende Organisation zu begleiten und zum einen sicherzustellen, dass die Strukturen mitwachsen und die weitere dynamische Entwicklung unterstützen können. Zum anderen geht es für das Kuratorium darum, die grundsätzliche Ausrichtung zu begleiten.<br/><br/>Um die wachsende Stiftung gut aufzustellen, haben wir Anfang des Jahres 2021 das Thema Compliance aufgegriffen. Schnell zeigte sich, dass die Stiftung bereits sehr gut aufgestellt ist und hier sorgfältigst gehandelt wird. Zur Sicherung der hohen Standards werden die bestehenden Maßnahmen nun mit einem externen Dienstleister überprüft und Kriterien für ein Ampelsystem erarbeitet.<br/><br/>Zur Unterstützung der Kuratoriumsarbeit wurden überdies zwei Arbeitsgruppen zu Finanz- bzw. Strategiethemen ins Leben gerufen. Durch die Zusammenarbeit mit der operativen Ebene der Technologiestiftung konnten so bereits im Vorfeld der Kuratoriumssitzungen wesentliche Fragen zu den entsprechenden Themen abgeklärt werden. Dies ermöglichte dem Kuratorium, sich in der begrenzten Zeit der Kuratoriumssitzungen auf inhaltliche Fragen wie die der zukünftigen Strategie zu konzentrieren. Als besonders positiv hat das Kuratorium dabei empfunden, dass es sich für die Beschäftigung mit der Strategie auf das im CityLAB erarbeitete Handbuch „Öffentliches Gestalten“ stützen konnte. Insgesamt muss an dieser Stelle herausgestellt werden, wie positiv sich die Zusammenarbeit jederzeit gestaltete. Dafür möchte ich mich im Namen des gesamten Kuratoriums beim Vorstand und den Mitarbeiter:innen der Stiftung herzlich bedanken.<br/><br/>Die Entscheidung der Technologiestiftung, sich vor dem Hintergrund der in alle Bereiche vordringenden Digitalisierung auf Themen und Projekte aus dem Bereich der Informations- und Kommunikationstechnologien zu konzentrieren, ist richtig, Mit ihren Plattformen und Forschungsprojekten beispielsweise zu Mobilitätsdaten kommt die Technologiestiftung ihrem satzungsgemäßen Auftrag, Berlin zu einem bedeutenden Innovationsstandort zu entwickeln, überzeugend nach.<br/><br/>Der Koalitionsvertrag, den der neue Senat im Dezember 2021 vorstellte, nennt die Technologiestiftung an prominenter Stelle und weist ihr die Rolle einer „Schaltstelle für die<br/><br/> Umsetzung der wesentlichen Elemente der Digitalpolitik zu. Das zeigt, dass die Technologiestiftung weit über das Kuratorium hinaus mit ihrer Arbeit und ihren Projekten überzeugen konnte. Das Kuratorium kann sich vorstellen, dass die Stiftung darüber hinaus dem Berliner Innovationsbereich zwischen Wissenschaft und Wirtschaft mit dem erprobten Lab-Ansatz besondere Impulse geben kann. Das Kuratorium wird die spannenden Entwicklungen, die anstehen, nach Kräften unterstützen und wünscht Mitarbeiter:innen und Vorstand der Technologiestiftung für die Zukunft viel Erfolg.",
-    eng: "Die Technologiestiftung hat sich in den letzten Jahren zu einer wichtigen Partnerin im Bereich der digitalen Transformation in Berlin entwickelt. Für das Kuratorium entsteht aus dieser sehr erfreulichen Entwicklung die Aufgabe, die stetig wachsende Organisation zu begleiten und zum einen sicherzustellen, dass die Strukturen mitwachsen und die weitere dynamische Entwicklung unterstützen können. Zum anderen geht es für das Kuratorium darum, die grundsätzliche Ausrichtung zu begleiten.<br/><br/>Um die wachsende Stiftung gut aufzustellen, haben wir Anfang des Jahres 2021 das Thema Compliance aufgegriffen. Schnell zeigte sich, dass die Stiftung bereits sehr gut aufgestellt ist und hier sorgfältigst gehandelt wird. Zur Sicherung der hohen Standards werden die bestehenden Maßnahmen nun mit einem externen Dienstleister überprüft und Kriterien für ein Ampelsystem erarbeitet.<br/><br/>Zur Unterstützung der Kuratoriumsarbeit wurden überdies zwei Arbeitsgruppen zu Finanz- bzw. Strategiethemen ins Leben gerufen. Durch die Zusammenarbeit mit der operativen Ebene der Technologiestiftung konnten so bereits im Vorfeld der Kuratoriumssitzungen wesentliche Fragen zu den entsprechenden Themen abgeklärt werden. Dies ermöglichte dem Kuratorium, sich in der begrenzten Zeit der Kuratoriumssitzungen auf inhaltliche Fragen wie die der zukünftigen Strategie zu konzentrieren. Als besonders positiv hat das Kuratorium dabei empfunden, dass es sich für die Beschäftigung mit der Strategie auf das im CityLAB erarbeitete Handbuch „Öffentliches Gestalten“ stützen konnte. Insgesamt muss an dieser Stelle herausgestellt werden, wie positiv sich die Zusammenarbeit jederzeit gestaltete. Dafür möchte ich mich im Namen des gesamten Kuratoriums beim Vorstand und den Mitarbeiter:innen der Stiftung herzlich bedanken.<br/><br/>Die Entscheidung der Technologiestiftung, sich vor dem Hintergrund der in alle Bereiche vordringenden Digitalisierung auf Themen und Projekte aus dem Bereich der Informations- und Kommunikationstechnologien zu konzentrieren, ist richtig, Mit ihren Plattformen und Forschungsprojekten beispielsweise zu Mobilitätsdaten kommt die Technologiestiftung ihrem satzungsgemäßen Auftrag, Berlin zu einem bedeutenden Innovationsstandort zu entwickeln, überzeugend nach.<br/><br/>Der Koalitionsvertrag, den der neue Senat im Dezember 2021 vorstellte, nennt die Technologiestiftung an prominenter Stelle und weist ihr die Rolle einer „Schaltstelle für die<br/><br/> Umsetzung der wesentlichen Elemente der Digitalpolitik zu. Das zeigt, dass die Technologiestiftung weit über das Kuratorium hinaus mit ihrer Arbeit und ihren Projekten überzeugen konnte. Das Kuratorium kann sich vorstellen, dass die Stiftung darüber hinaus dem Berliner Innovationsbereich zwischen Wissenschaft und Wirtschaft mit dem erprobten Lab-Ansatz besondere Impulse geben kann. Das Kuratorium wird die spannenden Entwicklungen, die anstehen, nach Kräften unterstützen und wünscht Mitarbeiter:innen und Vorstand der Technologiestiftung für die Zukunft viel Erfolg.",
+    de: [
+      "Die Technologiestiftung hat sich in den letzten Jahren zu einer wichtigen Partnerin im Bereich der digitalen Transformation in Berlin entwickelt. Für das Kuratorium entsteht aus dieser sehr erfreulichen Entwicklung die Aufgabe, die stetig wachsende Organisation zu begleiten und zum einen sicherzustellen, dass die Strukturen mitwachsen und die weitere dynamische Entwicklung unterstützen können. Zum anderen geht es für das Kuratorium darum, die grundsätzliche Ausrichtung zu begleiten.",
+      "Um die wachsende Stiftung gut aufzustellen, haben wir Anfang des Jahres 2021 das Thema Compliance aufgegriffen. Schnell zeigte sich, dass die Stiftung bereits sehr gut aufgestellt ist und hier sorgfältigst gehandelt wird. Zur Sicherung der hohen Standards werden die bestehenden Maßnahmen nun mit einem externen Dienstleister überprüft und Kriterien für ein Ampelsystem erarbeitet.",
+      "Zur Unterstützung der Kuratoriumsarbeit wurden überdies zwei Arbeitsgruppen zu Finanz- bzw. Strategiethemen ins Leben gerufen. Durch die Zusammenarbeit mit der operativen Ebene der Technologiestiftung konnten so bereits im Vorfeld der Kuratoriumssitzungen wesentliche Fragen zu den entsprechenden Themen abgeklärt werden. Dies ermöglichte dem Kuratorium, sich in der begrenzten Zeit der Kuratoriumssitzungen auf inhaltliche Fragen wie die der zukünftigen Strategie zu konzentrieren. Als besonders positiv hat das Kuratorium dabei empfunden, dass es sich für die Beschäftigung mit der Strategie auf das im CityLAB erarbeitete Handbuch „Öffentliches Gestalten“ stützen konnte. Insgesamt muss an dieser Stelle herausgestellt werden, wie positiv sich die Zusammenarbeit jederzeit gestaltete. Dafür möchte ich mich im Namen des gesamten Kuratoriums beim Vorstand und den Mitarbeiter:innen der Stiftung herzlich bedanken.",
+      "Die Entscheidung der Technologiestiftung, sich vor dem Hintergrund der in alle Bereiche vordringenden Digitalisierung auf Themen und Projekte aus dem Bereich der Informations- und Kommunikationstechnologien zu konzentrieren, ist richtig, Mit ihren Plattformen und Forschungsprojekten beispielsweise zu Mobilitätsdaten kommt die Technologiestiftung ihrem satzungsgemäßen Auftrag, Berlin zu einem bedeutenden Innovationsstandort zu entwickeln, überzeugend nach.",
+      "Der Koalitionsvertrag, den der neue Senat im Dezember 2021 vorstellte, nennt die Technologiestiftung an prominenter Stelle und weist ihr die Rolle einer „Schaltstelle für die",
+      "Umsetzung der wesentlichen Elemente der Digitalpolitik zu. Das zeigt, dass die Technologiestiftung weit über das Kuratorium hinaus mit ihrer Arbeit und ihren Projekten überzeugen konnte. Das Kuratorium kann sich vorstellen, dass die Stiftung darüber hinaus dem Berliner Innovationsbereich zwischen Wissenschaft und Wirtschaft mit dem erprobten Lab-Ansatz besondere Impulse geben kann. Das Kuratorium wird die spannenden Entwicklungen, die anstehen, nach Kräften unterstützen und wünscht Mitarbeiter:innen und Vorstand der Technologiestiftung für die Zukunft viel Erfolg.",
+      "<strong>Matthias Patz</strong></br>Kuratoriumsvorsitzender",
+    ],
+    eng: "EMPTY",
+  },
+  acc_2: {
+    title: "Vorwort des Vorstandsvorsitzenden Nicolas Zimmer",
+    de: [
+      "Die über das gesamte Jahr 2021 anhaltende Pandemie hat uns den großen modernisierungsbedarf vor Augen geführt, dem wir uns gegen­ übersehen. Egal ob es um die Bürgerämter, den Schulbetrieb oder den Katastrophenschutz ging: in zu vielen Bereichen zeigte sich, dass die öffentliche infrastruktur nicht so leistungsfähig ist, wie es sinnvoll und möglich wäre.",
+      "Die Technologiestiftung hat auf diese herausforderungen reagiert. Sie konzentriert sich schon seit einigen Jahren ihrem satzungsgemäßen Auftrag gemäß, die region Berlin­Brandenburg zu einem bedeutenden Standort in ausgewählten Technologiefeldern mitzuentwickeln, erfolg­ reich auf die mitgestaltung einer nutzer:innenorientierten, offenen digitalisierung. Dahinter steht die Überzeugung, dass wir den heraus­ forderungen, denen wir uns gegenübersehen, nur mit digitalen Werk­ zeugen begegnen können, deren innovationskraft der ganzen Stadt­ gesellschaft zugutekommen.",
+      "Auch im vergangenen Jahr haben wir uns als gefragte Gesprächs­ und Kooperationspartnerin im digitalen Ökosystem Berlin bewiesen und neben zahlreichen erfolgreichen Projekten unser eigenes Profil geschärft. damit sind wir nicht nur den anhaltenden herausforderungen der Pandemie begegnet, sondern haben uns zugleich im zuge eines internen Strategieprozesses für die neue rolle der Stiftung als Schaltstelle der wesentlichen elemente der digitalisierungspolitik vorbereitet, die der Berliner Koalitionsvertrag vorsieht.",
+      "<strong>Offenheit und Transparenz sind Grundprinzipien der Stiftungsarbeit</strong> </br>Wie eine offene und transparente Arbeit für das Gemeinwohl aussehen kann, zeigt das CityLAB Berlin, das wir am Platz der Luftbrücke mit einer Förderung der Senatskanzlei betreiben. Hier entwickelten Service­designer:innen, Softwareentwickler:innen und Public Service Coaches im Austausch mit Stakeholdern aus dem Vereins­ und Stiftungswesen in der hochphase des Winter­Lockdowns 2021 eine Plattform, auf der die ehrenamtlichen digitale Tools für ihre Arbeit herunterladen und sich über digitalisierungsthemen austauschen können. Während die Vereine auf diese Weise wertvolle unterstützung erhielten, die auch ausgiebig genutzt wurde, konnten wir die auf der Plattform angebotene offene Software in der Praxis testen und erfahrungen sammeln.",
+      "Später im Jahr kamen mit Berlin Open Source und Stadtpuls weitere Platt­formangebote hinzu, die offene Software und open data befördern. Denn wir sind überzeugt, dass die Chancen der digitalisierung für mehr Partizipation und eine erhöhung der Lebensqualität sich nur verwirklichen lassen, wenn das Wissen und die Kreativität aller durch Partizipation und Transparenz in den entwicklungsprozess digitaler Lösungen mit einfließen können.",
+      "<strong>Technologiestiftung wirkt an der öffentlichen digitalen Infrastruktur mit</strong> </br>Auch die bei uns angesiedelte open data informationsstelle (odiS) trägt zur entwicklung einer digitalen öffentlichen infrastruktur bei. OdiS wird von der Senatsverwaltung für Wirtschaft, energie und Betriebe gefördert und berät die Berliner Verwaltungen dabei, ihre offenen daten durch übergeordnete Verweise an einer zentralen Stelle zur Verfügung zu stellen. So können interessierte offene datensätze entdecken und neue Tools und darauf basierend Angebote entwickeln.",
+      "Auch im rahmen des Projekts kulturBdigital fördern wir in Kooperation mit der Senatsverwaltung für Kultur und europa die digitalisierung des Berliner Kulturbetriebes. Seit 2021 arbeitet kulturBdigital an der errich­ tung einer offenen Kulturdatenplattform für Berlin, die Kulturschaffende von der freien Szene bis in die großen Berliner Kultureinrichtungen dabei unterstützt, ihre Arbeit effizienter zu erledigen, und gleichzeitig die Sichtbarkeit von Berlins vielfältiger Kulturlandschaft im Netz erhöht.",
+      "mit Forschungsprojekten wie Freemove, in dem es um einen sicheren umgang mit mobilitätsdaten geht, sowie Arbeiten zu datenökonomie und Gebäudedigitalisierung beschäftigen wir uns überdies immer wieder mit den Voraussetzungen und Rahmenbedingungen der Digitalisierung. Außerdem bieten wir Veranstaltungsreihen für unterschiedliche zielgruppen an: Während man sich in der offene Werkstatt praktisch­spielerisch zu den technischen Grundlagen digitaler Kommunikationstechnologien weiter­ bilden kann, informieren wir gemeinsam mit unserem Partner rbbinfo­ radio24 über gesellschaftliche Aspekte neuer technologischer Trends und innovative entwicklungen.",
+      "<strong>Mit neuen Projekten und wachsendem Team ins Jahr 2022</strong> </br>Im dezember 2020 wurde die Technologiestiftung mit dem CityLAB ausdrücklich als „Schaltstelle für die umsetzung der wesentlichen elemente der digitalpolitik“ im Koalitionsvertrag der Berliner Landes­regierung genannt. Dies ist eine eindrückliche Bestätigung dafür, dass wir mit unserer Arbeit die richtigen Themen anpacken und mit dem Ansatz eines innovationslabors für das digitale Berlin konstruktive Beiträge zur Stadtentwicklung leisten. Für uns bedeutet die positive resonanz, dass wir 2022 weitere Projekte für die gemeinwohlorientierte und offene digitalisierung in Berlin initiieren und durchführen werden. Auch werden wir auf die veränderten rahmenbedinungen für die digi­ talisierung reagieren und uns mit Themen wie Kritischer Infrastruktur und Cybersicherheit beschäftigen. Dafür werden wir den bereits 2021 begonnenen Wachstumsprozess inhaltlich und personell fortsetzen",
+      "Gemeinsam mit dem wachsenden Team der Technologiestiftung Berlin freue ich mich auf die herausforderungen, die uns im kommenden Jahr erwarten.",
+      "<strong>Nicolas Zimmer</strong></br>Vorstandsvorsitzender </br>Technologiestiftung Berlin",
+    ],
+    eng: "EMPTY",
   },
 
   outtro: {
@@ -99,8 +124,8 @@ const content = {
           en: "Smart City",
         },
         text: {
-          de: "Berlin entwickelt im Programm „Modellprojekte Smart Cities“ des BMI und der KfW eine neue Smart City-Strategie, bei der Partizipation, Menschen und Werte im Vordergrund stehen. Die Strategie entsteht im Dialog mit Berlins diverser Stadtgesellschaft – weg von einem rein technologischen Fokus, hin zu Mitgestaltung und Einbeziehung. Im Auftrag der Senatskanzlei koordinieren und begleiten wir dieses breit angelegte Projekt in mehreren Phasen.",
-          en: `Berlin is developing a new smart city strategy as part of the BMI's and KfWs "Model Projects Smart Cities" programme, which places an emphasis on participation, the needs of everyday citizens, and the role of social values. The strategy is being developed in dialogue with Berlin's diverse urban society, moving away from a purely technological focus and toward co-design and inclusion. On behalf of the Senate Chancellery, we are coordinating and accompanying this expansive project in several phases.`,
+          de: "Die smarte Stadt von morgen wird mehr Lebensqualität bieten, denn sie wird grüner und sauberer sein und effizient mit ressourcen umgehen. Um das zu erreichen, muss die digitale Infrastruktur von der Strom­ und Wasserversorgung bis zum Verkehr strategisch weiterentwickelt und ­vernetzt werden. Auch die Verwaltung muss die möglichkeiten der digitalisierung noch stärker nutzen, um schneller und serviceorientiert zu arbeiten.",
+          en: `EMPTY`,
         },
       },
     },
@@ -118,8 +143,8 @@ const content = {
             },
           ],
           title: {
-            de: "Strategieprozess",
-            en: "Strategy Process",
+            de: "CityLAB Berlin",
+            en: "CityLAB Berlin",
           },
           paragraph: {
             de: `Das CityLAB Berlin am Platz der Luftbrücke ist ein Ort, an dem sich Verwaltung und Stadtgesellschaft treffen können, um die digitale Transformation zu diskutieren und bis zum Prototypen zu gestalten. Der Begegnungsort war auch 2021 sehr gefragt, analog genauso wie online.
@@ -146,8 +171,8 @@ const content = {
             },
           ],
           title: {
-            de: "Symposium <br/> ‘Redefining the Smart City‘",
-            en: "Symposium <br/> ‘Redefining the Smart City‘",
+            de: "Open Data Informationsstelle Berlin (ODIS)",
+            en: "EMPTY",
           },
           paragraph: {
             de: `Berlin bekennt sich zu einer Open Data-Strategie. Nicht geheime Daten der Verwaltungen sollen offengelegt und zur Weiternutzung zur Verfügung gestellt werden. Obwohl die Akzeptanz dafür in den letzten Jahren deutlich gestiegen ist, ist das Ziel noch nicht erreicht, weil beispielsweise die Relevanz der Daten nicht erkannt wird oder es an technischer Kompetenz fehlt. </br></br>Die Open Data Informationsstelle, die bei der Technologiestiftung angesiedelt ist, berät bei der Datenaufbereitung und baut gemeinsam mit den Verwaltungen <a  href="https://www.technologiestiftung-berlin.de/blog/odis-stellt-digitalen-prototypen-fuer-die-optimierung-von-wahlbezirken-vor" target="_blanc">digitale Tools</a>, die das Potenzial von Verwaltungsdaten zeigen. 2021 wurden außerdem <a  href="https://www.youtube.com/watch?v=4bQ2DniKfHU&t=261s" target="_blanc">Online-Tutorials</a> produziert, die im Netz abrufbar sind.`,
@@ -252,7 +277,7 @@ const content = {
           en: "EMPTY",
         },
         text: {
-          de: "Wir unterstützen den digitalen Wandel des Berliner Kulturbereichs </br>Kulturschaffende nutzen digitale Technologien für neue Produktionen, präsentieren ihre Sammlungen im Netz, können neue Zielgruppen erreichen und mit Interessierten ins Gespräch kommen. Und natürlich können sie auch selbst ihre Arbeit effizienter gestalten.  Deshalb gilt es, schnell neue Kompetenzen aufzubauen, um die Bandbreite der digitalen Möglichkeiten bewerten und zielgerichtet für ihre Arbeit einsetzen zu können.",
+          de: "<strong>Wir unterstützen den digitalen Wandel des Berliner Kulturbereichs </strong></br>Kulturschaffende nutzen digitale Technologien für neue Produktionen, präsentieren ihre Sammlungen im Netz, können neue Zielgruppen erreichen und mit Interessierten ins Gespräch kommen. Und natürlich können sie auch selbst ihre Arbeit effizienter gestalten.  Deshalb gilt es, schnell neue Kompetenzen aufzubauen, um die Bandbreite der digitalen Möglichkeiten bewerten und zielgerichtet für ihre Arbeit einsetzen zu können.",
           en: "EMPTY",
         },
       },
@@ -365,13 +390,13 @@ const content = {
   reallabor: {
     id: "5.0",
     topic: {
-      de: "Reallabor",
+      de: "Prototyping",
       en: "EMPTY",
     },
     blocks: {
       intro: {
         title: {
-          de: "Reallabor",
+          de: "Prototyping",
           en: "EMPTY",
         },
         text: {
@@ -394,11 +419,11 @@ const content = {
             },
           ],
           title: {
-            de: "COMo - CO2-Monitoring in öffentlich zugänglichen Innenräumen",
+            de: "COMo - CO2-Monitoring in Innenräumen",
             en: "EMPTY",
           },
           paragraph: {
-            de: "COMo hilft Betreiber:innen öffentlicher Räume, die Luftqualität in den Räumen zu verfolgen und die Öffentlichkeit darüber zu informieren. Dazu verleihen wir CO2-Sensoren, die über das Berliner LoRa-Netzwerk Daten auf einen zentralen Server senden und so für Betreiber:innen und potenzielle Besucher:innen zugänglich und sichtbar machen. Neben der Möglichkeit, die Belastung der Raumluft mit Aerosolen zu überwachen (und damit Hinweise auf das COVID-Ansteckungsrisiko zu erhalten) wird damit auch die Abdeckungsqualität des Community - betriebenen LoRa-Netzw</br></br>Wir führen COMo gemeinsam mit der Hochschule für Technik und Wirtschaft Berlin und der KOING GmbH durch.",
+            de: "COMo hilft Betreiber:innen öffentlicher Räume, die Luftqualität in den Räumen zu verfolgen und die Öffentlichkeit darüber zu informieren. Dazu verleihen wir CO2-Sensoren, die über das Berliner LoRa-Netzwerk Daten auf einen zentralen Server senden und so für Betreiber:innen und potenzielle Besucher:innen zugänglich und sichtbar machen. Neben der Möglichkeit, die Belastung der Raumluft mit Aerosolen zu überwachen (und damit Hinweise auf das COVID-Ansteckungsrisiko zu erhalten) wird damit auch die Abdeckungsqualität des Community - betriebenen LoRa-Netzwerks sichtbar.</br></br>Wir führen COMo gemeinsam mit der Hochschule für Technik und Wirtschaft Berlin und der KOING GmbH durch.",
             en: "EMPTY",
           },
         },
@@ -427,7 +452,7 @@ const content = {
           },
           paragraph: {
             de: "Stadtbäume sind wichtig für die Lebensqualität in der Stadt: Sie reinigen und kühlen die Luft. In ihrer Nähe hält man sich gerne auf. Doch der Klimawandel mit Extremwetterereignissen und zunehmender Trockenheit gefährden die Bäume. </br></br>Im Projekt QTrees, das die Technologiestiftung zusammen mit Birds on Mars konzipiert hat und jetzt durchführt und für das auch das Grünflächenamt Mitte als Partner gewonnen werden konnte, soll ein durch Künstliche Intelligenz gestütztes Vorhersagetool entwickelt werden, das akut von der Trockenheit gefährdete Stadtbäume identifiziert und eine gezielte Hilfe für diese Bäume ermöglicht. </br></br>Gefördert vom Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit, Teil der deutschen Anpassungsstrategie an den Klimawandel.",
-            en: "As part of the Creative Bureaucracy Festival, we curated the Smart City Governance Track, organised a roundtable discussion with CTOs from international metropolises and discussed the potential of different governance models for the Smart City Berlin. You can find the highlights on YouTube.",
+            en: "EMPTY",
           },
         },
         img: {

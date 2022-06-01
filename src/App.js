@@ -54,8 +54,8 @@ function App() {
         />
         <Accordion
           lang={lang}
-          title={content.acc_1.title}
-          content={content.acc_1}
+          title={content.acc_2.title}
+          content={content.acc_2}
         />
       </section>
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
@@ -64,8 +64,8 @@ function App() {
         content={content.neueTechnologien}
         ui={content.ui}
       />
-      <Kultur lang={lang} content={content.kultur} ui={content.ui} />
       <Bildung lang={lang} content={content.bildung} ui={content.ui} />
+      <Kultur lang={lang} content={content.kultur} ui={content.ui} />
       <Reallabor lang={lang} content={content.reallabor} ui={content.ui} />
       <Activities lang={lang} content={content.activities} ui={content.ui} />
       <section className={cx(cn.layoutWrapper, cn.layoutMargin)}>
