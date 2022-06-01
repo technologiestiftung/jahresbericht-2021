@@ -29,13 +29,3 @@ export const colors = [
   "#1E3791",
   "#9C9D9D",
 ];
-
-export const options = {
-  plugins: {
-    legend: {
-      display: true,
-      position: "right",
-      align: "end",
-    },
-  },
-};
