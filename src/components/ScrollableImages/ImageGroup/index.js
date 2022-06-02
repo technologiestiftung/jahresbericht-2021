@@ -21,6 +21,7 @@ function ImageGroup({ images, activeItem }) {
                 ? d.img.position
                 : standardPosition,
               objectFit: d.img.fit ? d.img.fit : "cover",
+              maxWidth: d.img.maxWidth ? d.img.maxWidth : "none",
             }}
           />
           {d.img.copyright && (
