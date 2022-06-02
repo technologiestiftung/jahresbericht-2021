@@ -337,8 +337,6 @@ const content = {
           alt: "image tag",
           copyright: "© CityLAB Berlin",
           fit: "contain",
-          maxWidth: "1000px",
-          position: "center right",
         },
       },
       {
