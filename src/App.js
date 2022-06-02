@@ -1,9 +1,6 @@
 import useStore from "./hooks/useStore";
-
 import cx from "classnames";
-
 import cn from "./App.module.scss";
-
 import content from "./content";
 
 import NeueTechnologien from "./sections/NeueTechnologien";
@@ -11,14 +8,13 @@ import SmartCity from "./sections/SmartCity";
 import Kultur from "./sections/Kultur";
 import Reallabor from "./sections/Reallabor";
 import Bildung from "./sections/Bildung";
+import Activities from "./sections/Activities";
 
 import Footer from "./sections/Footer";
-
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Paragraph from "./components/Paragraph";
 import Accordion from "./components/Accordion";
-import Activities from "./sections/Activities";
 
 const langSelector = s => s.lang;
 

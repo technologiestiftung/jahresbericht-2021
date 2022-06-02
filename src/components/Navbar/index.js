@@ -66,7 +66,6 @@ const getScrollPositionsOfSections = sections => {
 };
 
 function Navbar({ items, lang }) {
-  console.log(items);
   const [activeLabel, setActiveLabel] = useState(null);
   const [activeId, setActiveId] = useState(null);
   const [isHovered, setIsHovered] = useState(false);
