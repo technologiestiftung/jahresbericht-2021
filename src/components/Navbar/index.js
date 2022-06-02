@@ -8,8 +8,9 @@ import cn from "./Navbar.module.scss";
 import { ReactComponent as BildungIcon } from "../../icons/Nav-Icon-Bildung.svg";
 import { ReactComponent as SmartCityIcon } from "../../icons/Nav-Icon-SmartCity.svg";
 import { ReactComponent as ReallaborIcon } from "../../icons/Nav-Icon-Reallabor.svg";
-import { ReactComponent as NeueTechnologien } from "../../icons/Nav-Icon-NeueTechnologien.svg";
-import { ReactComponent as Kultur } from "../../icons/Nav-Icon-Kultur.svg";
+import { ReactComponent as NeueTechnologienIcon } from "../../icons/Nav-Icon-NeueTechnologien.svg";
+import { ReactComponent as KulturIcon } from "../../icons/Nav-Icon-Kultur.svg";
+import { ReactComponent as ActivitiesIcon } from "../../icons/Nav-Icon-Activities.svg";
 
 const icons = {
   smartCity: {
@@ -18,12 +19,12 @@ const icons = {
     offset: 0,
   },
   neueTechnologien: {
-    icon: <NeueTechnologien />,
+    icon: <NeueTechnologienIcon />,
     width: 30,
     offset: 50,
   },
   kultur: {
-    icon: <Kultur />,
+    icon: <KulturIcon />,
     width: 30,
     offset: 100,
   },
@@ -34,6 +35,11 @@ const icons = {
   },
   bildung: {
     icon: <BildungIcon />,
+    width: 30,
+    offset: 150,
+  },
+  activities: {
+    icon: <ActivitiesIcon />,
     width: 30,
     offset: 150,
   },
@@ -60,6 +66,7 @@ const getScrollPositionsOfSections = sections => {
 };
 
 function Navbar({ items, lang }) {
+  console.log(items);
   const [activeLabel, setActiveLabel] = useState(null);
   const [activeId, setActiveId] = useState(null);
   const [isHovered, setIsHovered] = useState(false);

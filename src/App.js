@@ -18,6 +18,7 @@ import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Paragraph from "./components/Paragraph";
 import Accordion from "./components/Accordion";
+import Activities from "./sections/Activities";
 
 const langSelector = s => s.lang;
 
@@ -28,6 +29,7 @@ const getNavItems = () => {
     "kultur",
     "bildung",
     "reallabor",
+    "activities",
   ];
   return keys.map(d => ({
     id: d,
@@ -69,6 +71,7 @@ function App() {
       <Kultur lang={lang} content={content.kultur} ui={content.ui} />
       <Bildung lang={lang} content={content.bildung} ui={content.ui} />
       <Reallabor lang={lang} content={content.reallabor} ui={content.ui} />
+      <Activities lang={lang} content={content.activities} ui={content.ui} />
       <section className={cx(cn.layoutWrapper, cn.layoutMargin)}>
         <Paragraph lang={lang} content={content.outtro} />
       </section>
