@@ -1,9 +1,6 @@
 import useStore from "./hooks/useStore";
-
 import cx from "classnames";
-
 import cn from "./App.module.scss";
-
 import content from "./content";
 
 import NeueTechnologien from "./sections/NeueTechnologien";
@@ -11,9 +8,9 @@ import SmartCity from "./sections/SmartCity";
 import Kultur from "./sections/Kultur";
 import Reallabor from "./sections/Reallabor";
 import Bildung from "./sections/Bildung";
+import Activities from "./sections/Activities";
 
 import Footer from "./sections/Footer";
-
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Paragraph from "./components/Paragraph";
@@ -28,6 +25,7 @@ const getNavItems = () => {
     "kultur",
     "bildung",
     "reallabor",
+    "activities",
   ];
   return keys.map(d => ({
     id: d,
@@ -69,6 +67,7 @@ function App() {
       <Kultur lang={lang} content={content.kultur} ui={content.ui} />
       <Bildung lang={lang} content={content.bildung} ui={content.ui} />
       <Reallabor lang={lang} content={content.reallabor} ui={content.ui} />
+      <Activities lang={lang} content={content.activities} ui={content.ui} />
       <section className={cx(cn.layoutWrapper, cn.layoutMargin)}>
         <Paragraph lang={lang} content={content.outtro} />
       </section>
