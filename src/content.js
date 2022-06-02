@@ -371,13 +371,13 @@ const content = {
   reallabor: {
     id: "5.0",
     topic: {
-      de: "Reallabor",
+      de: "Prototyping",
       en: "EMPTY",
     },
     blocks: {
       intro: {
         title: {
-          de: "Reallabor",
+          de: "Prototyping",
           en: "EMPTY",
         },
         text: {
@@ -447,17 +447,17 @@ const content = {
   activities: {
     id: "6.0",
     topic: {
-      de: "Aktivitäten",
+      de: "Weitere Aktivitäten",
       en: "EMPTY",
     },
     blocks: {
       intro: {
         title: {
-          de: "Aktivitäten",
+          de: "Weitere Aktivitäten",
           en: "EMPTY",
         },
         text: {
-          de: "Das Leben in Berlin spiegelt sich in den Daten, die anfallen. Zunehmend stellen die Verwaltung, aber auch die Versorgungsbetriebe und viele Unternehmen diese Daten als Open Data für die weitere Nutzung zur Verfügung. Die Datenanalysen und Datenvisualisierungen, die daraus entstehen, machen das Geschehen in der Stadt transparent und ermöglichen neue Services.",
+          de: "Damit sich der Innovationsstandort Berlin erfolgreich entwickelt, ist es wichtig, dass es ein gutes Innovationsklima in der Stadt gibt. Wichtig sind dafür eine offene Kommunikation und die enge Kooperation zwischen Forschenden und Anwendenden.",
           en: "EMPTY",
         },
       },
