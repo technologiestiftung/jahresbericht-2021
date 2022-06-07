@@ -59,7 +59,8 @@ const PieChart = () => {
 
   const onChartHover = (event, chartElement) => {
     if (chartElement[0]) {
-      // const index = chartElement[0].index;
+      console.log("hover");
+      const index = chartElement[0].index;
       event.native.target.style.cursor = "pointer";
       //   if (index != tooltipData.index) {
       //     tooltipDataSet({
@@ -71,8 +72,8 @@ const PieChart = () => {
       //     });
       //   }
       //   showTooltipSet(true);
-      // } else {
-      //   event.native.target.style.cursor = "default";
+    } else {
+      event.native.target.style.cursor = "default";
       //   showTooltipSet(false);
     }
   };
@@ -110,7 +111,7 @@ const PieChart = () => {
         {activeArc.label ? (
           <div className={cn.infoBox}>
             <div className={cn.doner}>{activeArc.label}</div>
-            <div className={cn.amount}>{datapoints[activeArc.index]} T€</div>
+            <div className={cn.infoBox}>{datapoints[activeArc.index]} T€</div>
           </div>
         ) : (
           <div
