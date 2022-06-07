@@ -1,0 +1,24 @@
+@import '../../../styles/base.scss';
+
+:local {
+  .overview {
+    max-width: 214px;
+    margin: 47px auto 0;
+  }
+  .positions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .divider {
+    width: 100%;
+    height: 1px;
+    background-color: $dark-grey--1;
+    margin-top: 10px;
+  }
+  .result {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+}

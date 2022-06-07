@@ -29,3 +29,20 @@ export const colors = [
   "#1E3791",
   "#9C9D9D",
 ];
+
+export const overview = {
+  positions: [
+    {
+      label: "öffentlich",
+      value: "2.405,1 T€",
+    },
+    {
+      label: "privat",
+      value: "2.704,6 T€",
+    },
+  ],
+  result: {
+    label: "gesamt",
+    value: "5.145,7 T€",
+  },
+};
