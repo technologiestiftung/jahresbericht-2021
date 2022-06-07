@@ -1,5 +1,9 @@
 @import '../../styles/base.scss';
 
 :local {
-
+  .console {
+    max-width: 327px;
+    padding: 18px;
+    background-color: $light-blue;
+  }
 }

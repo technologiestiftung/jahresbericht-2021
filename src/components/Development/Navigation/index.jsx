@@ -7,37 +7,41 @@ import { ReactComponent as ActivitiesIcon } from "../../../icons/Nav-Icon-Activi
 
 import cn from "./Navigation.module.scss";
 
-const icons = {
-  smartCity: {
-    icon: <SmartCityIcon />,
-    width: 30,
+const icons = [
+  {
+    id: "smartCity",
+    component: <SmartCityIcon />,
   },
-  neueTechnologien: {
-    icon: <NeueTechnologienIcon />,
-    width: 30,
+  {
+    id: "neueTechnologien",
+    component: <NeueTechnologienIcon />,
   },
-  kultur: {
-    icon: <KulturIcon />,
-    width: 30,
+  {
+    id: "kultur",
+    component: <KulturIcon />,
   },
-  reallabor: {
-    icon: <ReallaborIcon />,
-    width: 30,
+  {
+    id: "reallabor",
+    component: <ReallaborIcon />,
   },
-  bildung: {
-    icon: <BildungIcon />,
-    width: 30,
+  {
+    id: "bildung",
+    component: <BildungIcon />,
   },
-  activities: {
-    icon: <ActivitiesIcon />,
-    width: 30,
+  {
+    id: "activities",
+    component: <ActivitiesIcon />,
   },
-};
+];
 
 const Navigation = ({ data }) => {
   return (
     <div className={cn.navigation}>
-      <div>LOL</div>
+      {icons.map((icon, index) => (
+        <div key={index} className={cn.icon}>
+          {icon.component}
+        </div>
+      ))}
     </div>
   );
 };

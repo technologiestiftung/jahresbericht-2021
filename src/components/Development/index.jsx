@@ -6,7 +6,7 @@ const Development = ({ data }) => {
     <div className={cn.development}>
       <h1>Unsere Entwicklung</h1>
       <div className={cn.console}>
-        <div className={cn.nav}></div>
+        <Navigation />
         <div className={cn.contentSlider}>
           <div className={cn.slide}></div>
         </div>

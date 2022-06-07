@@ -1,0 +1,32 @@
+@import '../../../styles/base.scss';
+
+:local {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .icon {
+    cursor: pointer;
+    svg {
+      width: 30px;
+      height: 30px;
+      transition: $transition-fast;
+      path {
+        fill: $dark-grey--3;
+        opacity: 1;
+      }
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  //   &.active {
+  //     svg {
+  //       opacity: 1;
+  //     }
+  //   }
+  }
+
+}
