@@ -1,5 +1,5 @@
 export const labels = [
-  "SenWEB",
+  "Senatsverwaltung für Wirtschaft, Energie und Betriebe",
   "Senatskanzlei",
   "SenKultur",
   "BMBF",
