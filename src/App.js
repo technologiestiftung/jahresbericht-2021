@@ -15,6 +15,7 @@ import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Paragraph from "./components/Paragraph";
 import Accordion from "./components/Accordion";
+import Development from "./components/Development";
 
 const langSelector = s => s.lang;
 
@@ -57,6 +58,9 @@ function App() {
           title={content.acc_1.title}
           content={content.acc_1}
         />
+      </section>
+      <section className={cx(cn.layoutWrapper, cn.layoutMargin)}>
+        <Development />
       </section>
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
       <NeueTechnologien
