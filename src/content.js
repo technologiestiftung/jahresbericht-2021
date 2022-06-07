@@ -241,33 +241,6 @@ const content = {
           position: "center right",
         },
       },
-      {
-        id: "2.3",
-        theme: "dark",
-        align: "left",
-        text: {
-          links: [
-            {
-              de: "TODO",
-              en: "EMPTY",
-              href: "TODO",
-            },
-          ],
-          title: {
-            de: "Veranstaltungsreihen mit rbbInforadio",
-            en: "EMPTY",
-          },
-          paragraph: {
-            de: "Mit Treffpunkt WissensWerte und Soup & Science führt die Technologiestiftung zwei Veranstaltungsreihen mit rbb Inforadio zu Wissenschaftthemen und angewandter Forschung in Berlin durch. Während beim Treffpunkt WissensWerte bis zu vier Podiumsteilnehmer:innen eingeladen werden, stellt Soup & Science eine Naturwissenschaftlerin mit ihrer Arbeit in den Mittelpunkt. </br></br>Beide Formate erreichen eine große Öffentlichkeit und schaffen ein Bewusstsein für die Vielfalt und Exzellenz der Berliner Wissenschaft. Sie konnten trotz des Pandemiegeschehens regelmäßig durchgeführt werden, wenn auch das Publikum, das normalerweise dazu gehört, nicht immer live dabei sein konnte.",
-            en: "EMPTY",
-          },
-        },
-        img: {
-          src: "assets/images/neue-technologien_rbb.jpg",
-          alt: "image tag",
-          copyright: "TODO",
-        },
-      },
     ],
   },
   kultur: {
@@ -467,6 +440,75 @@ const content = {
         },
         img: {
           src: "assets/images/reallabor_QTrees.jpg",
+          alt: "image tag",
+          copyright: "EMPTY",
+        },
+      },
+    ],
+  },
+  activities: {
+    id: "6.0",
+    topic: {
+      de: "Aktivitäten",
+      en: "EMPTY",
+    },
+    blocks: {
+      intro: {
+        title: {
+          de: "Aktivitäten",
+          en: "EMPTY",
+        },
+        text: {
+          de: "Das Leben in Berlin spiegelt sich in den Daten, die anfallen. Zunehmend stellen die Verwaltung, aber auch die Versorgungsbetriebe und viele Unternehmen diese Daten als Open Data für die weitere Nutzung zur Verfügung. Die Datenanalysen und Datenvisualisierungen, die daraus entstehen, machen das Geschehen in der Stadt transparent und ermöglichen neue Services.",
+          en: "EMPTY",
+        },
+      },
+    },
+    items: [
+      {
+        id: "6.1",
+        theme: "dark",
+        align: "left",
+        text: {
+          links: [
+            {
+              de: "Aktuelle Veranstaltungen",
+              en: "EMPTY",
+              href: "https://www.technologiestiftung-berlin.de/veranstaltungen",
+            },
+          ],
+          title: {
+            de: "Veranstaltungsreihen mit rbbInforadio",
+            en: "EMPTY",
+          },
+          paragraph: {
+            de: "Mit Treffpunkt WissensWerte und Soup & Science führt die Technologiestiftung zwei Veranstaltungsreihen mit rbb Inforadio zu Wissenschaftthemen und angewandter Forschung in Berlin durch. Während beim Treffpunkt WissensWerte bis zu vier Podiumsteilnehmer:innen eingeladen werden, stellt Soup & Science eine Naturwissenschaftlerin mit ihrer Arbeit in den Mittelpunkt. </br></br>Beide Formate erreichen eine große Öffentlichkeit und schaffen ein Bewusstsein für die Vielfalt und Exzellenz der Berliner Wissenschaft. Sie konnten trotz des Pandemiegeschehens regelmäßig durchgeführt werden, wenn auch das Publikum, das normalerweise dazu gehört, nicht immer live dabei sein konnte.",
+            en: "EMPTY",
+          },
+        },
+        img: {
+          src: "assets/images/neue-technologien_rbb.jpg",
+          alt: "image tag",
+          copyright: "TODO",
+        },
+      },
+      {
+        id: "6.2",
+        theme: "dark",
+        align: "right",
+        text: {
+          links: [],
+          title: {
+            de: "Stiftung Analytische Röntgenphysik",
+            en: "EMPTY",
+          },
+          paragraph: {
+            de: "An der Stiftung Analytische Röntgenphysik, die wir seit ihrer Gründung verwalten, sind kleine und mittlere Unternehmen der Röntgentechnologien beteiligt. Sie schlossen sich 2008 zusammen, um die exzellente Forschung der Arbeitsgruppe um Birgit Kanngießer als Stiftungsprofessur an der Technischen Universität Berlin zu verorten und baten die Technologiestiftung, den Rahmen dafür zu schaffen. So entstand eine Verbrauchsstiftung, die zunächst auf acht Jahre angelegt war. Ende 2014 beschlossen die Stifterunternehmen, das Engagement fortzuführen, zunächst bis 2021. Die Qualität der Arbeitsgruppe bewog die Stifter nun erneut, die Stiftung aufzufüllen. Damit ist eine Laufzeit bis 2026 gesichert.",
+            en: "EMPTY",
+          },
+        },
+        img: {
+          src: "assets/images/smart-city_citylab.jpg",
           alt: "image tag",
           copyright: "EMPTY",
         },
