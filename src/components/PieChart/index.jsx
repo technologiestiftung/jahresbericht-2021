@@ -59,7 +59,7 @@ const PieChart = () => {
 
   const onChartHover = (event, chartElement) => {
     if (chartElement[0]) {
-      const index = chartElement[0].index;
+      // const index = chartElement[0].index;
       event.native.target.style.cursor = "pointer";
       //   if (index != tooltipData.index) {
       //     tooltipDataSet({
