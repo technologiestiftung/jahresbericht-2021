@@ -1,0 +1,16 @@
+@import '../../../styles/base.scss';
+
+:local {
+  .slide {
+    min-width: 289px;
+    background-color: pink;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: $bold-text;
+    text-align: center;
+    margin: 20px 0;
+  }
+}

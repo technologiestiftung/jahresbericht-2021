@@ -2,8 +2,16 @@
 
 :local {
   .console {
-    max-width: 327px;
+    max-width: 289px;
+    min-height: 464px;
     padding: 18px;
     background-color: $light-blue;
+    margin: 0 auto;
+  }
+
+  .contentSlider {
+    display: flex;
+    gap: 28px;
+    align-items: stretch;
   }
 }

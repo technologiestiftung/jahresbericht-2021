@@ -4,29 +4,41 @@
   .navigation {
     display: flex;
     justify-content: space-between;
-    width: 100%;
   }
 
   .icon {
     cursor: pointer;
+    height: 40px;
     svg {
       width: 30px;
       height: 30px;
       transition: $transition-fast;
       path {
         fill: $dark-grey--3;
-        opacity: 1;
       }
-
+      
       &:hover {
-        opacity: 0.6;
+        path {
+          fill: $blue--2;
+        }
       }
     }
-  //   &.active {
-  //     svg {
-  //       opacity: 1;
-  //     }
-  //   }
+    &.active {
+      path {
+        fill: $blue--2;
+      }
+    }
   }
 
+  .underline {
+    width: 32px;
+    height: 1px;
+    background-color: $blue--2;
+  }
+
+  .underlineContainer {
+    position: absolute;
+    width: 100%;
+    transform: translateY(40px);
+  }
 }
