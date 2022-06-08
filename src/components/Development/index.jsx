@@ -1,18 +1,21 @@
+import { useState } from "react";
 import cn from "./Development.module.scss";
 import Navigation from "./Navigation";
 import Slide from "./Slide";
 
-import { departments } from "./data";
+import { departmentList, departments } from "./data";
 
-const Development = ({ data }) => {
+const Development = () => {
+  const [indexActive, indexActiveSet] = useState(0);
+
   return (
     <div className={cn.development}>
       <h1>Unsere Entwicklung</h1>
       <div className={cn.console}>
-        <Navigation departments={departments} />
+        <Navigation indexActive={indexActive} indexActiveSet={indexActiveSet} />
         <div className={cn.contentSlider}>
-          {departments.map((d, i) => (
-            <Slide key={i} department={d} />
+          {departmentList.map((_, i) => (
+            <Slide key={i} department={departments[departmentList[i]]} />
           ))}
         </div>
       </div>

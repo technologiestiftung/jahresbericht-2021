@@ -1,15 +1,30 @@
 import cn from "./Navigation.module.scss";
+import cx from "classnames";
+import { departmentList, departments } from "../data";
 
-const Navigation = ({ departments }) => {
+const Navigation = ({ indexActive, indexActiveSet }) => {
   return (
     <div className={cn.navigation}>
-      {departments.map((icon, index) => (
-        <div key={index} className={cn.icon}>
-          {icon.component}
+      {departmentList.map((_, index) => (
+        <div
+          key={index}
+          className={cx(cn.icon, {
+            [cn.active]: indexActive === index,
+          })}
+          onClick={() => indexActiveSet(index)}
+        >
+          {departments[departmentList[index]].component}
         </div>
       ))}
       <div className={cn.underlineContainer}>
-        <div className={cn.underline}></div>
+        <div
+          className={cn.underline}
+          style={{
+            transform: `translateX(${
+              departments[departmentList[indexActive]].offset
+            }px)`,
+          }}
+        ></div>
       </div>
     </div>
   );

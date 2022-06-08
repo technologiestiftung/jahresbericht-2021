@@ -4,30 +4,38 @@ import { ReactComponent as ReallaborIcon } from "../../icons/Nav-Icon-Reallabor.
 import { ReactComponent as NeueTechnologienIcon } from "../../icons/Nav-Icon-NeueTechnologien.svg";
 import { ReactComponent as KulturIcon } from "../../icons/Nav-Icon-Kultur.svg";
 
-export const departments = [
-  {
-    id: "smartCity",
+export const departmentList = [
+  "smartCity",
+  "neueTechnologien",
+  "bildung",
+  "kultur",
+  "reallabor",
+];
+
+export const departments = {
+  smartCity: {
     component: <SmartCityIcon />,
     label: "Smart City",
+    offset: 0,
   },
-  {
-    id: "neueTechnologien",
+  neueTechnologien: {
     component: <NeueTechnologienIcon />,
     label: "Neue Technologien",
+    offset: 64,
   },
-  {
-    id: "bildung",
+  bildung: {
     component: <BildungIcon />,
     label: "Bildung",
+    offset: 129,
   },
-  {
-    id: "kultur",
+  kultur: {
     component: <KulturIcon />,
     label: "Kultur",
+    offset: 193,
   },
-  {
-    id: "reallabor",
+  reallabor: {
     component: <ReallaborIcon />,
     label: "Prototyping",
+    offset: 258,
   },
-];
+};

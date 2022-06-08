@@ -12,8 +12,8 @@
     svg {
       width: 30px;
       height: 30px;
-      transition: $transition-fast;
       path {
+        transition: $transition-slow;
         fill: $dark-grey--3;
       }
       
@@ -34,6 +34,7 @@
     width: 32px;
     height: 1px;
     background-color: $blue--2;
+    transition: $transition-fast;
   }
 
   .underlineContainer {
