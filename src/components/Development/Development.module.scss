@@ -3,6 +3,7 @@
 :local {
   .console {
     max-width: 289px;
+    overflow: hidden;
     min-height: 464px;
     padding: 18px;
     background-color: $light-blue;
@@ -13,5 +14,7 @@
     display: flex;
     gap: 28px;
     align-items: stretch;
+    transform: translateX(0);
+    transition: $transition-slow;
   }
 }

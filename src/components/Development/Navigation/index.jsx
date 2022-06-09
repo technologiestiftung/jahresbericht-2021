@@ -21,7 +21,7 @@ const Navigation = ({ indexActive, indexActiveSet }) => {
           className={cn.underline}
           style={{
             transform: `translateX(${
-              departments[departmentList[indexActive]].offset
+              departments[departmentList[indexActive]].navOffset
             }px)`,
           }}
         ></div>

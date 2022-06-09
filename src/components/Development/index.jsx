@@ -13,7 +13,14 @@ const Development = () => {
       <h1>Unsere Entwicklung</h1>
       <div className={cn.console}>
         <Navigation indexActive={indexActive} indexActiveSet={indexActiveSet} />
-        <div className={cn.contentSlider}>
+        <div
+          className={cn.contentSlider}
+          style={{
+            transform: `translateX(${
+              departments[departmentList[indexActive]].slideOffset
+            }px)`,
+          }}
+        >
           {departmentList.map((_, i) => (
             <Slide key={i} department={departments[departmentList[i]]} />
           ))}
