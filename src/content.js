@@ -441,13 +441,13 @@ const content = {
   activities: {
     id: "6.0",
     topic: {
-      de: "Aktivitäten",
+      de: "Weitere Aktivitäten",
       en: "EMPTY",
     },
     blocks: {
       intro: {
         title: {
-          de: "Aktivitäten",
+          de: "Weitere Aktivitäten",
           en: "EMPTY",
         },
         text: {
