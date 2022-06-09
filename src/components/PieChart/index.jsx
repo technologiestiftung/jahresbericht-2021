@@ -85,9 +85,11 @@ const PieChart = () => {
 
   return (
     <div className={cn.wrapper}>
-      <h1 className={cn.title}>{data.datasets[0].label.toUpperCase()}</h1>
+      <h2 className={cn.title}>Unsere Mittelherkunft</h2>
       <p className={cn.subTitle}>
-        Klicken Sie sich hier durch unsere Mittel und wo sie herkommen.
+        Für ihre Arbeit stehen der Technologiestiftung Erträge aus dem
+        Stiftungskapital zur Verfügung. Darüber hinaus führt sie viele ihrer
+        Projekte mit Mitteln verschiedener Fördergeber durch.
       </p>
       <div className={cn.doughnutWrapper}>
         <Doughnut data={data} options={options} />
