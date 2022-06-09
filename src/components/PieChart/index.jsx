@@ -6,16 +6,12 @@ import cx from "classnames";
 import { labels, datapoints, colors, overview } from "./data";
 import { ReactComponent as ClickIcon } from "../../icons/Click-Here.svg";
 import Overview from "./Overview";
-// import Legend from "./Legend";
-// import Tooltip from "./Tooltip";
 
 ChartJS.register(ArcElement, Tool);
 
 const PieChart = () => {
   const [activeArc, activeArcSet] = useState({});
   const [computedColors, computedColorsSet] = useState(colors);
-  // const [tooltipData, tooltipDataSet] = useState({ position: { x: 0, y: 0 } });
-  // const [showTooltip, showTooltipSet] = useState(false);
 
   const data = {
     labels,
@@ -59,21 +55,9 @@ const PieChart = () => {
 
   const onChartHover = (event, chartElement) => {
     if (chartElement[0]) {
-      // const index = chartElement[0].index;
       event.native.target.style.cursor = "pointer";
-      //   if (index != tooltipData.index) {
-      //     tooltipDataSet({
-      //       index: index,
-      //       position: chartElement[0].element.getCenterPoint(),
-      //       value: datapoints[index],
-      //       label: labels[index],
-      //       color: colors[index],
-      //     });
-      //   }
-      //   showTooltipSet(true);
     } else {
       event.native.target.style.cursor = "default";
-      //   showTooltipSet(false);
     }
   };
 
@@ -122,8 +106,6 @@ const PieChart = () => {
         )}
       </div>
       <Overview data={overview} />
-      {/* <Legend /> */}
-      {/* {showTooltip && <Tooltip data={tooltipData} />} */}
     </div>
   );
 };
