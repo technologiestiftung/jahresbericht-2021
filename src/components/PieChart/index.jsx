@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Chart as ChartJS, ArcElement, Tooltip as Tool } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 import cn from "./PieChart.module.scss";
@@ -12,6 +12,17 @@ ChartJS.register(ArcElement, Tool);
 const PieChart = () => {
   const [activeArc, activeArcSet] = useState({});
   const [computedColors, computedColorsSet] = useState(colors);
+  const [onMobile, onMobileSet] = useState(window.innerWidth < 840);
+
+  useEffect(() => {
+    window.addEventListener("resize", () =>
+      onMobileSet(window.innerWidth < 840)
+    );
+    return () =>
+      window.removeEventListener("resize", () =>
+        onMobileSet(window.innerWidth < 840)
+      );
+  });
 
   const data = {
     labels,
@@ -40,8 +51,7 @@ const PieChart = () => {
     },
   };
 
-  const onChartClick = (_, elements) => {
-    const elementIndex = elements[0].index;
+  const activateArc = elementIndex => {
     activeArcSet({
       label: labels[elementIndex],
       index: elementIndex,
@@ -53,11 +63,36 @@ const PieChart = () => {
     );
   };
 
-  const onChartHover = (event, chartElement) => {
-    if (chartElement[0]) {
+  const deactivateArcs = () => {
+    activeArcSet({});
+    computedColorsSet(colors);
+  };
+
+  const onChartClick = (_, elements) => {
+    if (elements[0]) {
+      const elementIndex = elements[0].index;
+      const dataSet = elements[0].datasetIndex;
+      if (activeArc.index === elementIndex || dataSet === 1) {
+        deactivateArcs();
+      } else {
+        activateArc(elementIndex);
+      }
+    }
+  };
+
+  const onChartHover = (event, elements) => {
+    if (elements[0]) {
       event.native.target.style.cursor = "pointer";
+      const elementIndex = elements[0].index;
+      const dataSet = elements[0].datasetIndex;
+      if (activeArc.index !== elementIndex && dataSet === 0) {
+        activateArc(elements[0].index);
+      }
     } else {
       event.native.target.style.cursor = "default";
+      if (activeArc.index) {
+        deactivateArcs();
+      }
     }
   };
 
@@ -79,7 +114,7 @@ const PieChart = () => {
     },
     events: ["click", "mousemove"],
     onClick: (_, elements) => onChartClick(_, elements),
-    onHover: (e, el) => onChartHover(e, el),
+    onHover: onMobile ? () => {} : (e, elements) => onChartHover(e, elements),
     cutout: "55%",
   };
 
@@ -96,7 +131,7 @@ const PieChart = () => {
         {activeArc.label ? (
           <div className={cn.infoBox}>
             <div className={cn.doner}>{activeArc.label}</div>
-            <div className>{datapoints[activeArc.index]} T€</div>
+            <div>{datapoints[activeArc.index]} T€</div>
           </div>
         ) : (
           <div
