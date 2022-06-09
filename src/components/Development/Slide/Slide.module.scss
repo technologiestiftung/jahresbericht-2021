@@ -1,0 +1,48 @@
+@import '../../../styles/base.scss';
+
+:local {
+  .slide {
+    min-width: 289px;
+    overflow: hidden;
+    min-height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: $bold-text;
+    text-align: center;
+    margin: 20px 0;
+    color: $blue-dark;
+  }
+
+  .projectWrapper {
+    min-height: 262px;
+    display: flex;
+    gap: 18px;
+    transition: $transition-slow;
+  }
+
+  .projectColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-bottom: 30px;
+    min-width: 289px;
+  }
+
+  .projectBubble {
+    background: $corporate-blue;
+    padding: 8px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 4px;
+    color: $white;
+  }
+
+}

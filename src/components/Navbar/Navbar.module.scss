@@ -29,7 +29,7 @@
     margin-left: 3px;
     width: 1px;
     height: 40px;
-    background-color: $dark-grey--6;
+    background-color: $grey-40;
   }
   .label {
     @include box-shadow;
@@ -75,7 +75,7 @@
     justify-content: center;
     margin: 0 3.5px;
 
-    color: $dark-grey--1;
+    color: $grey-90;
 
     svg {
       width: 30px;
@@ -88,7 +88,7 @@
       }
     }
     &.active {
-      // background-color: $dark-grey--6;
+      // background-color: $grey-40;
       svg {
         opacity: 1;
       }

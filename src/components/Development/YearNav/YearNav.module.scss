@@ -1,0 +1,27 @@
+@import '../../../styles/base.scss';
+
+:local {
+  .nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: $light-blue;
+    padding-bottom: 18px;
+    z-index:2000;
+  }
+  .year {
+    width: 48px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 28px;
+    color: #878786;
+    cursor: pointer;
+    transition: $transition-slow;
+  }
+  .active {
+    background: $blue-dark;
+    border-radius: 2px;
+    color: $white;
+    cursor: default;
+  }
+}

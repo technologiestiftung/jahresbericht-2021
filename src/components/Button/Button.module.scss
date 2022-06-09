@@ -4,15 +4,15 @@
     text-decoration: none;
     padding: 10px 15px;
     background-color: $white;
-    color: $dark-grey--1;
+    color: $grey-90;
     transition: $transition-fast;
 
     &:hover {
-      color: $dark-grey--1;
+      color: $grey-90;
     }
 
     &.dark {
-      background-color: $dark-grey--1;
+      background-color: $grey-90;
       color: $white
     }
   }
