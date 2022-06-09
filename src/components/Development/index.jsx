@@ -9,22 +9,19 @@ const Development = () => {
   const [indexActive, indexActiveSet] = useState(0);
 
   return (
-    <div className={cn.development}>
-      <h1>Unsere Entwicklung</h1>
-      <div className={cn.console}>
-        <Navigation indexActive={indexActive} indexActiveSet={indexActiveSet} />
-        <div
-          className={cn.contentSlider}
-          style={{
-            transform: `translateX(${
-              departments[departmentList[indexActive]].slideOffset
-            }px)`,
-          }}
-        >
-          {departmentList.map((_, i) => (
-            <Slide key={i} department={departments[departmentList[i]]} />
-          ))}
-        </div>
+    <div className={cn.developmentConsole}>
+      <Navigation indexActive={indexActive} indexActiveSet={indexActiveSet} />
+      <div
+        className={cn.contentSlider}
+        style={{
+          transform: `translateX(${
+            departments[departmentList[indexActive]].slideOffset
+          }px)`,
+        }}
+      >
+        {departmentList.map((_, i) => (
+          <Slide key={i} department={departments[departmentList[i]]} />
+        ))}
       </div>
     </div>
   );
