@@ -28,20 +28,20 @@ const icons = {
     width: 30,
     offset: 100,
   },
-  reallabor: {
-    icon: <ReallaborIcon />,
-    width: 30,
-    offset: 200,
-  },
   bildung: {
     icon: <BildungIcon />,
     width: 30,
     offset: 150,
   },
+  reallabor: {
+    icon: <ReallaborIcon />,
+    width: 30,
+    offset: 200,
+  },
   activities: {
     icon: <ActivitiesIcon />,
     width: 30,
-    offset: 150,
+    offset: 250,
   },
 };
 

@@ -19,7 +19,7 @@ function LanguageSwitch() {
       <div className={cn.iconWrapper}>
         <GlobeIcon fill='#404040' />
       </div>
-      <span>{lang === "de" ? "en" : "de"}</span>
+      <span className={cn.label}>{lang === "de" ? "en" : "de"}</span>
     </div>
   );
 }

@@ -6,11 +6,12 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    justify-content: center;
+    justify-content: space-between;
     color: $dark-grey--1;
     font-weight: normal;
     font-size: $font-size-s;
     margin-left: 12px;
+    min-height: 30px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: $font-size-xs;
@@ -25,18 +26,16 @@
     width: 18px;
     height: 18px;
   }
+
+  .label {
+    line-height: 8px;
+    font-size: 8px;
+  }
+
   .divider {
     height: 15px;
     width: 1px;
     background-color: $dark-grey--1;
     opacity: 1;
-  }
-  .label {
-    opacity: 1;
-    margin-top: 5px;
-    cursor: pointer;
-    &:hover {
-      opacity: .6;
-    }
   }
 }
