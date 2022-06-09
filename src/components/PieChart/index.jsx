@@ -94,7 +94,7 @@ const PieChart = () => {
         {activeArc.label ? (
           <div className={cn.infoBox}>
             <div className={cn.doner}>{activeArc.label}</div>
-            <div className={cn.infoBox}>{datapoints[activeArc.index]} T€</div>
+            <div className>{datapoints[activeArc.index]} T€</div>
           </div>
         ) : (
           <div
