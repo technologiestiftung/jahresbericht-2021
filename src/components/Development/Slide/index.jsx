@@ -21,7 +21,7 @@ const Slide = ({ department }) => {
         } else {
           activeYearSet(activeYear + 1);
         }
-      }, 1500);
+      }, 3000);
       return () => clearInterval(yearInterval.current);
     }
   }, [activeYear, runInterval, department]);
