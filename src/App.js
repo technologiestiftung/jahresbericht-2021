@@ -15,7 +15,6 @@ import Team from "./sections/Team";
 import Footer from "./sections/Footer";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
-import Paragraph from "./components/Paragraph";
 import Accordion from "./components/Accordion";
 
 const langSelector = s => s.lang;
