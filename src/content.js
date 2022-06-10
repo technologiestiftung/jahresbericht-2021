@@ -645,7 +645,7 @@ const content = {
         link: {
           de: "Zum Jahresabschluss (PDF)",
           en: "EMPTY",
-          href: "/",
+          href: "./assets/downloads/Jahresabschluss_2021_web.pdf",
         },
       },
       {
