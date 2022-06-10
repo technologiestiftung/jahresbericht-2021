@@ -19,9 +19,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column-reverse;
+    gap: 57px 0;
+    @media screen and (min-width: $large-content-width) {
+      flex-direction: row;
+    }
   }
-
+  
   .mittelWrapper {
-    flex-direction: row-reverse;
+    @media screen and (min-width: $large-content-width) {
+      flex-direction: row-reverse;
+    }
   }
 }
