@@ -135,8 +135,8 @@ function Navbar({ items, lang }) {
             </div>
           </div>
         ))}
-        <div className={cn.divider} />
-        <LanguageSwitch />
+        {/* <div className={cn.divider} />
+        <LanguageSwitch /> Temporarily deactivated */}
       </div>
     </>
   );
