@@ -1,0 +1,45 @@
+@import '../../../styles/base.scss';
+
+:local {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon {
+    cursor: pointer;
+    height: 42px;
+    svg {
+      width: 30px;
+      height: 30px;
+      path {
+        transition: $transition-slow;
+        fill: $grey-70;
+      }
+      
+      &:hover {
+        path {
+          fill: $blue-dark;
+        }
+      }
+    }
+    &.active {
+      path {
+        fill: $blue-dark;
+      }
+    }
+  }
+
+  .underline {
+    width: 32px;
+    height: 1px;
+    background-color: $blue-dark;
+    transition: $transition-fast;
+  }
+
+  .underlineContainer {
+    position: absolute;
+    width: 100%;
+    transform: translateY(40px);
+  }
+}
