@@ -30,11 +30,11 @@ function Accordion({ lang, title, content }) {
             : { maxHeight: "0px" }
         }
       >
-        <p
-          ref={panelEl}
-          className={cn.paragraph}
-          dangerouslySetInnerHTML={{ __html: content[lang] }}
-        ></p>
+        <div ref={panelEl} className={cn.paragraph}>
+          {content[lang].map((p, index) => (
+            <p key={index} dangerouslySetInnerHTML={{ __html: p }} />
+          ))}
+        </div>
       </div>
     </div>
   );
