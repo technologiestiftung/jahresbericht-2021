@@ -1,0 +1,49 @@
+@import '../../styles/base.scss';
+
+:local {
+  .wrapper {
+    height: auto;
+    width: auto;
+    max-width: 860px;
+    margin: 60px auto;
+  }
+
+  .header {
+    padding: 24px;
+    margin-bottom: 48px;
+    @include flex();
+  }
+
+  .teamWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: calc(100vw - 30px);
+    max-width: 860px;
+    gap:100px 30px;
+    margin: auto;
+  }
+  
+  .teamElement {
+    width: 360px;
+    margin: 0 auto;
+    
+  }
+
+  .head {
+    display: flex;
+    margin-bottom: 23px;
+  }
+
+  .description {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    color: $grey-70;
+  }
+}
