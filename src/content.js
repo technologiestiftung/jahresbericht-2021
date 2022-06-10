@@ -11,7 +11,7 @@ const content = {
       "Das Kuratorium ist sich sicher, dass die Stiftung darüber hinaus dem Berliner Innovationsbereich zwischen Wissenschaft und Wirtschaft mit dem erprobten Lab-Ansatz besondere Impulse geben kann. Das Kuratorium wird die spannenden Entwicklungen, die anstehen, nach Kräften unterstützen und wünscht den Mitarbeiter:innen und dem  Vorstand der Technologiestiftung für die Zukunft viel Erfolg.",
       "<strong>Matthias Patz</strong></br>Kuratoriumsvorsitzender",
     ],
-    eng: "EMPTY",
+    en: ["EMPTY"],
   },
   acc_2: {
     title: "Vorwort des Vorstandsvorsitzenden Nicolas Zimmer",
@@ -28,7 +28,7 @@ const content = {
       "Gemeinsam mit dem wachsenden Team der Technologiestiftung Berlin freue ich mich auf die Herausforderungen, die uns im kommenden Jahr erwarten.",
       "<strong>Nicolas Zimmer</strong></br>Vorstandsvorsitzender </br>Technologiestiftung Berlin",
     ],
-    eng: "EMPTY",
+    en: ["EMPTY"],
   },
 
   outtro: {
