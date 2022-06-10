@@ -181,11 +181,17 @@ const content = {
           },
         },
         img: {
+<<<<<<< HEAD
           src: "assets/images/odis.png",
           alt: "Die Homepage von ODIS",
           copyright: "",
           fit: "cover",
           position: "center center",
+=======
+          src: "assets/images/smart-city_ODIS.png",
+          alt: "image tag",
+          copyright: "© CityLAB Berlin",
+>>>>>>> TJ2-14/pie_chart
         },
       },
     ],
@@ -231,10 +237,19 @@ const content = {
           },
         },
         img: {
+<<<<<<< HEAD
           src: "assets/images/datenoekonomie.png",
           alt: "Das Deckblatt der Studie zum Thema Datenökonomie.",
           copyright: "",
           position: "center center",
+=======
+          src: "assets/images/neue-technologien_datenoekonomie-cropped.png",
+          alt: "image tag",
+          copyright: "© 2022 Technologiestiftung Berlin",
+          fit: "contain",
+          maxWidth: "600px",
+          position: "center right",
+>>>>>>> TJ2-14/pie_chart
         },
       },
       {
@@ -259,10 +274,19 @@ const content = {
           },
         },
         img: {
+<<<<<<< HEAD
           src: "assets/images/Innovationserhebung.jpg",
           alt: "Eine Frau mit VR-Brille, rein illustrativ",
           copyright: "© shutterstock",
           position: "center center",
+=======
+          src: "assets/images/neue-technologien_innovation-cropped.png",
+          alt: "image tag",
+          copyright: "TODO",
+          fit: "contain",
+          maxWidth: "600px",
+          position: "center right",
+>>>>>>> TJ2-14/pie_chart
         },
       },
     ],
@@ -309,9 +333,15 @@ const content = {
         },
         img: {
           src: "assets/images/kultur_bdigital.png",
+<<<<<<< HEAD
           alt: "Die Homepage von kulturBdigital.",
           copyright: " ",
           position: "center center",
+=======
+          alt: "image tag",
+          copyright: "TODO",
+          fit: "contain",
+>>>>>>> TJ2-14/pie_chart
         },
       },
     ],
@@ -357,9 +387,18 @@ const content = {
           },
         },
         img: {
+<<<<<<< HEAD
           src: "assets/images/bildung_hacking-box.jpg",
           alt: "Die Bilder zeigen die Hacking Box der Technologiestiftung.",
           copyright: "© Carolin Claußnitzer / Archiv Technologiestiftung",
+=======
+          src: "assets/images/bildung_hacking-box-cropped.jpg",
+          alt: "image tag",
+          copyright: "© CityLAB Berlin",
+          fit: "contain",
+          maxWidth: "1000px",
+          position: "center right",
+>>>>>>> TJ2-14/pie_chart
         },
       },
       {
