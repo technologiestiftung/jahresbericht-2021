@@ -538,6 +538,64 @@ const content = {
       },
     ],
   },
+  team: {
+    blocks: {
+      intro: {
+        title: {
+          de: "UnserTeam",
+          en: "Our team",
+        },
+        text: {
+          de: "Das sagen unsere Mitarbeiter:innen.",
+          en: "EMPTY",
+        },
+      },
+    },
+    items: [
+      {
+        name: "Caroline Erbstößer",
+        img: "assets/images/team/img-caroline.jpg",
+        title: "Wissenschaftliche Mitarbeiterin",
+        quote:
+          "„Intelligente Gebäude, vernetzte Quartiere, die smarte Stadt: Das sind meine Themen. Als Ingenieurin interessiert mich, wie Technik funktioniert und wie sie sinnvoll eingesetzt werden kann. Die Technologiestiftung bietet mir seit vielen Jahren super Bedingungen neue Trends der Digitalisierung aufzuspüren und diese bis ins Detail auf deren Impact zu untersuchen. Die Komplexität der Inhalte rund um die Smart City reizt mich und das sektorenübergreifende Arbeiten in der Stiftung und mit Partnern liegt mir sehr. Es wird nicht langweilig immer wieder neue Themen und menschen kennenzulernen und mein Engagement für Berlin zu teilen.“",
+      },
+      {
+        name: "Petra Scheider",
+        img: "assets/images/team/img-petra.jpg",
+        title: "Assistentin der Bereichsleiterin Finanzen & Administration",
+        quote:
+          "„Langeweile und eintönige Beschäftigung hat es in meinen 40 Jahren Berufsleben noch nie ge­geben. Ich mag Vielfalt in meinen Aufgaben und den Menschen, mit denen ich zu tun habe. Bei der Technologiestiftung finde ich diese Vielfalt auf jeden Fall, beispielsweise als Ansprechpart­nerin für Personalangelegenheiten. Da es viele Berufseinsteiger:innen mit ganz unterschiedli­chen Hintergründen gibt, habe ich immer wieder mit neuen Themen und Zusammenhängen zu tun. Ich möchte, dass der Start ins Arbeitsleben für die neuen Kolleg:innen gut wird, wie mir überhaupt wichtig ist, dass sich alle mit den Pro­zessen und Abläufen in der Stiftung wohlfühlen.“",
+      },
+      {
+        name: "Marco Kade",
+        img: "assets/images/team/img-marco.jpg",
+        title: "UX/UI Designer",
+        quote:
+          "„Was ich besonders an dieser Stadt mag, ist die Vielfalt der Orte und ihrer Bewohner:innen. Dadurch kann man jeden Tag etwas Neues entdecken und lernen. Deshalb macht mir die Arbeit in der Technologiestiftung auch besonders viel Spaß, weil ich hier die Möglichkeit habe, mittels digitaler Mittel meine Nachbar:innen noch mehr teilhaben zu lassen und unsere Stadt damit jeden Tag ein wenig demokratischer zu gestalten.“",
+      },
+      {
+        name: "Alex Möller",
+        img: "assets/images/team/img-alex.jpg",
+        title: "Wissenschaftlicher Mitarbeiter",
+        quote:
+          "„Zu arbeiten, um einen Unterschied zu machen, ist für mich das Wichtigste. Und die Herausforderungen und Chancen rund um das Thema Digitalität sind für mich die prägendsten und drängendsten Aufgaben für unsere Gegenwart und Zukunft. Das Team Netzwerke und Koopera­tionen verbindet verschiedene Akteur:innen der Stadtgesellschaft, damit die technologische Ent­wicklung der Stadt offen, nachhaltig, sozial und effizient wird. Ich helfe, das zu kommunizieren .“",
+      },
+      {
+        name: "Lisa Stubert",
+        img: "assets/images/team/img-lisa.jpg",
+        title: "Projektleiterin ODIS",
+        quote:
+          "„Seit 2020 unterstütze ich mit der Open Data Informationsstelle die Berliner Verwaltung da­bei, offene Daten über unsere lebendige Haupt stadt bereitzustellen und zu nutzen. So können wir der Stadtgesellschaft mehr Transparenz und Wertschöpfung aus vorhandenem Wissen und Verwaltungshandeln ermöglichen. Das ist natürlich nicht immer einfach, aber eine Sache die mich motiviert sind meine tollen Teamkolleg:innen und dass ich selber ständig neues dazu lerne.“",
+      },
+      {
+        name: "Niklas Kossow",
+        img: "assets/images/team/img-niklas.jpg",
+        title: "Projektmanager Smart City",
+        quote:
+          "„Ich habe Digitalisierung immer als eine Chance gesehen, am Fortschritt unserer Gesellschaft zu arbeiten. Aber wir müssen darauf achten, dass Digitalisierung nachhaltig, resilient, gemeinwohl­orientiert und kooperativ gestaltet wird, damit sie ein Instrument sein kann, um unsere Stadt im Interesse der Berliner:innen zu gestalten. Ich freue mich, dass ich im CityLAB an dieser Mis­sion mitarbeiten und mit tollen Kolleg:innen die Smart City Berlin gestalten kann. Digitalisierung schaffen wir nur gemeinsam, und die Technologiestiftung ist mit dem CityLAB dabei ein wichti­ger Akteur in Berlin.“",
+      },
+    ],
+  },
 };
 
 export default content;
