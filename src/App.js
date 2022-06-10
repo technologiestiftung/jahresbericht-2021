@@ -3,20 +3,21 @@ import cx from "classnames";
 import cn from "./App.module.scss";
 import content from "./content";
 
-import NeueTechnologien from "./sections/NeueTechnologien";
 import SmartCity from "./sections/SmartCity";
+import NeueTechnologien from "./sections/NeueTechnologien";
 import Kultur from "./sections/Kultur";
-import Reallabor from "./sections/Reallabor";
 import Bildung from "./sections/Bildung";
+import Reallabor from "./sections/Reallabor";
 import Activities from "./sections/Activities";
-import Outro from "./sections/Outro";
-
 import Team from "./sections/Team";
+import Outro from "./sections/Outro";
 import Footer from "./sections/Footer";
+
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Accordion from "./components/Accordion";
 import PieChart from "./components/PieChart";
+import Development from "./components/Development";
 
 const langSelector = s => s.lang;
 
@@ -63,6 +64,10 @@ function App() {
 
       <section className={cx(cn.layoutWrapper, cn.layoutMargin)}>
         <PieChart />
+      </section>
+
+      <section className={cx(cn.layoutWrapper, cn.layoutMargin)}>
+        <Development />
       </section>
 
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />

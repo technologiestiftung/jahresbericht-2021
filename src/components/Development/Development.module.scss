@@ -1,0 +1,20 @@
+@import '../../styles/base.scss';
+
+:local {
+  .developmentConsole {
+    max-width: 289px;
+    overflow: hidden;
+    min-height: 428px;
+    padding: 18px 18px 0;
+    background-color: $light-blue;
+    margin: 0 auto;
+  }
+
+  .contentSlider {
+    display: flex;
+    gap: 28px;
+    align-items: stretch;
+    transform: translateX(0);
+    transition: $transition-slow;
+  }
+}
