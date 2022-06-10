@@ -430,7 +430,6 @@ const content = {
           src: "assets/images/como.png",
           alt: "Die Homepage von COMo Berlin.",
           copyright: " ",
-          maxWidth: "200px",
           position: "center right",
           fit: "cover",
         },
