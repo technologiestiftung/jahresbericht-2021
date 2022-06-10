@@ -24,7 +24,7 @@ const Slide = ({ department }) => {
       }, 1500);
       return () => clearInterval(yearInterval.current);
     }
-  }, [activeYear, runInterval]);
+  }, [activeYear, runInterval, department]);
 
   return (
     <div className={cn.slide}>
