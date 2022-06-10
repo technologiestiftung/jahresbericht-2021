@@ -113,7 +113,7 @@ const PieChart = () => {
       },
     },
     events: ["click", "mousemove"],
-    onClick: (_, elements) => onChartClick(_, elements),
+    onClick: onMobile ? (_, elements) => onChartClick(_, elements) : () => {},
     onHover: onMobile ? () => {} : (e, elements) => onChartHover(e, elements),
     cutout: "55%",
   };
