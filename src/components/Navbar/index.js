@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import useStore from "../../hooks/useStore";
 import cx from "classnames";
-import LanguageSwitch from "../LanguageSwitch";
+// import LanguageSwitch from "../LanguageSwitch";
 
 import cn from "./Navbar.module.scss";
 
