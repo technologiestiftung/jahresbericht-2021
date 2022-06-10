@@ -9,6 +9,7 @@ import Kultur from "./sections/Kultur";
 import Reallabor from "./sections/Reallabor";
 import Bildung from "./sections/Bildung";
 import Activities from "./sections/Activities";
+import Outro from "./sections/Outro";
 
 import Team from "./sections/Team";
 import Footer from "./sections/Footer";
@@ -70,9 +71,7 @@ function App() {
       <Reallabor lang={lang} content={content.reallabor} ui={content.ui} />
       <Activities lang={lang} content={content.activities} ui={content.ui} />
       <Team lang={lang} content={content.team} ui={content.ui} />
-      <section className={cx(cn.layoutWrapper, cn.layoutMargin)}>
-        <Paragraph lang={lang} content={content.outtro} />
-      </section>
+      <Outro lang={lang} content={content.outro} />
       <Footer content={content.footer} lang={lang} />
     </div>
   );
