@@ -2,12 +2,12 @@
 
 :local {
   .developmentConsole {
+    position:relative;
     max-width: 289px;
     overflow: hidden;
     min-height: 428px;
     padding: 18px 18px 0;
-    background-color: $light-blue;
-    margin: 0 auto;
+    background-color: $blue-light;
   }
 
   .contentSlider {

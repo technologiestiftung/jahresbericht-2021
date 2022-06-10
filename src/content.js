@@ -30,11 +30,6 @@ const content = {
     ],
     en: ["EMPTY"],
   },
-
-  outtro: {
-    de: "Das war’s mit unserem Rückblick 2021! Wir schauen auf ein abwechslungsreiches Jahr zurück, das genauso vielfältig war wie Berlin selbst! Nun freuen wir uns auf 2022 und viele gemeinsame Projekte mit der Berliner Verwaltung und der Stadtgesellschaft. <br/> <br/>Euer CityLAB Berlin der Herzen",
-    en: `And with that, we close out our look back on a year that was just as thrilling and diverse as Berlin itself! Now we are looking forward to 2022 and all of the collaborative projects with Berlin's city administration and the city society the year will have in store for us.<br/><br/>Your CityLAB Berlin`,
-  },
   header: {
     headline: {
       de: "Jahresbericht 2021",
@@ -537,6 +532,38 @@ const content = {
         },
       },
     ],
+  },
+  offenheit: {
+    title: {
+      de: "Wir schaffen Offenheit",
+      en: "EMPTY",
+    },
+    text: {
+      de: "Wir engagieren uns für eine gemeinwohlorientierte Entwicklung Berlins und eine transparente Stadtgesellschaft, in der alle Gruppen Zugang zu den Daten haben, die die Stadt erhebt und mit denen sie das Zusammen­leben steuert. <br><br>Mit unseren digitalen Instrumenten und Lösungen tragen wir aktiv dazu bei, dass Berlin offen, nachhaltig und effizient wird. Mit unseren Studien und Reports stellen wir sicher, dass neueste technologische Entwicklungen frühzeitig identifiziert und für den Transformationsprozess genutzt werden. Mit unseren digitalen Bildungsangeboten sorgen wir dafür, dass alle am Wandel teilhaben und dessen Vorteile genießen können .",
+      en: "EMPTY",
+    },
+    blocks: {
+      entwicklung: {
+        title: {
+          de: "Unsere Entwicklung",
+          en: "EMPTY",
+        },
+        paragraph: {
+          de: "Seit einigen Jahren konzentriert sich die Technologiestiftung, deren Aufgabe die Entwicklung Berlins zu einem exzellenten Innovationsstandort ist, auf die Digitalisierung als der Treiberin der technologischen Entwicklung. Mit der immer umfassend wirkenden digitalen Transformation in der Stadt haben sich auch neue Themen und Projekte entwickelt.",
+          en: "EMPTY",
+        },
+      },
+      mittel: {
+        title: {
+          de: "Unsere Mittelherkunft",
+          en: "EMPTY",
+        },
+        paragraph: {
+          de: "Für ihre Arbeit stehen der Technologiestiftung Erträge aus dem Stiftungskapital zur Verfügung. Darüber hinaus führt sie viele ihrer Projekte mit Mitteln verschiedener Fördergeber durch.",
+          en: "EMPTY",
+        },
+      },
+    },
   },
   team: {
     blocks: {

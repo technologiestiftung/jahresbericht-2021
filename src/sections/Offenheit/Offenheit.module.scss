@@ -1,0 +1,27 @@
+@import '../../styles/base.scss';
+
+:local {
+  .wrapper {
+    height: auto;
+    width: auto;
+    max-width: $medium-content-width;
+    margin: 60px auto;
+    @include flex();
+  }
+
+  .description {
+    max-width: 327px;
+  }
+
+  .contentWrapper {
+    max-width: $large-content-width;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mittelWrapper {
+    flex-direction: row-reverse;
+  }
+}

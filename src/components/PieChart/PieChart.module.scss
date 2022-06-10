@@ -3,24 +3,13 @@
 :local {
   .wrapper {
     max-width: 280px;
-    margin: 0 auto;
-  }
-  
-  .title {
-    width: 100%;
-    margin-bottom: 9px;
-    font-size: 16px;
-  }
-  
-  .subTitle {
-    margin-bottom: 33px;
   }
   
   .infoBox {
     position: absolute;
-    left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: -136px;
+    margin-top: -140px;
+    margin-left: 140px;
     text-align: center;
     max-width: 125px;
     padding: 1px;
