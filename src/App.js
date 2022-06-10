@@ -1,8 +1,8 @@
 import useStore from "./hooks/useStore";
-import cx from "classnames";
 import cn from "./App.module.scss";
 import content from "./content";
 
+import Accordions from "./sections/Accordions";
 import NeueTechnologien from "./sections/NeueTechnologien";
 import SmartCity from "./sections/SmartCity";
 import Kultur from "./sections/Kultur";
@@ -15,7 +15,6 @@ import Team from "./sections/Team";
 import Footer from "./sections/Footer";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
-import Accordion from "./components/Accordion";
 
 const langSelector = s => s.lang;
 
@@ -47,18 +46,7 @@ function App() {
     <div className={cn.app}>
       <Intro content={content.header} lang={lang} />
       <Navbar items={navItems} lang={lang} />
-      <section className={cx(cn.layoutWrapper, cn.intro)}>
-        <Accordion
-          lang={lang}
-          title={content.acc_1.title}
-          content={content.acc_1}
-        />
-        <Accordion
-          lang={lang}
-          title={content.acc_2.title}
-          content={content.acc_2}
-        />
-      </section>
+      <Accordions accordionItems={content.accordions} lang={lang} />
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
       <NeueTechnologien
         lang={lang}
