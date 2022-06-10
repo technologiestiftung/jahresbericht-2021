@@ -542,7 +542,7 @@ const content = {
     blocks: {
       intro: {
         title: {
-          de: "UnserTeam",
+          de: "Unser Team",
           en: "Our team",
         },
         text: {
