@@ -1,0 +1,56 @@
+@import '../../styles/base.scss';
+
+:local {
+  .wrapper {
+    height: auto;
+    width: auto;
+    max-width: $medium-content-width;
+    margin: 60px auto;
+    @include flex();
+  }
+
+  .header {
+    margin-bottom: 20px;
+    @media screen and (min-width: $medium-content-width) {
+      margin-bottom: 60px;
+    }
+  }
+
+  .title {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .logoWrapper {
+    margin: auto;
+    max-width: 922px;
+    padding: 0 30px;
+    display: flex;
+    gap: 30px 24px;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    @media screen and (min-width: $medium-content-width) {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+
+  .berlinLogoWrapper {
+    gap: 0px 24px;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    height: 80px;
+  }
+
+  .contentBlock {
+    max-width: $medium-content-width;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+  }
+}

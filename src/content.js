@@ -596,6 +596,69 @@ const content = {
       },
     ],
   },
+  outro: {
+    topic: {
+      de: "Schlusssatz",
+      en: "EMPTY",
+    },
+    blocks: {
+      intro: {
+        title: {
+          de: "Schlusssatz",
+          en: "EMPTY",
+        },
+        text: {
+          de: "Viele unserer Projekte werden von unseren Förderpartner:innen tatkräftig unterstützt. Dafür möchten wir uns an dieser Stellen recht herzlich bedanken, insbesondere bei:",
+          en: "EMPTY",
+        },
+      },
+    },
+    partners: {
+      berlin: [
+        {
+          logo: "assets/logos/Partner-Logo-113.png",
+        },
+        {
+          logo: "assets/logos/Partner-Logo-115.png",
+        },
+        {
+          logo: "assets/logos/Partner-Logo-116.png",
+        },
+      ],
+      bund: [
+        {
+          logo: "assets/logos/Partner-Logo-114.png",
+        },
+        {
+          logo: "assets/logos/Partner-Logo-117.png",
+        },
+      ],
+    },
+    paragraphs: [
+      {
+        text: {
+          de: "Zu ihrer Arbeit stellt die Technologiestiftung Berlin jährlich einen Jahresabschluss auf, der von einer vom Kuratorium benannten Wirtschaftsprüfungsgesellschaft geprüft wird.",
+          en: "EMPTY",
+        },
+        link: {
+          de: "Zum Jahresabschluss (PDF)",
+          en: "EMPTY",
+          href: "/",
+        },
+      },
+      {
+        text: {
+          de: "Das Jahr 2021 war für die Technologiestiftung ein spannendes Jahr, in dem sie viele Projekte erfolgreich durchführen konnte. Gleichzeitig entwickelten sich neue Aufgaben und Projekte, die im Jahr 2022 realisiert werden. Über die laufende Arbeit informiert der monatlich erscheinende Newsletter, der allen Abonennt:innen kostenfrei zugeschickt wird.",
+          en: "EMPTY",
+        },
+        link: {
+          de: "Newsletter abonnieren",
+          en: "EMPTY",
+          href: "https://www.technologiestiftung-berlin.de/newsletter",
+        },
+      },
+    ],
+  },
 };
 
 export default content;
