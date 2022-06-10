@@ -431,7 +431,7 @@ const content = {
           alt: "Die Homepage von COMo Berlin.",
           copyright: " ",
           position: "center right",
-          fit: "cover",
+          fit: "contain",
         },
       },
       {
