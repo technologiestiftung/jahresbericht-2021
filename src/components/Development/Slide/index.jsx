@@ -1,12 +1,12 @@
 import cn from "./Slide.module.scss";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import YearNav from "../YearNav";
 
 const Slide = ({ department }) => {
   const [activeYear, activeYearSet] = useState(0);
   const [runInterval, runIntervalSet] = useState(true);
   const slideWidth = 289 + 18;
-  let yearInterval;
+  let yearInterval = useRef(null);
 
   const yearSwitchHandler = index => {
     activeYearSet(index);
@@ -15,14 +15,14 @@ const Slide = ({ department }) => {
 
   useEffect(() => {
     if (runInterval) {
-      yearInterval = setInterval(() => {
+      yearInterval.current = setInterval(() => {
         if (activeYear === department.years.length - 1) {
           activeYearSet(0);
         } else {
           activeYearSet(activeYear + 1);
         }
       }, 1500);
-      return () => clearInterval(yearInterval);
+      return () => clearInterval(yearInterval.current);
     }
   }, [activeYear, runInterval]);
 
