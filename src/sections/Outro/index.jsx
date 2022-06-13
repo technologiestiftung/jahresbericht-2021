@@ -7,7 +7,7 @@ import cn from "./Outro.module.scss";
 function Outro({ content, lang }) {
   return (
     <section>
-      <div className={cx(cn.wrapper, cn.layoutWrapper, cn.header)}>
+      <div className={cx(cn.wrapper, cn.layoutWrapper, cn.header)} id='numbers'>
         <h1 className={cn.title}>{content.blocks.intro.title[lang]}</h1>
         <Paragraph lang={lang} content={content.blocks.intro.text} />
       </div>

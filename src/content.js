@@ -75,19 +75,23 @@ const content = {
       links: [
         {
           label: "Einleitung",
-          href: "/",
+          href: "#intro",
         },
         {
-          label: "Unsere Themen",
-          href: "/",
+          label: "Themen & Projekte",
+          href: "#section-1.0",
         },
         {
           label: "Chronologie",
-          href: "/",
+          href: "#chronologie",
         },
         {
           label: "Das sind wir",
-          href: "/",
+          href: "#team",
+        },
+        {
+          label: "Jahresabschluss",
+          href: "#numbers",
         },
       ],
     },

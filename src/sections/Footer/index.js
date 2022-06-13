@@ -30,13 +30,7 @@ function Footer({ content, lang }) {
             <div className={cn.sitemapLinks}>
               {content.sitemap.links.map((d, i) => {
                 return (
-                  <a
-                    className={cn.sitemapLink}
-                    href={d.href}
-                    rel='noreferrer'
-                    target='_blank'
-                    key={i}
-                  >
+                  <a className={cn.sitemapLink} href={d.href} key={i}>
                     {d.label}
                   </a>
                 );
