@@ -1,10 +1,11 @@
 import cn from "./Timestamp.module.scss";
+import cx from "classnames";
 
 import Paragraph from "../../Paragraph";
 
-function Timestamp({ index, data, lang }) {
+function Timestamp({ leftSide, data, lang }) {
   return (
-    <div className={cn.timestamp}>
+    <div className={cx(cn.timestamp, { [cn.timestampLeft]: leftSide })}>
       <div className={cn.dot} />
       <div className={cn.connector} />
       <div className={cn.infoBox}>

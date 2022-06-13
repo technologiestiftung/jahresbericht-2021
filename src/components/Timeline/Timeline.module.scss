@@ -22,4 +22,14 @@
     border-left: 2px dashed $black;
     height: 60px;
   }
+
+  @media screen and (min-width: $large-content-width) {
+    .lineWrapper {
+      grid-template-columns: 1fr 2px 1fr;
+      grid-template-areas: 
+        "empty dashed empty"
+        "itemsLeft solid items"
+        "empty dashed empty";
+    }
+  }
 }

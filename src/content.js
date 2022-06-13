@@ -564,6 +564,20 @@ const content = {
           en: "EMPTY",
         },
       },
+      {
+        month: "03",
+        text: {
+          de: "Die Technologiestiftung legt die Studie digital im Verein vor, die zeigt, dass der ehrenamtliche Bereich Nachholbedarf bei der Digitalisierung hat und wie man ihn unterstützen kann. <br/><br/>Das Projekt kulturBdigital über­ nimmt die Begleitung der sieben von der Jury ausgewählten Projekte im Förderprogramm digitale Entwicklung im Kulturbereich der Senats­verwaltung für Kultur und Europa.",
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "04",
+        text: {
+          de: "Die Technologiestiftung legt die Studie digital im Verein vor, die zeigt, dass der ehrenamtliche Bereich Nachholbedarf bei der Digitalisierung hat und wie man ihn unterstützen kann. <br/><br/>Das Projekt kulturBdigital über­ nimmt die Begleitung der sieben von der Jury ausgewählten Projekte im Förderprogramm digitale Entwicklung im Kulturbereich der Senats­verwaltung für Kultur und Europa.",
+          en: "EMPTY",
+        },
+      },
     ],
   },
   team: {

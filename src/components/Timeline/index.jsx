@@ -10,7 +10,12 @@ function Timeline({ items, lang }) {
         <div className={cn.lineSolid} />
         <div className={cn.itemWrapper}>
           {items.map((item, index) => (
-            <Timestamp key={index} index={index} data={item} lang={lang} />
+            <Timestamp
+              key={index}
+              leftSide={!(index % 2)}
+              data={item}
+              lang={lang}
+            />
           ))}
         </div>
       </div>

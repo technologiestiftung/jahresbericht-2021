@@ -9,8 +9,8 @@
   }
 
   .dot {
-    min-width: 9px;
-    height: 9px;
+    min-width: 8px;
+    height: 8px;
     background-color: $black;
     border-radius: 50%;
     margin-top: 15px;
@@ -20,13 +20,12 @@
     height: 1px;
     width: 54px;
     background-color: $black;
-    margin-top: 19px;
+    margin-top: 18px;
   }
 
   .infoBox {
     padding: 24px 24px 25px;
     max-width: 408px;
-    width: 100%;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.06);
     border-radius: 4px;
   }
@@ -37,5 +36,20 @@
     line-height: 23px;
     color: $blue-dark;
     margin: 0 0 32px;
+  }
+
+  @media screen and (min-width: $large-content-width) {
+    .timestamp {
+      width: 408px;
+      margin-top: 150px;
+    }
+
+    .timestampLeft {
+      flex-direction: row-reverse;
+      margin-left: -405px;
+      margin-top: 0;
+      position: absolute;
+    }
+
   }
 }
