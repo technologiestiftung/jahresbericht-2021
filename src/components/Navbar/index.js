@@ -57,10 +57,10 @@ const getScrollPositionsOfSections = sections => {
   const firstSection = document.getElementById(
     `section-${sections[0].scrollId}`
   );
-  const footer = document.getElementById("footer");
+  const firstSectionAfterProjects = document.getElementById("chronologie");
 
   const firstSectionPosition = firstSection.getBoundingClientRect().top;
-  const footerPosition = footer.getBoundingClientRect().top - 1200;
+  const footerPosition = firstSectionAfterProjects.getBoundingClientRect().top;
 
   return { firstSectionPosition, footerPosition };
 };

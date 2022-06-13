@@ -8,7 +8,7 @@ import cn from "./Chronologie.module.scss";
 function Chronologie({ content, lang }) {
   return (
     <section>
-      <div className={cx(cn.wrapper, cn.layoutWrapper)}>
+      <div className={cx(cn.wrapper, cn.layoutWrapper)} id='chronologie'>
         <Icon type='chronologie' />
         <Headline lang={lang} content={content.blocks.intro.title} />
         <Timeline items={content.items} lang={lang} />
