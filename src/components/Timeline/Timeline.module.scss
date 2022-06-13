@@ -1,0 +1,25 @@
+@import '../../styles/base.scss';
+
+:local {
+  .lineWrapper {
+    display: grid;
+    grid-template-columns: 2px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "dashed empty"
+      "solid items"
+      "dashed empty";
+  }
+
+  .lineSolid {
+    grid-area: "solid";
+    border-left: 2px solid $black;
+    height: 100%;
+  }
+
+  .lineDashed {
+    grid-area: "dashed";
+    border-left: 2px dashed $black;
+    height: 60px;
+  }
+}
