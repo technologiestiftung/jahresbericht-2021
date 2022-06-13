@@ -553,28 +553,70 @@ const content = {
       {
         month: "01",
         text: {
-          de: "Die Technologiestiftung legt die Studie digital im Verein vor, die zeigt, dass der ehrenamtliche Bereich Nachholbedarf bei der Digitalisierung hat und wie man ihn unterstützen kann. <br/><br/>Das Projekt kulturBdigital über­ nimmt die Begleitung der sieben von der Jury ausgewählten Projekte im Förderprogramm digitale Entwicklung im Kulturbereich der Senats­verwaltung für Kultur und Europa.",
+          de: `Die Technologiestiftung legt die Studie <a href="https://www.technologiestiftung-berlin.de/fileadmin/Redaktion/PDFs/Bibliothek/Studien/2021/270127_Studie_Digitales-Ehrenamt.pdf" target="_blanc">digital im Verein</a> vor, die zeigt, dass der ehrenamtliche Bereich Nachholbedarf bei der Digitalisierung hat und wie man ihn unterstützen kann. <br/><br/>Das Projekt <a href="https://kultur-b-digital.de/" target="_blanc">kulturBdigital</a> übernimmt die Begleitung der sieben von der Jury ausgewählten Projekte im Förderprogramm digitale Entwicklung im Kulturbereich der Senats­verwaltung für Kultur und Europa.`,
           en: "EMPTY",
         },
       },
       {
         month: "02",
         text: {
-          de: "Die Technologiestiftung legt die Studie digital im Verein vor, die zeigt, dass der ehrenamtliche Bereich Nachholbedarf bei der Digitalisierung hat und wie man ihn unterstützen kann. <br/><br/>Das Projekt kulturBdigital über­ nimmt die Begleitung der sieben von der Jury ausgewählten Projekte im Förderprogramm digitale Entwicklung im Kulturbereich der Senats­verwaltung für Kultur und Europa.",
+          de: `Das City LAB startet die Plattform <a href="https://www.digital-vereint.berlin/de" target="_blanc">Digital vereint</a>, die dem ehrenamtlichen Bereich kostenfreie Services für die digitale Zusammenarbeit zur Verfügung stellt und Möglichkeiten zur Vernetzung und Informationen zu digitalen Themen aufzeigt. Auf der Seite schreiben sich zum Ende des Jahres über 200 Vereine ein, die die digitalen Tools regelmäßig nutzen. </br></br>Die Open Data Informationsstelle für die Berliner Verwaltung (ODIS) stellt gemeinsam mit dem Bezirksamt Tempelhof-Schöneberg den <a href="https://www.technologiestiftung-berlin.de/projekte/wahlbezirke-editor" target="_blanc">Wahlbezirkseditor</a> vor, ein digitales Tool für den Zuschnitt von Wahlbezirken vor. Der Wahlbezirkseditor wird im Herbst mit dem von der Senatskanzlei ausgelobten Berliner Verwaltungspreis ausgezeichnet.`,
           en: "EMPTY",
         },
       },
       {
         month: "03",
         text: {
-          de: "Die Technologiestiftung legt die Studie digital im Verein vor, die zeigt, dass der ehrenamtliche Bereich Nachholbedarf bei der Digitalisierung hat und wie man ihn unterstützen kann. <br/><br/>Das Projekt kulturBdigital über­ nimmt die Begleitung der sieben von der Jury ausgewählten Projekte im Förderprogramm digitale Entwicklung im Kulturbereich der Senats­verwaltung für Kultur und Europa.",
+          de: `Die Technologiestiftung stellt die <a href="https://www.technologiestiftung-berlin.de/fileadmin/Redaktion/PDFs/Bibliothek/Studien/2021/210312_Technologiestiftung-Berlin_Datenoekonomie_Report_web.pdf" target="_blanc">Studie Datenökonomie</a> vor, die zeigt, wie  der Berliner Innovationsbereich seine Datenkompetenz stärken kann. <br/><br/>Das CityLAB, das mit der Koordinierung der Strategienentwicklung für Smart CityBerlin beauftragt ist, lädt die Berliner:innen zur Beteiligung am Diskussionsprozess ein.`,
           en: "EMPTY",
         },
       },
       {
         month: "04",
         text: {
-          de: "Die Technologiestiftung legt die Studie digital im Verein vor, die zeigt, dass der ehrenamtliche Bereich Nachholbedarf bei der Digitalisierung hat und wie man ihn unterstützen kann. <br/><br/>Das Projekt kulturBdigital über­ nimmt die Begleitung der sieben von der Jury ausgewählten Projekte im Förderprogramm digitale Entwicklung im Kulturbereich der Senats­verwaltung für Kultur und Europa.",
+          de: `Das CityLAB launcht die Seite <a href="https://berlinopensource.de/" target="_blanc"> Berlin Open Source</a>. Die Seite bietet einen Überblick über Open Source-Projekte, die von der Berliner Verwaltung entwickelt oder gefördert wurden. Diese Übersicht schafft Transparenz und lädt zur kollaborativen Weiterentwicklung ein.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "05",
+        text: {
+          de: `Die Technologiestiftung beteiligt sich mit einer Veranstaltung zu vernetzten Quartieren an den Berliner Energietagen, um auf die großen Energieeinsparpotenziale aufmerksam zu machen, die die Digitalisierung der Gebäudetechnik bietet. <br/><br/>Die Technologiestiftung testet gemeinsam mit der HTW Berlin Open Source-Software für Verkehrszählungen und stellt deren grundsätzliche Eignung fest. Der Test wird bundesweit mit großem Interesse wahrgenommen. <br/><br/>Gemeinsam mit Partner:innen aus der Berliner Wissenschaftslandschaft startet die Technologiestiftung das Projekt  <a href="https://www.technologiestiftung-berlin.de/projekte/freemove" target="_blanc">Freemove</a>, um zu untersuchen, wie Mobilitätsdaten zukünftig fair, sicher und verständlich erhoben und bereit gestellt werden können.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "08",
+        text: {
+          de: `Der Senat beschließt den Rahmen für die Smart City-Entwicklung in Berlin. Grundlage für den Beschluss ist der vom CityLAB nach einem Diskussionsprozess mit allen Stakeholder:innen erarbeitete Vorschlag. <br/><br/>Die Technologiestiftung startet eine Serie von Blogbeiträgen über Quantentechnologien Quantencomputing, Quantenkommunikation und Quantensensorik. Die Beiträge zeigen, wo Berlin in diesem Bereich steht, wer die Akteure sind und worin der Nutzen für potenzielle Nutzer in der Stadt bestehen kann.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "09",
+        text: {
+          de: `Im CityLAB wird das Programm der Summer School präsentiert, an der sich Student:innen aller Berliner Hochschulen beteiligen können – wegen der Pandemie leider nur online. <br/><br/>Das CityLAB zieht am Ende des Sommers eine beeindruckende Bilanz zur Nutzung der Plattform <a href="https://giessdenkiez.de/" target="_blanc">Gieß den Kiez</a>, auf der sich die Berliner:innen rund um das Thema Gießen von Straßenbäumen informieren können und ihre eigenen Aktivitäten teilen können. Auch im relativ feuchten Sommer 2021 wurden insgesamt rund 775.000 Liter Gießwasser auf der Plattform dokumentiert.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "10",
+        text: {
+          de: `Zusammen mit der Senatsverwaltung für Inneres und Sport organisiert das CityLAB Online-Workshops, bei denen gemeinsam mit Bürger:innen Verwaltungsformulare getestet und Ideen für Verbesserungen entwickelt werden. Die Resonanz ist groß. <br/><br/>Das CityLAB startet gemeinsam mit Partnerinnen das Projekt <a href="https://www.technologiestiftung-berlin.de/projekte/qtrees" target="_blanc">QTrees</a>, in dessen Rahmen eine intelligente Bewässerungsvorhersage für Stadtbäume entwickelt wird.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "11",
+        text: {
+          de: `Nach der bedarfsgerechten, technischen Entwicklung des Eingabeinterfaces befindet sich die zentrale, offene Plattform kulturdaten.berlin im geschlossenen Betabetrieb und geht in den Probe- und Livebetrieb über. <br/><br/>Die Technologiestiftung hat ihre Webseite überarbeitet, um neuen technische Möglichkeiten und veränderten Nutzer:innengewohnheiten gerecht zu werden. Der Relaunch geht online.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "12",
+        text: {
+          de: `Die Technologiestiftung startet gemeinsam mit Partner:innen das Projekt COMo. In diesem Projekt werden die Möglichkeiten eines digitalen Luftmonitorings in geschlossenen Räumen erprobt. <br/><br/>Die CityLAB launcht die IoT-Datenplattform <a href="https://stadtpuls.com/" target="_blanc">Stadtplus</a>, auf der die Berliner:innen Sensordaten veröffentlichen und mit anderen teilen können. <br/><br/>Die Technologiestiftung legt eine Studie vor, die zeigt, dass durch die Digitalisierung rund ¼ bis ½ Millionen Tonnen CO2 in Berliner Wohngebäuden eingespart werden könnte, was 5-10 Prozent der CO2-Emissionen der Privathashalte entspricht.`,
           en: "EMPTY",
         },
       },
