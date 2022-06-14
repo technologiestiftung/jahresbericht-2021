@@ -55,8 +55,8 @@ function App() {
         content={content.neueTechnologien}
         ui={content.ui}
       />
-      <Bildung lang={lang} content={content.bildung} ui={content.ui} />
       <Kultur lang={lang} content={content.kultur} ui={content.ui} />
+      <Bildung lang={lang} content={content.bildung} ui={content.ui} />
       <Reallabor lang={lang} content={content.reallabor} ui={content.ui} />
       <Activities lang={lang} content={content.activities} ui={content.ui} />
       <Chronologie lang={lang} content={content.chronologie} />
