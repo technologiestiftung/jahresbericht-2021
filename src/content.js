@@ -193,7 +193,7 @@ const content = {
           src: "assets/images/odis.png",
           alt: "Die Homepage von ODIS",
           copyright: "",
-          fit: "cover",
+          fit: "contain",
           position: "center center",
         },
       },
@@ -243,6 +243,7 @@ const content = {
           src: "assets/images/datenoekonomie.png",
           alt: "Das Deckblatt der Studie zum Thema Datenökonomie.",
           copyright: "",
+          fit: "contain",
           position: "center center",
         },
       },
@@ -321,6 +322,7 @@ const content = {
           alt: "Die Homepage von kulturBdigital.",
           copyright: " ",
           position: "center center",
+          fit: "contain",
         },
       },
     ],
@@ -366,9 +368,12 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/bildung_hacking-box.jpg",
+          src: "assets/images/bildung_hacking-box-cropped.jpg",
           alt: "Die Bilder zeigen die Hacking Box der Technologiestiftung.",
           copyright: "© Carolin Claußnitzer / Archiv Technologiestiftung",
+          fit: "contain",
+          maxWidth: "800px",
+          position: "center center",
         },
       },
       {
@@ -436,7 +441,7 @@ const content = {
             en: "EMPTY",
           },
           paragraph: {
-            de: "COMo hilft Betreiber:innen öffentlicher Räume, die Luftqualität in den Räumen zu verfolgen und die Öffentlichkeit darüber zu informieren. Dazu verleihen wir CO2-Sensoren, die über das Berliner LoRa-Netzwerk Daten auf einen zentralen Server senden und so für Betreiber:innen und potenzielle Besucher:innen zugänglich und sichtbar machen. Neben der Möglichkeit, die Belastung der Raumluft mit Aerosolen zu überwachen (und damit Hinweise auf das COVID-Ansteckungsrisiko zu erhalten), wird damit auch die Abdeckungsqualität des Community - betriebenen LoRa-Netzwerks sichtbar.</br></br>Wir führen COMo gemeinsam mit der Hochschule für Technik und Wirtschaft Berlin und der KOING GmbH durch.",
+            de: "COMo hilft Betreiber:innen öffentlicher Räume, die Luftqualität in den Räumen zu verfolgen und die Öffentlichkeit darüber zu informieren. Dazu verleihen wir <span>CO<sub>2</sub>-Sensoren</span>, die über das Berliner LoRa-Netzwerk Daten auf einen zentralen Server senden und so für Betreiber:innen und potenzielle Besucher:innen zugänglich und sichtbar machen. Neben der Möglichkeit, die Belastung der Raumluft mit Aerosolen zu überwachen (und damit Hinweise auf das COVID-Ansteckungsrisiko zu erhalten), wird damit auch die Abdeckungsqualität des Community - betriebenen LoRa-Netzwerks sichtbar.</br></br>Wir führen COMo gemeinsam mit der Hochschule für Technik und Wirtschaft Berlin und der KOING GmbH durch.",
             en: "EMPTY",
           },
         },
@@ -444,7 +449,6 @@ const content = {
           src: "assets/images/como.png",
           alt: "Die Homepage von COMo Berlin.",
           copyright: " ",
-          position: "center right",
           fit: "contain",
         },
       },
@@ -766,6 +770,17 @@ const content = {
           de: "Zum Jahresabschluss (PDF)",
           en: "EMPTY",
           href: "./assets/downloads/Jahresabschluss_2021_web.pdf",
+        },
+      },
+      {
+        text: {
+          de: "Außerdem publiziert die Technologiestiftung den Bericht zu ihrer Arbeit und den Jahresabschluss auch als Broschüre.",
+          en: "EMPTY",
+        },
+        link: {
+          de: "Zum Download (PDF)",
+          en: "EMPTY",
+          href: "https://www.technologiestiftung-berlin.de/fileadmin/Redaktion/PDFs/Bibliothek/Studien/2022/Jahresbericht_2021_web.pdf",
         },
       },
       {
