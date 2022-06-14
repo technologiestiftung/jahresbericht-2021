@@ -20,7 +20,7 @@
   }
   .active {
     background: $blue-dark;
-    border-radius: 2px;
+    border-radius: $border-radius-standard;
     color: $white;
     cursor: default;
   }
