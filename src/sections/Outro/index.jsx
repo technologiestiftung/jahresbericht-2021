@@ -17,18 +17,21 @@ function Outro({ content, lang }) {
             className={cn.logo}
             key={index}
             src={partner.logo}
+            height={partner.logoHeight}
             alt='Partner Logo'
           />
         ))}
       </div>
-      <div className={cn.logoWrapper}>
+      <div className={cx(cn.logoWrapper, cn.bundLogoWrapper)}>
         {content.partners.bund.map((partner, index) => (
-          <img
-            className={cn.logo}
-            key={index}
-            src={partner.logo}
-            alt='Partner Logo'
-          />
+          <div key={index}>
+            <img
+              key={index}
+              src={partner.logo}
+              alt='Partner Logo'
+              height={partner.logoHeight}
+            />
+          </div>
         ))}
       </div>
       {content.paragraphs.map((paragraph, index) => (
