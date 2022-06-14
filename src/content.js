@@ -101,8 +101,12 @@ const content = {
         alt: "Technologiestiftung Berlin Logo",
         href: "https://technologiestiftung-berlin.de/",
         src: {
-          de: "assets/logos/tsb-logo.svg",
-          en: "assets/logos/tsb-logo.svg",
+          de: "assets/logos/berlin-logo.svg",
+          en: "assets/logos/berlin-logo.svg",
+        },
+        subtitle: {
+          de: "Viele unserer Projekte werden vom Land Berlin gefördert",
+          en: "EMPTY",
         },
       },
     ],

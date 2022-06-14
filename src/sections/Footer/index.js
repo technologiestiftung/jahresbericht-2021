@@ -21,6 +21,7 @@ function Footer({ content, lang }) {
                   >
                     <img className={cn.logo} src={d.src[lang]} alt={d.alt} />
                   </a>
+                  <p className={cn.logoSubtitle}>{d.subtitle[lang]}</p>
                 </div>
               );
             })}

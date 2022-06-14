@@ -44,6 +44,13 @@
               width: 186px;
             }
           }
+
+          .logoSubtitle {
+            font-size: 12px;
+            line-height: 24px;
+            color: $grey-80;
+            margin-top: 20px;
+          }
         }
         
         .sitemap {
@@ -90,7 +97,7 @@
       justify-content: space-between;
       align-items: center;
       background-color: $blue-dark;
-      color: $grey-30;
+      color: $white;
       line-height: 24px;
       
       .left {
@@ -114,7 +121,7 @@
       }
 
       .link {
-        color: $grey-30;
+        color: $white;
         font-size: 14px;
       }
 
