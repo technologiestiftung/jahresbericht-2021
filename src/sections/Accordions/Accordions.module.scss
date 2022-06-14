@@ -5,7 +5,7 @@
     height: auto;
     width: auto;
     max-width: $medium-content-width;
-    margin: $section-margin;
+    margin: 60px auto;
     @include flex();
   }
 }
