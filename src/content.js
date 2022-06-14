@@ -32,7 +32,6 @@ const content = {
       en: ["EMPTY"],
     },
   ],
-
   outtro: {
     de: "Das war’s mit unserem Rückblick 2021! Wir schauen auf ein abwechslungsreiches Jahr zurück, das genauso vielfältig war wie Berlin selbst! Nun freuen wir uns auf 2022 und viele gemeinsame Projekte mit der Berliner Verwaltung und der Stadtgesellschaft. <br/> <br/>Euer CityLAB Berlin der Herzen",
     en: `And with that, we close out our look back on a year that was just as thrilling and diverse as Berlin itself! Now we are looking forward to 2022 and all of the collaborative projects with Berlin's city administration and the city society the year will have in store for us.<br/><br/>Your CityLAB Berlin`,
@@ -76,19 +75,23 @@ const content = {
       links: [
         {
           label: "Einleitung",
-          href: "/",
+          href: "#intro",
         },
         {
-          label: "Unsere Themen",
-          href: "/",
+          label: "Themen & Projekte",
+          href: "#section-1.0",
         },
         {
           label: "Chronologie",
-          href: "/",
+          href: "#chronologie",
         },
         {
           label: "Das sind wir",
-          href: "/",
+          href: "#team",
+        },
+        {
+          label: "Jahresabschluss",
+          href: "#numbers",
         },
       ],
     },
@@ -98,8 +101,12 @@ const content = {
         alt: "Technologiestiftung Berlin Logo",
         href: "https://technologiestiftung-berlin.de/",
         src: {
-          de: "assets/logos/tsb-logo.svg",
-          en: "assets/logos/tsb-logo.svg",
+          de: "assets/logos/berlin-logo.svg",
+          en: "assets/logos/berlin-logo.svg",
+        },
+        subtitle: {
+          de: "Viele unserer Projekte werden vom Land Berlin gefördert",
+          en: "EMPTY",
         },
       },
     ],
@@ -186,7 +193,7 @@ const content = {
           src: "assets/images/odis.png",
           alt: "Die Homepage von ODIS",
           copyright: "",
-          fit: "cover",
+          fit: "contain",
           position: "center center",
         },
       },
@@ -236,6 +243,7 @@ const content = {
           src: "assets/images/datenoekonomie.png",
           alt: "Das Deckblatt der Studie zum Thema Datenökonomie.",
           copyright: "",
+          fit: "contain",
           position: "center center",
         },
       },
@@ -314,6 +322,7 @@ const content = {
           alt: "Die Homepage von kulturBdigital.",
           copyright: " ",
           position: "center center",
+          fit: "contain",
         },
       },
     ],
@@ -359,9 +368,12 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/bildung_hacking-box.jpg",
+          src: "assets/images/bildung_hacking-box-cropped.jpg",
           alt: "Die Bilder zeigen die Hacking Box der Technologiestiftung.",
           copyright: "© Carolin Claußnitzer / Archiv Technologiestiftung",
+          fit: "contain",
+          maxWidth: "800px",
+          position: "center center",
         },
       },
       {
@@ -429,7 +441,7 @@ const content = {
             en: "EMPTY",
           },
           paragraph: {
-            de: "COMo hilft Betreiber:innen öffentlicher Räume, die Luftqualität in den Räumen zu verfolgen und die Öffentlichkeit darüber zu informieren. Dazu verleihen wir CO2-Sensoren, die über das Berliner LoRa-Netzwerk Daten auf einen zentralen Server senden und so für Betreiber:innen und potenzielle Besucher:innen zugänglich und sichtbar machen. Neben der Möglichkeit, die Belastung der Raumluft mit Aerosolen zu überwachen (und damit Hinweise auf das COVID-Ansteckungsrisiko zu erhalten), wird damit auch die Abdeckungsqualität des Community - betriebenen LoRa-Netzwerks sichtbar.</br></br>Wir führen COMo gemeinsam mit der Hochschule für Technik und Wirtschaft Berlin und der KOING GmbH durch.",
+            de: "COMo hilft Betreiber:innen öffentlicher Räume, die Luftqualität in den Räumen zu verfolgen und die Öffentlichkeit darüber zu informieren. Dazu verleihen wir <span>CO<sub>2</sub>-Sensoren</span>, die über das Berliner LoRa-Netzwerk Daten auf einen zentralen Server senden und so für Betreiber:innen und potenzielle Besucher:innen zugänglich und sichtbar machen. Neben der Möglichkeit, die Belastung der Raumluft mit Aerosolen zu überwachen (und damit Hinweise auf das COVID-Ansteckungsrisiko zu erhalten), wird damit auch die Abdeckungsqualität des Community - betriebenen LoRa-Netzwerks sichtbar.</br></br>Wir führen COMo gemeinsam mit der Hochschule für Technik und Wirtschaft Berlin und der KOING GmbH durch.",
             en: "EMPTY",
           },
         },
@@ -437,9 +449,7 @@ const content = {
           src: "assets/images/como.png",
           alt: "Die Homepage von COMo Berlin.",
           copyright: " ",
-          maxWidth: "200px",
-          position: "center right",
-          fit: "cover",
+          fit: "contain",
         },
       },
       {
@@ -540,6 +550,120 @@ const content = {
       },
     ],
   },
+  offenheit: {
+    title: {
+      de: "Wir schaffen Offenheit",
+      en: "EMPTY",
+    },
+    text: {
+      de: "Wir engagieren uns für eine gemeinwohlorientierte Entwicklung Berlins und eine transparente Stadtgesellschaft, in der alle Gruppen Zugang zu den Daten haben, die die Stadt erhebt und mit denen sie das Zusammen­leben steuert. <br><br>Mit unseren digitalen Instrumenten und Lösungen tragen wir aktiv dazu bei, dass Berlin offen, nachhaltig und effizient wird. Mit unseren Studien und Reports stellen wir sicher, dass neueste technologische Entwicklungen frühzeitig identifiziert und für den Transformationsprozess genutzt werden. Mit unseren digitalen Bildungsangeboten sorgen wir dafür, dass alle am Wandel teilhaben und dessen Vorteile genießen können .",
+      en: "EMPTY",
+    },
+    blocks: {
+      entwicklung: {
+        title: {
+          de: "Unsere Entwicklung",
+          en: "EMPTY",
+        },
+        paragraph: {
+          de: "Seit einigen Jahren konzentriert sich die Technologiestiftung, deren Aufgabe die Entwicklung Berlins zu einem exzellenten Innovationsstandort ist, auf die Digitalisierung als der Treiberin der technologischen Entwicklung. Mit der immer umfassend wirkenden digitalen Transformation in der Stadt haben sich auch neue Themen und Projekte entwickelt.",
+          en: "EMPTY",
+        },
+      },
+      mittel: {
+        title: {
+          de: "Unsere Mittelherkunft",
+          en: "EMPTY",
+        },
+        paragraph: {
+          de: "Für ihre Arbeit stehen der Technologiestiftung Erträge aus dem Stiftungskapital zur Verfügung. Darüber hinaus führt sie viele ihrer Projekte mit Mitteln verschiedener Fördergeber durch.",
+          en: "EMPTY",
+        },
+      },
+    },
+  },
+  chronologie: {
+    blocks: {
+      intro: {
+        title: {
+          de: "Unser Jahr 2021",
+          en: "Our year 2021",
+        },
+      },
+    },
+    items: [
+      {
+        month: "01",
+        text: {
+          de: `Die Technologiestiftung legt die Studie <a href="https://www.technologiestiftung-berlin.de/fileadmin/Redaktion/PDFs/Bibliothek/Studien/2021/270127_Studie_Digitales-Ehrenamt.pdf" target="_blanc">digital im Verein</a> vor, die zeigt, dass der ehrenamtliche Bereich Nachholbedarf bei der Digitalisierung hat und wie man ihn unterstützen kann. <br/><br/>Das Projekt <a href="https://kultur-b-digital.de/" target="_blanc">kulturBdigital</a> übernimmt die Begleitung der sieben von der Jury ausgewählten Projekte im Förderprogramm digitale Entwicklung im Kulturbereich der Senats­verwaltung für Kultur und Europa.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "02",
+        text: {
+          de: `Das City LAB startet die Plattform <a href="https://www.digital-vereint.berlin/de" target="_blanc">Digital vereint</a>, die dem ehrenamtlichen Bereich kostenfreie Services für die digitale Zusammenarbeit zur Verfügung stellt und Möglichkeiten zur Vernetzung und Informationen zu digitalen Themen aufzeigt. Auf der Seite schreiben sich zum Ende des Jahres über 200 Vereine ein, die die digitalen Tools regelmäßig nutzen. </br></br>Die Open Data Informationsstelle für die Berliner Verwaltung (ODIS) stellt gemeinsam mit dem Bezirksamt Tempelhof-Schöneberg den <a href="https://www.technologiestiftung-berlin.de/projekte/wahlbezirke-editor" target="_blanc">Wahlbezirkseditor</a> vor, ein digitales Tool für den Zuschnitt von Wahlbezirken vor. Der Wahlbezirkseditor wird im Herbst mit dem von der Senatskanzlei ausgelobten Berliner Verwaltungspreis ausgezeichnet.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "03",
+        text: {
+          de: `Die Technologiestiftung stellt die <a href="https://www.technologiestiftung-berlin.de/fileadmin/Redaktion/PDFs/Bibliothek/Studien/2021/210312_Technologiestiftung-Berlin_Datenoekonomie_Report_web.pdf" target="_blanc">Studie Datenökonomie</a> vor, die zeigt, wie  der Berliner Innovationsbereich seine Datenkompetenz stärken kann. <br/><br/>Das CityLAB, das mit der Koordinierung der Strategienentwicklung für Smart CityBerlin beauftragt ist, lädt die Berliner:innen zur Beteiligung am Diskussionsprozess ein.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "04",
+        text: {
+          de: `Das CityLAB launcht die Seite <a href="https://berlinopensource.de/" target="_blanc"> Berlin Open Source</a>. Die Seite bietet einen Überblick über Open Source-Projekte, die von der Berliner Verwaltung entwickelt oder gefördert wurden. Diese Übersicht schafft Transparenz und lädt zur kollaborativen Weiterentwicklung ein.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "05",
+        text: {
+          de: `Die Technologiestiftung beteiligt sich mit einer Veranstaltung zu vernetzten Quartieren an den Berliner Energietagen, um auf die großen Energieeinsparpotenziale aufmerksam zu machen, die die Digitalisierung der Gebäudetechnik bietet. <br/><br/>Die Technologiestiftung testet gemeinsam mit der HTW Berlin Open Source-Software für Verkehrszählungen und stellt deren grundsätzliche Eignung fest. Der Test wird bundesweit mit großem Interesse wahrgenommen. <br/><br/>Gemeinsam mit Partner:innen aus der Berliner Wissenschaftslandschaft startet die Technologiestiftung das Projekt  <a href="https://www.technologiestiftung-berlin.de/projekte/freemove" target="_blanc">Freemove</a>, um zu untersuchen, wie Mobilitätsdaten zukünftig fair, sicher und verständlich erhoben und bereit gestellt werden können.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "08",
+        text: {
+          de: `Der Senat beschließt den Rahmen für die Smart City-Entwicklung in Berlin. Grundlage für den Beschluss ist der vom CityLAB nach einem Diskussionsprozess mit allen Stakeholder:innen erarbeitete Vorschlag. <br/><br/>Die Technologiestiftung startet eine Serie von Blogbeiträgen über Quantentechnologien Quantencomputing, Quantenkommunikation und Quantensensorik. Die Beiträge zeigen, wo Berlin in diesem Bereich steht, wer die Akteure sind und worin der Nutzen für potenzielle Nutzer in der Stadt bestehen kann.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "09",
+        text: {
+          de: `Im CityLAB wird das Programm der Summer School präsentiert, an der sich Student:innen aller Berliner Hochschulen beteiligen können – wegen der Pandemie leider nur online. <br/><br/>Das CityLAB zieht am Ende des Sommers eine beeindruckende Bilanz zur Nutzung der Plattform <a href="https://giessdenkiez.de/" target="_blanc">Gieß den Kiez</a>, auf der sich die Berliner:innen rund um das Thema Gießen von Straßenbäumen informieren können und ihre eigenen Aktivitäten teilen können. Auch im relativ feuchten Sommer 2021 wurden insgesamt rund 775.000 Liter Gießwasser auf der Plattform dokumentiert.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "10",
+        text: {
+          de: `Zusammen mit der Senatsverwaltung für Inneres und Sport organisiert das CityLAB Online-Workshops, bei denen gemeinsam mit Bürger:innen Verwaltungsformulare getestet und Ideen für Verbesserungen entwickelt werden. Die Resonanz ist groß. <br/><br/>Das CityLAB startet gemeinsam mit Partnerinnen das Projekt <a href="https://www.technologiestiftung-berlin.de/projekte/qtrees" target="_blanc">QTrees</a>, in dessen Rahmen eine intelligente Bewässerungsvorhersage für Stadtbäume entwickelt wird.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "11",
+        text: {
+          de: `Nach der bedarfsgerechten, technischen Entwicklung des Eingabeinterfaces befindet sich die zentrale, offene Plattform kulturdaten.berlin im geschlossenen Betabetrieb und geht in den Probe- und Livebetrieb über. <br/><br/>Die Technologiestiftung hat ihre Webseite überarbeitet, um neuen technische Möglichkeiten und veränderten Nutzer:innengewohnheiten gerecht zu werden. Der Relaunch geht online.`,
+          en: "EMPTY",
+        },
+      },
+      {
+        month: "12",
+        text: {
+          de: `Die Technologiestiftung startet gemeinsam mit Partner:innen das Projekt COMo. In diesem Projekt werden die Möglichkeiten eines digitalen Luftmonitorings in geschlossenen Räumen erprobt. <br/><br/>Die CityLAB launcht die IoT-Datenplattform <a href="https://stadtpuls.com/" target="_blanc">Stadtplus</a>, auf der die Berliner:innen Sensordaten veröffentlichen und mit anderen teilen können. <br/><br/>Die Technologiestiftung legt eine Studie vor, die zeigt, dass durch die Digitalisierung rund ¼ bis ½ Millionen Tonnen CO2 in Berliner Wohngebäuden eingespart werden könnte, was 5-10 Prozent der CO2-Emissionen der Privathashalte entspricht.`,
+          en: "EMPTY",
+        },
+      },
+    ],
+  },
   team: {
     blocks: {
       intro: {
@@ -619,20 +743,25 @@ const content = {
       berlin: [
         {
           logo: "assets/logos/Partner-Logo-113.png",
+          logoHeight: 48,
+        },
+        {
+          logo: "assets/logos/Partner-Logo-114.png",
+          logoHeight: 48,
         },
         {
           logo: "assets/logos/Partner-Logo-115.png",
-        },
-        {
-          logo: "assets/logos/Partner-Logo-116.png",
+          logoHeight: 48,
         },
       ],
       bund: [
         {
-          logo: "assets/logos/Partner-Logo-114.png",
+          logo: "assets/logos/Partner-Logo-117.png",
+          logoHeight: 112,
         },
         {
-          logo: "assets/logos/Partner-Logo-117.png",
+          logo: "assets/logos/Partner-Logo-116.png",
+          logoHeight: 64,
         },
       ],
     },
@@ -646,6 +775,17 @@ const content = {
           de: "Zum Jahresabschluss (PDF)",
           en: "EMPTY",
           href: "./assets/downloads/Jahresabschluss_2021_web.pdf",
+        },
+      },
+      {
+        text: {
+          de: "Außerdem publiziert die Technologiestiftung den Bericht zu ihrer Arbeit und den Jahresabschluss auch als Broschüre.",
+          en: "EMPTY",
+        },
+        link: {
+          de: "Zum Download (PDF)",
+          en: "EMPTY",
+          href: "https://www.technologiestiftung-berlin.de/fileadmin/Redaktion/PDFs/Bibliothek/Studien/2022/Jahresbericht_2021_web.pdf",
         },
       },
       {

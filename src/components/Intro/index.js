@@ -4,7 +4,7 @@ function Intro({ content, lang }) {
   const { img, headline } = content;
   return (
     <>
-      <div className={cn.textContainer}>
+      <div className={cn.textContainer} id='intro'>
         <img src='assets/logos/tsb-logo.svg' alt='' />
         <h2
           className={cn.headline}

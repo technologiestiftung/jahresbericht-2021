@@ -7,6 +7,8 @@ import { ReactComponent as NeueTechnologienIcon } from "../../icons/Nav-Icon-Neu
 import { ReactComponent as KulturIcon } from "../../icons/Nav-Icon-Kultur.svg";
 import { ReactComponent as ActivitiesIcon } from "../../icons/Nav-Icon-Activities.svg";
 import { ReactComponent as TeamIcon } from "../../icons/Nav-Icon-Team.svg";
+import { ReactComponent as EntwicklungIcon } from "../../icons/Nav-Icon-Entwicklung.svg";
+import { ReactComponent as ChronologieIcon } from "../../icons/Nav-Icon-Chronologie.svg";
 
 function Icon({ type }) {
   return (
@@ -18,6 +20,8 @@ function Icon({ type }) {
       {type === "kultur" && <KulturIcon />}
       {type === "activities" && <ActivitiesIcon />}
       {type === "team" && <TeamIcon />}
+      {type === "entwicklung" && <EntwicklungIcon />}
+      {type === "chronologie" && <ChronologieIcon />}
     </div>
   );
 }

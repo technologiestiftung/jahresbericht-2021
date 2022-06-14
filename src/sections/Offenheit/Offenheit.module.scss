@@ -1,0 +1,34 @@
+@import '../../styles/base.scss';
+
+:local {
+  .wrapper {
+    height: auto;
+    width: auto;
+    max-width: $medium-content-width;
+    margin: 160px auto 60px;
+    @include flex();
+  }
+
+  .description {
+    max-width: 327px;
+  }
+
+  .contentWrapper {
+    max-width: $large-content-width;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 57px 0;
+    @media screen and (min-width: $large-content-width) {
+      flex-direction: row;
+    }
+  }
+  
+  .mittelWrapper {
+    @media screen and (min-width: $large-content-width) {
+      flex-direction: row-reverse;
+    }
+  }
+}

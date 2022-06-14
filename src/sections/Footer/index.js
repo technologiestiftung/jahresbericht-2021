@@ -21,6 +21,7 @@ function Footer({ content, lang }) {
                   >
                     <img className={cn.logo} src={d.src[lang]} alt={d.alt} />
                   </a>
+                  <p className={cn.logoSubtitle}>{d.subtitle[lang]}</p>
                 </div>
               );
             })}
@@ -30,13 +31,7 @@ function Footer({ content, lang }) {
             <div className={cn.sitemapLinks}>
               {content.sitemap.links.map((d, i) => {
                 return (
-                  <a
-                    className={cn.sitemapLink}
-                    href={d.href}
-                    rel='noreferrer'
-                    target='_blank'
-                    key={i}
-                  >
+                  <a className={cn.sitemapLink} href={d.href} key={i}>
                     {d.label}
                   </a>
                 );

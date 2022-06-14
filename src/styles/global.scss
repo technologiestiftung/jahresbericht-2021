@@ -49,10 +49,8 @@
 a {
   color: $corporate-blue;
   transition: $transition-fast;
+  font-weight: $bold-text;
 
-  &:hover {
-    opacity: .5;
-  }
 
   &:visited {
     color: $corporate-blue;
@@ -63,4 +61,8 @@ a {
   text-decoration: none;
   color: $corporate-blue;
   transition: $transition-fast;
+}
+
+sub {
+  line-height: 0;
 }

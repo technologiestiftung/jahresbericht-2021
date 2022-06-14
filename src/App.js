@@ -2,19 +2,20 @@ import useStore from "./hooks/useStore";
 import cn from "./App.module.scss";
 import content from "./content";
 
-import Accordions from "./sections/Accordions";
-import NeueTechnologien from "./sections/NeueTechnologien";
-import SmartCity from "./sections/SmartCity";
-import Kultur from "./sections/Kultur";
-import Reallabor from "./sections/Reallabor";
-import Bildung from "./sections/Bildung";
-import Activities from "./sections/Activities";
-import Outro from "./sections/Outro";
-
-import Team from "./sections/Team";
-import Footer from "./sections/Footer";
-import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
+import Navbar from "./components/Navbar";
+import Accordions from "./sections/Accordions";
+import Offenheit from "./sections/Offenheit";
+import SmartCity from "./sections/SmartCity";
+import NeueTechnologien from "./sections/NeueTechnologien";
+import Kultur from "./sections/Kultur";
+import Bildung from "./sections/Bildung";
+import Reallabor from "./sections/Reallabor";
+import Activities from "./sections/Activities";
+import Chronologie from "./sections/Chronologie";
+import Team from "./sections/Team";
+import Outro from "./sections/Outro";
+import Footer from "./sections/Footer";
 
 const langSelector = s => s.lang;
 
@@ -47,16 +48,18 @@ function App() {
       <Intro content={content.header} lang={lang} />
       <Navbar items={navItems} lang={lang} />
       <Accordions accordionItems={content.accordions} lang={lang} />
+      <Offenheit lang={lang} content={content.offenheit} />
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
       <NeueTechnologien
         lang={lang}
         content={content.neueTechnologien}
         ui={content.ui}
       />
-      <Bildung lang={lang} content={content.bildung} ui={content.ui} />
       <Kultur lang={lang} content={content.kultur} ui={content.ui} />
+      <Bildung lang={lang} content={content.bildung} ui={content.ui} />
       <Reallabor lang={lang} content={content.reallabor} ui={content.ui} />
       <Activities lang={lang} content={content.activities} ui={content.ui} />
+      <Chronologie lang={lang} content={content.chronologie} />
       <Team lang={lang} content={content.team} ui={content.ui} />
       <Outro lang={lang} content={content.outro} />
       <Footer content={content.footer} lang={lang} />

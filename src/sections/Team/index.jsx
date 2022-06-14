@@ -7,7 +7,7 @@ import Icon from "../../components/Icon";
 function Team({ content, lang }) {
   return (
     <section>
-      <div className={cx(cn.wrapper, cn.layoutWrapper)}>
+      <div className={cx(cn.wrapper, cn.layoutWrapper)} id='team'>
         <div className={cn.header}>
           <Icon type='team' />
           <Headline lang={lang} content={content.blocks.intro.title} />

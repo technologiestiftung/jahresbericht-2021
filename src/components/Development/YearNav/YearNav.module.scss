@@ -5,8 +5,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    background-color: $light-blue;
-    padding-bottom: 18px;
+    background-color: $blue-light;
     z-index:2000;
   }
   .year {
@@ -20,7 +19,7 @@
   }
   .active {
     background: $blue-dark;
-    border-radius: 2px;
+    border-radius: $border-radius-standard;
     color: $white;
     cursor: default;
   }

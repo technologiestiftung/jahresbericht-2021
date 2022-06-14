@@ -1,15 +1,9 @@
 @import '../../styles/base.scss';
 
 :local {
-  .wrapper {
-    height: auto;
-    width: auto;
-    max-width: $medium-content-width;
-    margin: 60px auto;
-    @include flex();
-  }
 
   .header {
+    margin-top: 160px;
     margin-bottom: 20px;
     @media screen and (min-width: $medium-content-width) {
       margin-bottom: 60px;
@@ -39,12 +33,18 @@
   }
 
   .berlinLogoWrapper {
-    gap: 0px 24px;
+    gap: 32px 24px;
     margin-bottom: 30px;
   }
 
-  .logo {
-    height: 80px;
+  .bundLogoWrapper {
+    gap: 32px 24px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    
+    @media screen and (min-width: $medium-content-width) {
+      flex-direction: row;
+    }
   }
 
   .contentBlock {

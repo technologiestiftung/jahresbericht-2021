@@ -95,11 +95,7 @@ $fix-mqs-h: false !default;
 }
 
 @mixin box-shadow {
-  box-shadow: 1px 2px 2px rgba(0,0,0,.03),
-  2px 4px 4px rgba(0,0,0,.03),
-  4px 8px 8px rgba(0,0,0,.03),
-  8px 16px 16px rgba(0,0,0,.03),
-  16px 32px 32px rgba(0,0,0,.03);
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.08);
 }
 
 @mixin blurry-bg($color: white) {
