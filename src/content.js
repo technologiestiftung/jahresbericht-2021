@@ -739,20 +739,25 @@ const content = {
       berlin: [
         {
           logo: "assets/logos/Partner-Logo-113.png",
+          logoHeight: 48,
+        },
+        {
+          logo: "assets/logos/Partner-Logo-114.png",
+          logoHeight: 48,
         },
         {
           logo: "assets/logos/Partner-Logo-115.png",
-        },
-        {
-          logo: "assets/logos/Partner-Logo-116.png",
+          logoHeight: 48,
         },
       ],
       bund: [
         {
-          logo: "assets/logos/Partner-Logo-114.png",
+          logo: "assets/logos/Partner-Logo-117.png",
+          logoHeight: 112,
         },
         {
-          logo: "assets/logos/Partner-Logo-117.png",
+          logo: "assets/logos/Partner-Logo-116.png",
+          logoHeight: 64,
         },
       ],
     },
