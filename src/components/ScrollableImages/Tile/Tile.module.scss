@@ -4,7 +4,7 @@
   .tile {
     height: auto;
     width: auto;
-    border-radius: 2px;
+    border-radius: $border-radius-standard;
     background-color: $white;
     padding: 24px 24px 34px;
     @include box-shadow;

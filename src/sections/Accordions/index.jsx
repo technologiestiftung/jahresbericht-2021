@@ -9,7 +9,7 @@ function Accordions({ accordionItems, lang }) {
   );
 
   return (
-    <section className={cx(cn.layoutWrapper, cn.intro)}>
+    <section className={cx(cn.layoutWrapper, cn.wrapper)}>
       {accordionItems.map((item, index) => (
         <Accordion
           key={index}

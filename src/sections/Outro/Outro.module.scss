@@ -1,15 +1,9 @@
 @import '../../styles/base.scss';
 
 :local {
-  .wrapper {
-    height: auto;
-    width: auto;
-    max-width: $medium-content-width;
-    margin: 60px auto;
-    @include flex();
-  }
 
   .header {
+    margin-top: 160px;
     margin-bottom: 20px;
     @media screen and (min-width: $medium-content-width) {
       margin-bottom: 60px;

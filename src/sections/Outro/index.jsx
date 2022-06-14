@@ -31,14 +31,12 @@ function Outro({ content, lang }) {
           />
         ))}
       </div>
-      <div className={cx(cn.contentBlock, cn.layoutWrapper)}>
-        <Paragraph lang={lang} content={content.paragraphs[0].text} />
-        <Link theme={"dark"} content={content.paragraphs[0].link} lang={lang} />
-      </div>
-      <div className={cx(cn.contentBlock, cn.layoutWrapper)}>
-        <Paragraph lang={lang} content={content.paragraphs[1].text} />
-        <Link theme={"dark"} content={content.paragraphs[1].link} lang={lang} />
-      </div>
+      {content.paragraphs.map((paragraph, index) => (
+        <div className={cx(cn.contentBlock, cn.layoutWrapper)} key={index}>
+          <Paragraph lang={lang} content={paragraph.text} />
+          <Link theme={"dark"} content={paragraph.link} lang={lang} />
+        </div>
+      ))}
     </section>
   );
 }
