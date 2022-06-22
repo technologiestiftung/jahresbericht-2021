@@ -318,11 +318,10 @@ const content = {
           },
         },
         img: {
-          src: "assets/images/kultur_bdigital.png",
+          src: "assets/images/kultur_bdigital.jpg",
           alt: "Die Homepage von kulturBdigital.",
           copyright: " ",
           position: "center center",
-          fit: "contain",
         },
       },
     ],
