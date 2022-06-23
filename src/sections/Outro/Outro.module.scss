@@ -20,7 +20,7 @@
     max-width: 922px;
     padding: 0 30px;
     display: flex;
-    gap: 30px 24px;
+    gap: 48px;
     justify-content: left;
     flex-direction: column;
     align-items: flex-start;
@@ -33,12 +33,10 @@
   }
 
   .berlinLogoWrapper {
-    gap: 32px 24px;
-    margin-bottom: 30px;
+    margin-bottom: 48px;
   }
 
   .bundLogoWrapper {
-    gap: 32px 24px;
     margin-bottom: 30px;
     flex-direction: column;
     
