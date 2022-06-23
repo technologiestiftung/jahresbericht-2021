@@ -24,14 +24,12 @@ function Outro({ content, lang }) {
       </div>
       <div className={cx(cn.logoWrapper, cn.bundLogoWrapper)}>
         {content.partners.bund.map((partner, index) => (
-          <div key={index}>
-            <img
-              key={index}
-              src={partner.logo}
-              alt='Partner Logo'
-              height={partner.logoHeight}
-            />
-          </div>
+          <img
+            key={index}
+            src={partner.logo}
+            alt='Partner Logo'
+            height={partner.logoHeight}
+          />
         ))}
       </div>
       {content.paragraphs.map((paragraph, index) => (
