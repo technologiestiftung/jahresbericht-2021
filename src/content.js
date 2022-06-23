@@ -657,7 +657,7 @@ const content = {
       {
         month: "12",
         text: {
-          de: `Die Technologiestiftung startet gemeinsam mit Partner:innen das Projekt COMo. In diesem Projekt werden die Möglichkeiten eines digitalen Luftmonitorings in geschlossenen Räumen erprobt. <br/><br/>Die CityLAB launcht die IoT-Datenplattform <a href="https://stadtpuls.com/" target="_blanc">Stadtplus</a>, auf der die Berliner:innen Sensordaten veröffentlichen und mit anderen teilen können. <br/><br/>Die Technologiestiftung legt eine Studie vor, die zeigt, dass durch die Digitalisierung rund ¼ bis ½ Millionen Tonnen CO2 in Berliner Wohngebäuden eingespart werden könnte, was 5-10 Prozent der CO2-Emissionen der Privathashalte entspricht.`,
+          de: `Die Technologiestiftung startet gemeinsam mit Partner:innen das Projekt COMo. In diesem Projekt werden die Möglichkeiten eines digitalen Luftmonitorings in geschlossenen Räumen erprobt. <br/><br/>Die CityLAB launcht die IoT-Datenplattform <a href="https://stadtpuls.com/" target="_blanc">Stadtplus</a>, auf der die Berliner:innen Sensordaten veröffentlichen und mit anderen teilen können. <br/><br/>Die Technologiestiftung legt eine Studie vor, die zeigt, dass durch die Digitalisierung rund ¼ bis ½ Millionen Tonnen CO2 in Berliner Wohngebäuden eingespart werden könnte, was 5-10 Prozent der CO2-Emissionen der Privathaushalte entspricht.`,
           en: "EMPTY",
         },
       },
