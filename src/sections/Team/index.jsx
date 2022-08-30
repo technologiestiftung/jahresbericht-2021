@@ -20,10 +20,10 @@ function Team({ content, lang }) {
                 <img src={item.img} alt={item.name} className={cn.portrait} />
                 <div className={cn.description}>
                   <strong>{item.name}</strong>
-                  <span className={cn.title}>{item.title}</span>
+                  <span className={cn.title}>{item.title[lang]}</span>
                 </div>
               </div>
-              <div className={cn.quote}>{item.quote}</div>
+              <div className={cn.quote}>{item.quote[lang]}</div>
             </div>
           ))}
         </div>

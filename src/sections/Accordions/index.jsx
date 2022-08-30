@@ -15,7 +15,7 @@ function Accordions({ accordionItems, lang }) {
           key={index}
           index={index}
           lang={lang}
-          title={item.title}
+          title={item.title[lang]}
           content={item}
           accordionsOpen={accordionsOpen}
           accordionsOpenSet={accordionsOpenSet}

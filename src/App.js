@@ -48,7 +48,7 @@ function App() {
       <Intro content={content.header} lang={lang} />
       <Navbar items={navItems} lang={lang} />
       <Accordions accordionItems={content.accordions} lang={lang} />
-      <Offenheit lang={lang} content={content.offenheit} />
+      {lang === "de" && <Offenheit lang={lang} content={content.offenheit} />}
       <SmartCity lang={lang} content={content.smartCity} ui={content.ui} />
       <NeueTechnologien
         lang={lang}
@@ -59,7 +59,9 @@ function App() {
       <Bildung lang={lang} content={content.bildung} ui={content.ui} />
       <Reallabor lang={lang} content={content.reallabor} ui={content.ui} />
       <Activities lang={lang} content={content.activities} ui={content.ui} />
-      <Chronologie lang={lang} content={content.chronologie} />
+      {lang === "de" && (
+        <Chronologie lang={lang} content={content.chronologie} />
+      )}
       <Team lang={lang} content={content.team} ui={content.ui} />
       <Outro lang={lang} content={content.outro} />
       <Footer content={content.footer} lang={lang} />

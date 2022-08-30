@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import useStore from "../../hooks/useStore";
 import cx from "classnames";
-// import LanguageSwitch from "../LanguageSwitch";
+import LanguageSwitch from "../LanguageSwitch";
 
 import cn from "./Navbar.module.scss";
 
@@ -57,7 +57,7 @@ const getScrollPositionsOfSections = sections => {
   const firstSection = document.getElementById(
     `section-${sections[0].scrollId}`
   );
-  const firstSectionAfterProjects = document.getElementById("chronologie");
+  const firstSectionAfterProjects = document.getElementById("team");
 
   const firstSectionPosition = firstSection.getBoundingClientRect().top;
   const footerPosition = firstSectionAfterProjects.getBoundingClientRect().top;
@@ -135,8 +135,8 @@ function Navbar({ items, lang }) {
             </div>
           </div>
         ))}
-        {/* <div className={cn.divider} />
-        <LanguageSwitch /> Temporarily deactivated */}
+        <div className={cn.divider} />
+        <LanguageSwitch />
       </div>
     </>
   );
